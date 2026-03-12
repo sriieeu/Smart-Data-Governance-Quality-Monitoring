@@ -1,0 +1,55 @@
+
+POWER BI DATA DICTIONARY — Data Governance & Quality Monitoring Platform
+=========================================================================
+
+TABLE: governance_datasets.csv
+  name                  — Dataset identifier (primary key)
+  schema_version        — Semantic version of the dataset schema
+  owner                 — Owning team email
+  sensitivity           — Data classification: PUBLIC/INTERNAL/CONFIDENTIAL/RESTRICTED/PII
+  row_count             — Latest known row count
+  active                — Boolean: is dataset actively monitored
+  sla_freshness_hours   — Max acceptable hours between ingestion runs
+
+TABLE: governance_pipeline_runs.csv
+  run_id                — Unique run identifier (UUID)
+  dataset_name          — FK → governance_datasets[name]
+  run_timestamp         — UTC ISO-8601 run start time
+  status                — success / partial / failed
+  rows_ingested         — Total rows in source file
+  rows_passed           — Rows routed to validated output
+  rows_rejected         — Rows quarantined due to quality failures
+  quality_score         — 0–100 weighted quality score for this run
+  checks_passed         — Count of passing quality checks
+  checks_failed         — Count of failing quality checks
+  critical_failures     — Count of CRITICAL severity failures
+  duration_seconds      — Pipeline execution time
+
+TABLE: governance_kpi_summary.csv
+  dataset_name          — FK → governance_datasets[name]
+  latest_score          — Most recent quality score
+  avg_score_30d         — Rolling 30-day average quality score
+  score_trend           — 'improving' / 'stable' / 'degrading'
+  total_rows_30d        — Total rows processed in last 30 days
+  rejection_rate_pct    — % rows rejected in last 30 days
+  last_run_timestamp    — Most recent run time
+  last_run_status       — Most recent run status
+  sla_breach            — Boolean: last run older than sla_freshness_hours
+
+TABLE: governance_audit_log.csv
+  event_id              — Unique event identifier
+  timestamp             — UTC ISO-8601
+  dataset_name          — FK → governance_datasets[name]
+  action                — INGEST / VALIDATE / QUARANTINE / APPROVE / REJECT / EXPORT
+  actor                 — Service account or user
+  rows_affected         — Number of rows affected by this action
+  severity              — INFO / WARNING / CRITICAL
+  details               — Human-readable description
+
+RECOMMENDED POWER BI MEASURES (DAX)
+  Avg Quality Score     = AVERAGE(pipeline_runs[quality_score])
+  High Risk Datasets    = COUNTROWS(FILTER(kpi_summary, [latest_score] < 80))
+  Total Rows Processed  = SUM(pipeline_runs[rows_ingested])
+  Rejection Rate        = DIVIDE(SUM(pipeline_runs[rows_rejected]), SUM(pipeline_runs[rows_ingested]))
+  Failed Runs 24h       = COUNTROWS(FILTER(pipeline_runs, [status]="failed" && [run_timestamp] >= NOW()-1))
+  Score Sparkline       = Use pipeline_runs[run_timestamp] + [quality_score] per dataset

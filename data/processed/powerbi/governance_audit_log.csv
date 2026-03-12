@@ -1,4 +1,27 @@
 event_id,timestamp,dataset_name,action,actor,rows_affected,details,severity
+a15a64fd-69f4-4d94-9fc2-761fa82c9204,2026-03-12 13:00:42.811027+00:00,product_catalog,VALIDATE,pipeline-service,3000,Quality score: 98.5/100 · Passed: 6 · Failed: 0 · Rejected rows: 60,INFO
+c0140a56-a981-431b-8e22-f69dad03f87f,2026-03-12 13:00:42.785277+00:00,campaign_events,VALIDATE,pipeline-service,3000,Quality score: 98.5/100 · Passed: 6 · Failed: 0 · Rejected rows: 60,INFO
+7fa5558a-aa87-47fb-bdcc-6c9a63569a7b,2026-03-12 13:00:42.766784+00:00,user_profiles,VALIDATE,pipeline-service,3000,Quality score: 95.7/100 · Passed: 12 · Failed: 0 · Rejected rows: 60,INFO
+2a933e0e-bcb5-48f0-9c47-c9394c2d9a82,2026-03-12 13:00:42.740772+00:00,financial_transactions,VALIDATE,pipeline-service,3000,Quality score: 89.9/100 · Passed: 9 · Failed: 3 · Rejected rows: 60,CRITICAL
+b5bddc1a-3d0c-4ec9-9511-d13c6d8500b9,2026-03-12 13:00:42.716837+00:00,customer_consent,VALIDATE,pipeline-service,3000,"Quality score: 83.4/100 · Passed: 10 · Failed: 2 · Rejected rows: 3,000",WARNING
+415db7cb-6a8f-4d44-b3a2-a1f92d51a03f,2026-03-12 12:56:43.334760+00:00,product_catalog,VALIDATE,pipeline-service,3000,Quality score: 98.5/100 · Passed: 6 · Failed: 0 · Rejected rows: 60,INFO
+6e361bf3-4193-4c8a-a96a-fb73c6e8ddb3,2026-03-12 12:56:43.315471+00:00,employee_records,VALIDATE,pipeline-service,3000,Quality score: 98.5/100 · Passed: 6 · Failed: 0 · Rejected rows: 60,INFO
+4b6c5d13-8ddb-4a60-9b1a-d1fe579bb26e,2026-03-12 12:56:43.289367+00:00,user_profiles,VALIDATE,pipeline-service,3000,Quality score: 95.7/100 · Passed: 12 · Failed: 0 · Rejected rows: 60,INFO
+400c2fec-885e-43dc-ba78-231c058ab042,2026-03-12 12:56:43.266108+00:00,financial_transactions,VALIDATE,pipeline-service,3000,Quality score: 89.9/100 · Passed: 9 · Failed: 3 · Rejected rows: 60,CRITICAL
+10cbe27c-f28d-41d0-8153-1dc31b24dbdf,2026-03-12 12:56:37.935514+00:00,product_catalog,VALIDATE,pipeline-service,3000,Quality score: 98.5/100 · Passed: 6 · Failed: 0 · Rejected rows: 60,INFO
+4ec56c40-e20b-478d-a9b5-4dfc1ceeefee,2026-03-12 12:56:37.918145+00:00,employee_records,VALIDATE,pipeline-service,3000,Quality score: 98.5/100 · Passed: 6 · Failed: 0 · Rejected rows: 60,INFO
+280f4b62-09b2-4aec-a1f9-8efaf00f42cd,2026-03-12 12:56:37.898691+00:00,user_profiles,VALIDATE,pipeline-service,3000,Quality score: 95.7/100 · Passed: 12 · Failed: 0 · Rejected rows: 60,INFO
+6a05f49d-7547-416e-a5a9-8cef5f88100f,2026-03-12 12:56:37.874172+00:00,financial_transactions,VALIDATE,pipeline-service,3000,Quality score: 89.9/100 · Passed: 9 · Failed: 3 · Rejected rows: 60,CRITICAL
+07d5f729-ac60-4d03-bb29-358667a235b8,2026-03-12 12:40:14.427385+00:00,product_catalog,VALIDATE,pipeline-service,3000,Quality score: 98.5/100 · Passed: 6 · Failed: 0 · Rejected rows: 60,INFO
+5b254b6a-19c6-4519-96f2-7441daaf2fbd,2026-03-12 12:40:14.409763+00:00,campaign_events,VALIDATE,pipeline-service,3000,Quality score: 98.5/100 · Passed: 6 · Failed: 0 · Rejected rows: 60,INFO
+4cc945f6-ec76-4fc6-a6fb-31568f39b441,2026-03-12 12:40:14.389383+00:00,user_profiles,VALIDATE,pipeline-service,3000,Quality score: 95.7/100 · Passed: 12 · Failed: 0 · Rejected rows: 60,INFO
+1c7ea0d0-da2e-4ba6-971a-55cb7961d564,2026-03-12 12:40:14.368052+00:00,financial_transactions,VALIDATE,pipeline-service,3000,Quality score: 89.9/100 · Passed: 9 · Failed: 3 · Rejected rows: 60,CRITICAL
+27f8df01-af71-4818-8458-ecc1835103f3,2026-03-12 12:40:14.347025+00:00,customer_consent,VALIDATE,pipeline-service,3000,"Quality score: 83.5/100 · Passed: 10 · Failed: 2 · Rejected rows: 3,000",WARNING
+57204a1d-0d19-49e7-86d4-e8931cbd9042,2026-03-12 12:39:22.231480+00:00,product_catalog,VALIDATE,pipeline-service,3000,Quality score: 98.5/100 · Passed: 6 · Failed: 0 · Rejected rows: 60,INFO
+faadaee6-c503-4c32-a194-cd096daac464,2026-03-12 12:39:22.213161+00:00,campaign_events,VALIDATE,pipeline-service,3000,Quality score: 98.5/100 · Passed: 6 · Failed: 0 · Rejected rows: 60,INFO
+fc011adf-e343-43f0-a704-b3d4c276c0f7,2026-03-12 12:39:22.195515+00:00,user_profiles,VALIDATE,pipeline-service,3000,Quality score: 95.7/100 · Passed: 12 · Failed: 0 · Rejected rows: 60,INFO
+f4cbde97-f44b-437f-bcc5-9c75208d3176,2026-03-12 12:39:22.175403+00:00,financial_transactions,VALIDATE,pipeline-service,3000,Quality score: 89.8/100 · Passed: 9 · Failed: 3 · Rejected rows: 60,CRITICAL
+69c96efc-6f75-4d78-931f-dc9c9e21661b,2026-03-12 12:39:22.152027+00:00,customer_consent,VALIDATE,pipeline-service,3000,"Quality score: 83.5/100 · Passed: 10 · Failed: 2 · Rejected rows: 3,000",WARNING
 1f56e195-f122-4e9f-9996-fc8c869f28df,2026-03-12 12:36:44.067736+00:00,product_catalog,VALIDATE,pipeline-service,3000,Quality score: 98.5/100 · Passed: 6 · Failed: 0 · Rejected rows: 60,INFO
 498a4ff2-50ff-47e8-8395-bed9043faa57,2026-03-12 12:36:44.051065+00:00,campaign_events,VALIDATE,pipeline-service,3000,Quality score: 98.5/100 · Passed: 6 · Failed: 0 · Rejected rows: 60,INFO
 a70492fe-0ca2-425b-8f63-7e69d061cef5,2026-03-12 12:36:44.033082+00:00,user_profiles,VALIDATE,pipeline-service,3000,Quality score: 95.7/100 · Passed: 12 · Failed: 0 · Rejected rows: 60,INFO

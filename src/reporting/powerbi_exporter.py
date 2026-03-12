@@ -127,7 +127,7 @@ class PowerBIExporter:
 
         # 5. Data dictionary
         dict_path = self.output_dir / "data_dictionary.txt"
-        dict_path.write_text(POWERBI_DATA_DICT)
+        dict_path.write_text(POWERBI_DATA_DICT, encoding="utf-8")
         outputs["data_dictionary"] = str(dict_path)
 
         logger.info(f"Power BI export complete: {len(outputs)} files → {self.output_dir}")

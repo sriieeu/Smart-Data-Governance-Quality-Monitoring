@@ -1,6 +1,7 @@
 dataset_name,latest_score,avg_score_30d,score_trend,total_rows_30d,rejection_rate_pct,last_run_timestamp,last_run_status,runs_30d,failed_runs_30d
-customer_consent,83.5,85.5,stable,12300,100.0,2026-03-12 12:36:43.987403+00:00,success,5,0
-financial_transactions,89.9,89.8,stable,12000,2.0,2026-03-12 12:36:44.011382+00:00,success,4,0
-user_profiles,95.7,95.7,stable,12000,2.0,2026-03-12 12:36:44.032084+00:00,success,4,0
-campaign_events,98.5,98.5,stable,12000,2.0,2026-03-12 12:36:44.051065+00:00,success,4,0
-product_catalog,98.5,98.5,stable,12000,2.0,2026-03-12 12:36:44.067736+00:00,success,4,0
+customer_consent,83.4,84.7,stable,21300,100.0,2026-03-12 13:00:42.716837+00:00,success,8,0
+financial_transactions,89.9,89.9,stable,27000,2.0,2026-03-12 13:00:42.740772+00:00,success,9,0
+user_profiles,95.7,95.7,stable,27000,2.0,2026-03-12 13:00:42.766784+00:00,success,9,0
+campaign_events,98.5,98.5,stable,21000,2.0,2026-03-12 13:00:42.785277+00:00,success,7,0
+employee_records,98.5,98.5,stable,6000,2.0,2026-03-12 12:56:43.314460+00:00,success,2,0
+product_catalog,98.5,98.5,stable,27000,2.0,2026-03-12 13:00:42.810523+00:00,success,9,0
