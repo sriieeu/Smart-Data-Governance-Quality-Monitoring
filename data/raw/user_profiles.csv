@@ -1,0 +1,501 @@
+user_id,email,username,first_name,last_name,age,gender,country,city,phone,created_at,last_login,subscription_tier,is_verified
+USR-0000000,user0@gmail.com,user_0,Michael,Miller,23.0,F,US,São Paulo,+1-831-495-2319,2020-06-01,2023-01-01,free,true
+USR-0000001,user1@yahoo.com,user_1,Jennifer,Anderson,61.0,F,DE,Toronto,+1-521-823-6193,2020-06-01,2023-01-01,basic,true
+USR-0000002,user2@hotmail.com,user_2,Robert,Taylor,24.0,F,AU,New York,+1-348-242-9703,2020-06-02,2023-01-01,free,true
+USR-0000003,user3@company.com,user_3,John,Miller,46.0,F,GB,Toronto,+1-557-716-4245,2020-06-03,2023-01-01,basic,true
+USR-0000004,user4@gmail.com,user_4,Patricia,Anderson,56.0,F,IN,New York,+1-272-470-7237,2020-06-04,2023-01-02,free,true
+USR-0000005,user5@yahoo.com,user_5,James,Williams,51.0,M,FR,Paris,+1-466-642-4942,2020-06-04,2023-01-02,basic,true
+USR-0000006,user6@hotmail.com,user_6,Mary,Anderson,53.0,prefer_not_to_say,AU,Mumbai,+1-469-329-3346,2020-06-05,2023-01-02,free,true
+USR-0000007,user7@company.com,user_7,Patricia,Davis,37.0,M,CA,London,+1-404-746-4035,2020-06-06,2023-01-02,pro,true
+USR-0000008,user8@gmail.com,user_8,Patricia,Taylor,65.0,M,IN,Mumbai,+1-792-379-3944,2020-06-07,2023-01-03,free,true
+USR-0000009,user9@yahoo.com,user_9,James,Anderson,21.0,M,US,Toronto,+1-938-887-4605,2020-06-07,2023-01-03,free,true
+USR-0000010,user10@hotmail.com,user_10,Linda,Wilson,23.0,F,JP,Paris,+1-414-743-1628,2020-06-08,2023-01-03,free,true
+USR-0000011,@nodomain.com,user_11,John,Wilson,64.0,prefer_not_to_say,AU,Sydney,+1-564-639-7081,2020-06-09,2023-01-03,free,true
+USR-0000012,user12@gmail.com,user_12,Robert,Moore,21.0,F,DE,London,+1-285-102-3489,2020-06-10,2023-01-04,basic,true
+USR-0000013,user13@yahoo.com,user_13,Patricia,Brown,28.0,F,IN,São Paulo,+1-295-555-9274,2020-06-10,2023-01-04,basic,true
+USR-0000014,user14@hotmail.com,user_14,Patricia,Brown,27.0,prefer_not_to_say,FR,Paris,+1-428-507-2934,2020-06-11,2023-01-04,free,true
+USR-0000015,user15@company.com,user_15,Michael,Davis,19.0,F,CA,Berlin,+1-235-732-3307,2020-06-12,2023-01-04,pro,true
+USR-0000016,user16@gmail.com,user_16,Jennifer,Miller,24.0,M,DE,Sydney,+1-637-714-8557,2020-06-13,2023-01-05,free,true
+USR-0000017,user17@yahoo.com,user_17,Michael,Moore,48.0,F,SG,São Paulo,+1-348-622-9195,2020-06-13,2023-01-05,free,true
+USR-0000018,user18@hotmail.com,user_18,Patricia,Davis,53.0,M,SG,Berlin,+1-586-136-3351,2020-06-14,2023-01-05,pro,true
+USR-0000019,user19@company.com,user_19,John,Wilson,22.0,M,GB,New York,+1-835-812-3830,2020-06-15,2023-01-05,basic,true
+USR-0000020,user20@gmail.com,user_20,Patricia,Williams,68.0,M,FR,London,+1-357-362-3179,2020-06-16,2023-01-06,basic,true
+USR-0000021,user21@yahoo.com,user_21,Robert,Williams,23.0,M,SG,Sydney,+1-792-856-1419,2020-06-16,2023-01-06,free,true
+USR-0000022,user22@hotmail.com,user_22,John,Anderson,55.0,prefer_not_to_say,AU,São Paulo,+1-792-776-6515,2020-06-17,2023-01-06,free,false
+USR-0000023,user23@company.com,user_23,Patricia,Taylor,61.0,prefer_not_to_say,US,Toronto,+1-896-134-7297,2020-06-18,2023-01-06,basic,true
+USR-0000024,user24@gmail.com,user_24,Mary,Taylor,46.0,M,GB,Sydney,+1-301-906-5499,2020-06-19,2023-01-07,free,true
+USR-0000025,user25@yahoo.com,user_25,Robert,Davis,44.0,F,FR,Mumbai,+1-272-770-7742,2020-06-19,2023-01-07,free,true
+USR-0000026,user26@hotmail.com,user_26,Jennifer,Wilson,23.0,M,SG,Berlin,+1-570-379-1155,2020-06-20,2023-01-07,enterprise,true
+USR-0000027,user27@company.com,user_27,Robert,Moore,31.0,M,GB,New York,+1-925-265-8583,2020-06-21,2023-01-07,basic,true
+USR-0000028,user28@gmail.com,user_28,Michael,Davis,63.0,M,CA,Mumbai,+1-670-715-7247,2020-06-22,2023-01-08,free,true
+USR-0000029,user29@yahoo.com,user_29,Linda,Moore,36.0,M,AU,Sydney,+1-885-130-9919,2020-06-22,2023-01-08,free,true
+USR-0000030,user30@hotmail.com,user_30,Linda,Moore,19.0,M,IN,São Paulo,+1-234-998-3351,2020-06-23,2023-01-08,basic,true
+USR-0000031,user31@company.com,user_31,James,Miller,57.0,M,FR,São Paulo,+1-875-175-5147,2020-06-24,2023-01-08,free,true
+USR-0000032,user32@gmail.com,user_32,Linda,Miller,54.0,M,JP,Paris,+1-633-957-2113,2020-06-25,2023-01-09,free,true
+USR-0000033,user33@yahoo.com,user_33,John,Davis,21.0,M,IN,New York,+1-229-682-1443,2020-06-25,2023-01-09,free,false
+USR-0000034,user34@hotmail.com,user_34,Patricia,Taylor,20.0,NB,US,Paris,+1-821-134-9733,2020-06-26,2023-01-09,basic,true
+USR-0000035,user35@company.com,user_35,Patricia,Anderson,24.0,M,DE,London,+1-625-952-2139,2020-06-27,2023-01-09,basic,true
+USR-0000036,@nodomain.com,user_36,John,Anderson,20.0,M,DE,Sydney,+1-418-508-1264,2020-06-28,2023-01-10,free,true
+USR-0000037,user37@yahoo.com,user_37,Linda,Taylor,51.0,F,BR,São Paulo,+1-282-396-7632,2020-06-28,2023-01-10,free,true
+USR-0000038,user38@hotmail.com,user_38,Jennifer,Davis,25.0,M,CA,São Paulo,+1-766-178-1538,2020-06-29,2023-01-10,basic,false
+USR-0000039,user39@company.com,user_39,Linda,Taylor,50.0,F,US,Toronto,+1-724-423-8128,2020-06-30,2023-01-10,basic,true
+USR-0000040,user40@gmail.com,user_40,Linda,Brown,27.0,M,DE,Mumbai,+1-438-426-2973,2020-07-01,2023-01-11,basic,true
+USR-0000041,user41@yahoo.com,user_41,Patricia,Anderson,70.0,F,BR,Sydney,+1-412-734-5240,2020-07-01,2023-01-11,free,true
+USR-0000042,user42@hotmail.com,user_42,Jennifer,Davis,57.0,F,AU,Toronto,+1-726-170-5818,2020-07-02,2023-01-11,basic,false
+USR-0000043,user43@company.com,user_43,Robert,Miller,38.0,F,CA,Sydney,+1-566-918-4810,2020-07-03,2023-01-11,enterprise,true
+USR-0000044,user44@gmail.com,user_44,Patricia,Williams,41.0,F,IN,Berlin,+1-282-726-2347,2020-07-04,2023-01-12,basic,false
+USR-0000045,user45@yahoo.com,user_45,Jennifer,Williams,21.0,M,DE,Berlin,+1-926-444-8060,2020-07-04,2023-01-12,free,false
+USR-0000046,user46@hotmail.com,user_46,Jennifer,Miller,20.0,M,GB,Sydney,+1-724-517-6256,2020-07-05,2023-01-12,basic,true
+USR-0000047,user47@company.com,user_47,Linda,Wilson,47.0,M,US,New York,+1-345-166-7895,2020-07-06,2023-01-12,free,false
+USR-0000048,,user_48,Michael,Williams,19.0,F,US,São Paulo,+1-965-874-3745,2020-07-07,2023-01-13,free,false
+USR-0000049,user49@yahoo.com,user_49,Robert,Taylor,52.0,M,FR,New York,+1-486-422-7322,2020-07-07,2023-01-13,free,true
+USR-0000050,user50@hotmail.com,user_50,Linda,Williams,38.0,M,GB,São Paulo,+1-698-816-9505,2020-07-08,2023-01-13,pro,true
+USR-0000051,,user_51,James,Anderson,25.0,F,CA,New York,+1-513-695-5503,2020-07-09,2023-01-13,free,true
+USR-0000052,user52@gmail.com,user_52,Michael,Davis,46.0,M,SG,Sydney,+1-962-418-2688,2020-07-10,2023-01-14,pro,true
+USR-0000053,user53@yahoo.com,user_53,Patricia,Miller,47.0,M,FR,Berlin,+1-502-656-9579,2020-07-10,2023-01-14,basic,true
+USR-0000054,user54@hotmail.com,user_54,Patricia,Brown,58.0,F,CA,Sydney,+1-862-116-5580,2020-07-11,2023-01-14,basic,true
+USR-0000055,user55@company.com,user_55,Michael,Taylor,28.0,M,GB,Berlin,+1-327-425-9494,2020-07-12,2023-01-14,free,true
+USR-0000056,user56@gmail.com,user_56,John,Moore,47.0,F,AU,São Paulo,+1-986-238-2268,2020-07-13,2023-01-15,basic,true
+USR-0000057,user57@yahoo.com,user_57,Linda,Williams,63.0,NB,JP,New York,+1-756-469-4895,2020-07-13,2023-01-15,free,true
+USR-0000058,user58@hotmail.com,user_58,Patricia,Williams,32.0,prefer_not_to_say,DE,São Paulo,+1-897-927-9103,2020-07-14,2023-01-15,free,true
+USR-0000059,bad email here,user_59,John,Wilson,63.0,M,JP,Toronto,+1-825-981-7478,2020-07-15,2023-01-15,free,true
+USR-0000060,user60@gmail.com,user_60,John,Taylor,57.0,M,BR,Paris,+1-906-585-1458,2020-07-16,2023-01-16,free,true
+USR-0000061,user61@yahoo.com,user_61,Patricia,Williams,41.0,F,IN,London,+1-852-935-3810,2020-07-16,2023-01-16,basic,true
+USR-0000062,user62@hotmail.com,user_62,Linda,Brown,65.0,F,GB,New York,+1-542-614-6863,2020-07-17,2023-01-16,free,true
+USR-0000063,user63@company.com,user_63,James,Wilson,70.0,F,US,Berlin,+1-739-454-8688,2020-07-18,2023-01-16,free,true
+USR-0000064,user64@gmail.com,user_64,Robert,Williams,30.0,M,IN,Mumbai,+1-850-947-6182,2020-07-19,2023-01-17,enterprise,false
+USR-0000065,user65@yahoo.com,user_65,Michael,Davis,70.0,M,DE,Paris,+1-261-860-1715,2020-07-19,2023-01-17,free,true
+USR-0000066,user66@hotmail.com,user_66,Patricia,Williams,18.0,M,FR,São Paulo,+1-354-356-2664,2020-07-20,2023-01-17,free,true
+USR-0000067,user67@company.com,user_67,Robert,Miller,24.0,M,CA,Berlin,+1-778-495-2973,2020-07-21,2023-01-17,free,true
+USR-0000068,user68@gmail.com,user_68,John,Moore,20.0,M,AU,Paris,+1-203-294-7234,2020-07-22,2023-01-18,free,true
+USR-0000069,user69@yahoo.com,user_69,Mary,Miller,37.0,NB,BR,New York,+1-834-366-1659,2020-07-22,2023-01-18,basic,true
+USR-0000070,user70@hotmail.com,user_70,Jennifer,Davis,68.0,M,BR,Toronto,+1-645-803-1629,2020-07-23,2023-01-18,free,true
+USR-0000071,user71@company.com,user_71,Linda,Miller,50.0,F,BR,New York,+1-835-253-3320,2020-07-24,2023-01-18,free,true
+USR-0000072,user72@gmail.com,user_72,Robert,Wilson,51.0,NB,JP,Toronto,+1-697-146-3750,2020-07-25,2023-01-19,basic,true
+USR-0000073,user73@yahoo.com,user_73,Patricia,Brown,22.0,M,DE,Berlin,+1-310-293-7959,2020-07-25,2023-01-19,free,true
+USR-0000074,user74@hotmail.com,user_74,Mary,Williams,45.0,F,JP,Berlin,+1-382-139-2933,2020-07-26,2023-01-19,enterprise,true
+USR-0000075,user75@company.com,user_75,Linda,Brown,38.0,F,AU,Mumbai,+1-269-659-9754,2020-07-27,2023-01-19,enterprise,true
+USR-0000076,user76@gmail.com,user_76,Michael,Anderson,43.0,M,GB,Berlin,+1-333-755-4263,2020-07-28,2023-01-20,free,false
+USR-0000077,notanemail,user_77,Linda,Moore,32.0,F,GB,Paris,+1-257-718-2888,2020-07-28,2023-01-20,free,true
+USR-0000078,user78@hotmail.com,user_78,John,Brown,28.0,F,US,Paris,+1-610-555-6374,2020-07-29,2023-01-20,free,false
+USR-0000079,user79@company.com,user_79,Jennifer,Davis,69.0,F,SG,Mumbai,+1-307-325-7635,2020-07-30,2023-01-20,free,true
+USR-0000080,user80@gmail.com,user_80,Patricia,Miller,48.0,F,GB,Mumbai,+1-945-110-4724,2020-07-31,2023-01-21,free,true
+USR-0000081,user81@yahoo.com,user_81,Mary,Brown,40.0,prefer_not_to_say,JP,Sydney,+1-904-357-5028,2020-07-31,2023-01-21,basic,true
+USR-0000082,user82@hotmail.com,user_82,Mary,Taylor,21.0,M,BR,Toronto,+1-922-971-6896,2020-08-01,2023-01-21,free,true
+USR-0000083,user83@company.com,user_83,Patricia,Anderson,59.0,F,AU,London,+1-754-651-3552,2020-08-02,2023-01-21,free,true
+USR-0000084,user84@gmail.com,user_84,Robert,Brown,43.0,F,SG,Toronto,+1-908-130-1526,2020-08-03,2023-01-22,free,false
+USR-0000085,user85@yahoo.com,user_85,James,Williams,38.0,F,SG,São Paulo,+1-680-853-8327,2020-08-03,2023-01-22,enterprise,true
+USR-0000086,user86@hotmail.com,user_86,Jennifer,Davis,54.0,F,SG,Paris,+1-741-438-4239,2020-08-04,2023-01-22,pro,true
+USR-0000087,user87@company.com,user_87,Patricia,Wilson,25.0,F,AU,Sydney,+1-540-330-4771,2020-08-05,2023-01-22,free,true
+USR-0000088,user88@gmail.com,user_88,Linda,Taylor,46.0,F,IN,Mumbai,+1-283-387-9468,2020-08-06,2023-01-23,basic,true
+USR-0000089,user89@yahoo.com,user_89,John,Davis,64.0,M,US,Mumbai,+1-764-227-3576,2020-08-06,2023-01-23,free,true
+USR-0000090,user90@hotmail.com,user_90,James,Davis,43.0,F,JP,Toronto,+1-407-353-7219,2020-08-07,2023-01-23,basic,true
+USR-0000091,user91@company.com,user_91,John,Brown,18.0,M,JP,Berlin,+1-915-738-5395,2020-08-08,2023-01-23,basic,true
+USR-0000092,user92@gmail.com,user_92,Linda,Williams,30.0,F,CA,New York,+1-328-228-8326,2020-08-09,2023-01-24,pro,true
+USR-0000093,user93@yahoo.com,user_93,John,Williams,21.0,F,US,Toronto,+1-741-558-6194,2020-08-09,2023-01-24,free,true
+USR-0000094,user94@hotmail.com,user_94,Jennifer,Miller,45.0,F,JP,London,+1-877-831-1785,2020-08-10,2023-01-24,free,true
+USR-0000095,user95@company.com,user_95,Michael,Wilson,37.0,M,IN,São Paulo,+1-515-138-4462,2020-08-11,2023-01-24,enterprise,true
+USR-0000096,user96@gmail.com,user_96,John,Williams,25.0,F,CA,Berlin,+1-708-287-2350,2020-08-12,2023-01-25,free,true
+USR-0000097,user97@yahoo.com,user_97,Jennifer,Brown,55.0,M,FR,Mumbai,+1-592-571-7426,2020-08-12,2023-01-25,free,false
+USR-0000098,user98@hotmail.com,user_98,Mary,Anderson,27.0,M,GB,New York,+1-211-322-8018,2020-08-13,2023-01-25,basic,false
+USR-0000099,user99@company.com,user_99,John,Anderson,36.0,M,US,London,+1-744-908-8332,2020-08-14,2023-01-25,pro,true
+USR-0000100,user100@gmail.com,user_100,John,Moore,71.0,NB,US,São Paulo,+1-870-559-9624,2020-08-15,2023-01-26,basic,true
+USR-0000101,user101@yahoo.com,user_101,Jennifer,Wilson,21.0,M,SG,Sydney,+1-532-911-4526,2020-08-15,2023-01-26,pro,true
+USR-0000102,user102@hotmail.com,user_102,Linda,Wilson,31.0,prefer_not_to_say,SG,São Paulo,+1-554-716-4584,2020-08-16,2023-01-26,basic,true
+USR-0000103,user103@company.com,user_103,John,Davis,35.0,M,AU,São Paulo,+1-317-905-5075,2020-08-17,2023-01-26,free,true
+USR-0000104,user104@gmail.com,user_104,John,Brown,45.0,F,AU,New York,+1-940-458-9754,2020-08-18,2023-01-27,basic,true
+USR-0000105,user105@yahoo.com,user_105,Michael,Miller,31.0,F,AU,Berlin,+1-681-790-7799,2020-08-18,2023-01-27,pro,true
+USR-0000106,user106@hotmail.com,user_106,Patricia,Moore,70.0,F,DE,Paris,+1-361-833-9503,2020-08-19,2023-01-27,pro,false
+USR-0000107,user107@company.com,user_107,Robert,Moore,18.0,F,CA,Berlin,+1-728-951-8613,2020-08-20,2023-01-27,free,true
+USR-0000108,user108@gmail.com,user_108,Jennifer,Moore,69.0,F,DE,Sydney,+1-732-529-8714,2020-08-21,2023-01-28,free,false
+USR-0000109,user109@yahoo.com,user_109,Mary,Wilson,46.0,NB,FR,Sydney,+1-348-604-8340,2020-08-21,2023-01-28,pro,true
+USR-0000110,user110@hotmail.com,user_110,Michael,Williams,20.0,F,DE,Toronto,+1-954-340-1845,2020-08-22,2023-01-28,free,true
+USR-0000111,notanemail,user_111,John,Moore,24.0,M,FR,São Paulo,+1-466-876-5713,2020-08-23,2023-01-28,free,true
+USR-0000112,user112@gmail.com,user_112,Jennifer,Anderson,23.0,M,SG,São Paulo,+1-244-207-4051,2020-08-24,2023-01-29,pro,true
+USR-0000113,user113@yahoo.com,user_113,Patricia,Moore,33.0,F,IN,Toronto,+1-473-221-5446,2020-08-24,2023-01-29,basic,true
+USR-0000114,notanemail,user_114,Michael,Wilson,35.0,F,US,Sydney,+1-582-279-3089,2020-08-25,2023-01-29,free,true
+USR-0000115,user115@company.com,user_115,Robert,Brown,52.0,F,CA,Mumbai,+1-730-955-9967,2020-08-26,2023-01-29,free,true
+USR-0000116,user116@gmail.com,user_116,Mary,Taylor,34.0,F,GB,New York,+1-646-134-9078,2020-08-27,2023-01-30,free,true
+USR-0000117,user117@yahoo.com,user_117,Mary,Miller,57.0,M,IN,Toronto,+1-959-349-4602,2020-08-27,2023-01-30,pro,true
+USR-0000118,user118@hotmail.com,user_118,Linda,Davis,33.0,F,BR,New York,+1-220-820-7980,2020-08-28,2023-01-30,free,true
+USR-0000119,user119@company.com,user_119,Robert,Miller,32.0,F,AU,Toronto,+1-216-731-4706,2020-08-29,2023-01-30,free,true
+USR-0000120,user120@gmail.com,user_120,John,Williams,32.0,F,CA,Berlin,+1-635-296-8337,2020-08-30,2023-01-31,free,true
+USR-0000121,user121@yahoo.com,user_121,Mary,Anderson,35.0,F,BR,Paris,+1-523-855-2334,2020-08-30,2023-01-31,free,true
+USR-0000122,user122@hotmail.com,user_122,Mary,Moore,63.0,F,GB,São Paulo,+1-669-378-9692,2020-08-31,2023-01-31,free,true
+USR-0000123,user123@company.com,user_123,Linda,Davis,31.0,F,AU,Sydney,+1-644-747-1775,2020-09-01,2023-01-31,free,true
+USR-0000124,user124@gmail.com,user_124,Linda,Taylor,32.0,prefer_not_to_say,US,Sydney,+1-740-190-4252,2020-09-02,2023-02-01,basic,false
+USR-0000125,user125@yahoo.com,user_125,Patricia,Williams,69.0,M,AU,Berlin,+1-377-102-6276,2020-09-02,2023-02-01,free,true
+USR-0000126,user126@hotmail.com,user_126,Mary,Miller,53.0,F,IN,Mumbai,+1-392-560-7874,2020-09-03,2023-02-01,free,true
+USR-0000127,user127@company.com,user_127,Patricia,Moore,28.0,F,SG,New York,+1-342-738-3672,2020-09-04,2023-02-01,free,true
+USR-0000128,user128@gmail.com,user_128,Mary,Williams,64.0,F,IN,New York,+1-464-618-6629,2020-09-05,2023-02-02,free,false
+USR-0000129,user129@yahoo.com,user_129,Robert,Moore,27.0,M,IN,Toronto,+1-723-275-6215,2020-09-05,2023-02-02,free,true
+USR-0000130,user130@hotmail.com,user_130,Jennifer,Taylor,26.0,F,US,São Paulo,+1-410-348-9525,2020-09-06,2023-02-02,free,true
+USR-0000131,user131@company.com,user_131,Linda,Wilson,42.0,M,GB,New York,+1-280-471-4953,2020-09-07,2023-02-02,free,true
+USR-0000132,user132@gmail.com,user_132,John,Brown,55.0,NB,IN,Mumbai,+1-395-806-5383,2020-09-08,2023-02-03,free,true
+USR-0000133,user133@yahoo.com,user_133,Mary,Moore,28.0,M,IN,Sydney,+1-774-447-9070,2020-09-08,2023-02-03,basic,false
+USR-0000134,user134@hotmail.com,user_134,Mary,Davis,58.0,M,BR,Toronto,+1-782-399-9658,2020-09-09,2023-02-03,free,true
+USR-0000135,user135@company.com,user_135,Patricia,Moore,26.0,F,JP,Toronto,+1-891-631-1148,2020-09-10,2023-02-03,pro,true
+USR-0000136,user136@gmail.com,user_136,Robert,Moore,60.0,M,JP,Toronto,+1-672-721-4283,2020-09-11,2023-02-04,basic,true
+USR-0000137,user137@yahoo.com,user_137,James,Williams,23.0,M,SG,New York,+1-314-607-8212,2020-09-11,2023-02-04,free,true
+USR-0000138,user138@hotmail.com,user_138,Michael,Williams,43.0,F,JP,Mumbai,+1-455-510-1009,2020-09-12,2023-02-04,free,true
+USR-0000139,user139@company.com,user_139,Patricia,Williams,52.0,F,AU,Berlin,+1-762-878-7986,2020-09-13,2023-02-04,free,false
+USR-0000140,user140@gmail.com,user_140,Michael,Williams,32.0,M,DE,New York,+1-543-140-5428,2020-09-14,2023-02-05,free,false
+USR-0000141,user141@yahoo.com,user_141,Patricia,Davis,51.0,F,FR,Mumbai,+1-951-175-2925,2020-09-14,2023-02-05,basic,true
+USR-0000142,user142@hotmail.com,user_142,Mary,Williams,55.0,F,DE,Berlin,+1-868-610-2532,2020-09-15,2023-02-05,free,true
+USR-0000143,user143@company.com,user_143,James,Anderson,53.0,F,FR,São Paulo,+1-219-469-6353,2020-09-16,2023-02-05,pro,false
+USR-0000144,user144@gmail.com,user_144,Robert,Anderson,39.0,M,SG,Mumbai,+1-871-894-5119,2020-09-17,2023-02-06,free,true
+USR-0000145,user145@yahoo.com,user_145,Robert,Brown,59.0,M,GB,São Paulo,+1-537-937-7991,2020-09-17,2023-02-06,basic,true
+USR-0000146,user146@hotmail.com,user_146,Michael,Davis,57.0,prefer_not_to_say,BR,Toronto,+1-367-712-7436,2020-09-18,2023-02-06,pro,true
+USR-0000147,,user_147,Linda,Moore,35.0,F,SG,Toronto,+1-386-979-3671,2020-09-19,2023-02-06,basic,true
+USR-0000148,user148@gmail.com,user_148,Mary,Moore,57.0,M,CA,Paris,+1-639-543-7228,2020-09-20,2023-02-07,pro,false
+USR-0000149,user149@yahoo.com,user_149,John,Wilson,67.0,F,DE,Paris,+1-920-453-4460,2020-09-20,2023-02-07,enterprise,false
+USR-0000150,user150@hotmail.com,user_150,Mary,Anderson,62.0,M,IN,London,+1-800-956-9178,2020-09-21,2023-02-07,free,true
+USR-0000151,user151@company.com,user_151,James,Moore,57.0,F,GB,Berlin,+1-801-732-7917,2020-09-22,2023-02-07,free,true
+USR-0000152,user152@gmail.com,user_152,James,Moore,59.0,F,DE,Sydney,+1-947-109-6297,2020-09-23,2023-02-08,free,true
+USR-0000153,user153@yahoo.com,user_153,James,Wilson,61.0,prefer_not_to_say,BR,São Paulo,+1-227-618-4552,2020-09-23,2023-02-08,free,true
+USR-0000154,user154@hotmail.com,user_154,Robert,Wilson,33.0,prefer_not_to_say,CA,New York,+1-443-900-7385,2020-09-24,2023-02-08,basic,true
+USR-0000155,user155@company.com,user_155,Mary,Davis,56.0,M,IN,Berlin,+1-653-892-1881,2020-09-25,2023-02-08,free,true
+USR-0000156,user156@gmail.com,user_156,Mary,Wilson,28.0,F,CA,London,+1-716-240-3097,2020-09-26,2023-02-09,free,false
+USR-0000157,user157@yahoo.com,user_157,James,Anderson,37.0,M,JP,London,+1-347-589-6660,2020-09-26,2023-02-09,pro,true
+USR-0000158,user158@hotmail.com,user_158,Jennifer,Miller,68.0,F,US,Paris,+1-803-496-9453,2020-09-27,2023-02-09,free,true
+USR-0000159,user159@company.com,user_159,Jennifer,Brown,33.0,F,US,London,+1-498-240-1328,2020-09-28,2023-02-09,basic,true
+USR-0000160,user160@gmail.com,user_160,Linda,Wilson,63.0,M,SG,Paris,+1-301-500-4716,2020-09-29,2023-02-10,free,true
+USR-0000161,user161@yahoo.com,user_161,James,Taylor,40.0,M,BR,São Paulo,+1-882-212-3360,2020-09-29,2023-02-10,pro,true
+USR-0000162,user162@hotmail.com,user_162,Mary,Anderson,29.0,M,CA,Paris,+1-983-125-4818,2020-09-30,2023-02-10,basic,false
+USR-0000163,user163@company.com,user_163,Patricia,Wilson,23.0,M,SG,London,+1-358-579-9761,2020-10-01,2023-02-10,free,true
+USR-0000164,user164@gmail.com,user_164,Jennifer,Taylor,47.0,M,CA,London,+1-381-432-5041,2020-10-02,2023-02-11,basic,true
+USR-0000165,user165@yahoo.com,user_165,Mary,Davis,42.0,NB,CA,Berlin,+1-837-985-1868,2020-10-02,2023-02-11,free,true
+USR-0000166,user166@hotmail.com,user_166,Mary,Miller,45.0,F,IN,Sydney,+1-590-776-1079,2020-10-03,2023-02-11,basic,true
+USR-0000167,user167@company.com,user_167,Patricia,Miller,20.0,F,JP,Paris,+1-844-318-5665,2020-10-04,2023-02-11,basic,true
+USR-0000168,user168@gmail.com,user_168,James,Davis,32.0,F,BR,Berlin,+1-981-670-9900,2020-10-05,2023-02-12,free,true
+USR-0000169,user169@yahoo.com,user_169,Patricia,Moore,18.0,F,IN,London,+1-682-289-7232,2020-10-05,2023-02-12,basic,true
+USR-0000170,user170@hotmail.com,user_170,Michael,Anderson,34.0,M,BR,São Paulo,+1-691-379-1692,2020-10-06,2023-02-12,pro,true
+USR-0000171,user171@company.com,user_171,Robert,Davis,68.0,F,BR,São Paulo,+1-717-619-7961,2020-10-07,2023-02-12,pro,true
+USR-0000172,user172@gmail.com,user_172,Patricia,Brown,26.0,F,US,Toronto,+1-300-584-8367,2020-10-08,2023-02-13,basic,false
+USR-0000173,user173@yahoo.com,user_173,Patricia,Taylor,55.0,F,GB,Toronto,+1-912-944-2907,2020-10-08,2023-02-13,basic,true
+USR-0000174,user174@hotmail.com,user_174,Linda,Taylor,18.0,NB,CA,São Paulo,+1-338-617-5163,2020-10-09,2023-02-13,free,true
+USR-0000175,user175@company.com,user_175,Robert,Anderson,48.0,F,FR,Berlin,+1-387-191-2292,2020-10-10,2023-02-13,pro,true
+USR-0000176,user176@gmail.com,user_176,Robert,Davis,67.0,F,FR,London,+1-470-764-1585,2020-10-11,2023-02-14,pro,true
+USR-0000177,user177@yahoo.com,user_177,Linda,Moore,36.0,F,DE,Sydney,+1-284-337-8862,2020-10-11,2023-02-14,free,false
+USR-0000178,user178@hotmail.com,user_178,Mary,Moore,28.0,F,JP,Berlin,+1-991-495-1401,2020-10-12,2023-02-14,free,true
+USR-0000179,user179@company.com,user_179,James,Taylor,48.0,F,AU,Paris,+1-209-872-5002,2020-10-13,2023-02-14,free,true
+USR-0000180,user180@gmail.com,user_180,Patricia,Taylor,33.0,M,IN,Paris,+1-261-849-5760,2020-10-14,2023-02-15,free,false
+USR-0000181,user181@yahoo.com,user_181,John,Anderson,66.0,M,GB,Berlin,+1-479-506-3025,2020-10-14,2023-02-15,free,true
+USR-0000182,user182@hotmail.com,user_182,Mary,Miller,63.0,F,JP,Mumbai,+1-944-808-2791,2020-10-15,2023-02-15,free,true
+USR-0000183,user183@company.com,user_183,James,Williams,53.0,M,BR,Berlin,+1-787-261-5079,2020-10-16,2023-02-15,basic,false
+USR-0000184,user184@gmail.com,user_184,Linda,Brown,52.0,prefer_not_to_say,AU,Toronto,+1-798-132-7530,2020-10-17,2023-02-16,free,true
+USR-0000185,user185@yahoo.com,user_185,Robert,Anderson,50.0,M,IN,Toronto,+1-380-728-5492,2020-10-17,2023-02-16,free,true
+USR-0000186,user186@hotmail.com,user_186,Jennifer,Taylor,57.0,F,US,Sydney,+1-220-784-3339,2020-10-18,2023-02-16,basic,false
+USR-0000187,user187@company.com,user_187,James,Williams,999.0,M,GB,Sydney,+1-960-855-2735,2020-10-19,2023-02-16,free,true
+USR-0000188,user188@gmail.com,user_188,John,Davis,70.0,prefer_not_to_say,GB,São Paulo,+1-680-425-6419,2020-10-20,2023-02-17,free,true
+USR-0000189,user189@yahoo.com,user_189,Robert,Brown,36.0,M,CA,Mumbai,+1-645-366-6861,2020-10-20,2023-02-17,pro,true
+USR-0000190,user190@hotmail.com,user_190,Robert,Davis,18.0,M,GB,London,+1-407-915-9518,2020-10-21,2023-02-17,enterprise,false
+USR-0000191,user191@company.com,user_191,Jennifer,Moore,55.0,M,GB,Paris,+1-332-754-9363,2020-10-22,2023-02-17,basic,false
+USR-0000192,user192@gmail.com,user_192,Jennifer,Wilson,53.0,F,IN,São Paulo,+1-301-764-9438,2020-10-23,2023-02-18,free,false
+USR-0000193,user193@yahoo.com,user_193,Patricia,Miller,70.0,prefer_not_to_say,FR,Sydney,+1-379-623-8179,2020-10-23,2023-02-18,free,true
+USR-0000194,user194@hotmail.com,user_194,Michael,Miller,39.0,prefer_not_to_say,AU,Berlin,+1-466-313-4573,2020-10-24,2023-02-18,enterprise,true
+USR-0000195,user195@company.com,user_195,John,Moore,40.0,M,GB,Mumbai,+1-467-752-4337,2020-10-25,2023-02-18,basic,false
+USR-0000196,user196@gmail.com,user_196,James,Moore,48.0,F,BR,Berlin,+1-500-949-6208,2020-10-26,2023-02-19,pro,true
+USR-0000197,user197@yahoo.com,user_197,Linda,Williams,39.0,M,AU,New York,+1-942-738-8965,2020-10-26,2023-02-19,basic,true
+USR-0000198,user198@hotmail.com,user_198,James,Brown,60.0,F,GB,Sydney,+1-356-943-9497,2020-10-27,2023-02-19,free,true
+USR-0000199,user199@company.com,user_199,John,Davis,41.0,F,FR,Mumbai,+1-232-420-4719,2020-10-28,2023-02-19,free,false
+USR-0000200,user200@gmail.com,user_200,James,Miller,60.0,M,SG,Mumbai,+1-535-799-7285,2020-10-29,2023-02-20,pro,true
+USR-0000201,user201@yahoo.com,user_201,Mary,Anderson,40.0,F,CA,Sydney,+1-370-647-9770,2020-10-29,2023-02-20,pro,true
+USR-0000202,user202@hotmail.com,user_202,Patricia,Anderson,30.0,F,GB,São Paulo,+1-551-934-6847,2020-10-30,2023-02-20,free,false
+USR-0000203,user203@company.com,user_203,Mary,Moore,71.0,M,DE,London,+1-939-911-1150,2020-10-31,2023-02-20,basic,false
+USR-0000204,user204@gmail.com,user_204,Patricia,Williams,46.0,M,CA,São Paulo,+1-839-269-8417,2020-11-01,2023-02-21,free,false
+USR-0000205,user205@yahoo.com,user_205,Linda,Williams,56.0,M,SG,Sydney,+1-845-332-1595,2020-11-01,2023-02-21,enterprise,true
+USR-0000206,user206@hotmail.com,user_206,Mary,Miller,49.0,M,SG,São Paulo,+1-535-372-5983,2020-11-02,2023-02-21,free,true
+USR-0000207,user207@company.com,user_207,Linda,Wilson,37.0,M,SG,Berlin,+1-265-139-4933,2020-11-03,2023-02-21,basic,true
+USR-0000208,user208@gmail.com,user_208,Patricia,Moore,70.0,F,JP,São Paulo,+1-815-383-3910,2020-11-04,2023-02-22,free,true
+USR-0000209,user209@yahoo.com,user_209,Robert,Brown,38.0,M,CA,Toronto,+1-331-354-3688,2020-11-04,2023-02-22,basic,false
+USR-0000210,user210@hotmail.com,user_210,Patricia,Anderson,71.0,F,FR,Toronto,+1-407-408-3550,2020-11-05,2023-02-22,basic,true
+USR-0000211,user211@company.com,user_211,John,Miller,41.0,F,BR,Sydney,+1-743-403-7792,2020-11-06,2023-02-22,free,true
+USR-0000212,user212@gmail.com,user_212,James,Wilson,19.0,NB,BR,Berlin,+1-683-675-6251,2020-11-07,2023-02-23,pro,true
+USR-0000213,user213@yahoo.com,user_213,Robert,Williams,19.0,F,FR,Sydney,+1-937-329-9840,2020-11-07,2023-02-23,pro,true
+USR-0000214,user214@hotmail.com,user_214,Linda,Taylor,70.0,M,GB,Paris,+1-364-224-8436,2020-11-08,2023-02-23,pro,false
+USR-0000215,user215@company.com,user_215,Robert,Wilson,46.0,M,JP,Paris,+1-915-183-6397,2020-11-09,2023-02-23,free,true
+USR-0000216,user216@gmail.com,user_216,Robert,Brown,38.0,M,US,New York,+1-609-297-5684,2020-11-10,2023-02-24,basic,true
+USR-0000217,user217@yahoo.com,user_217,Jennifer,Davis,61.0,prefer_not_to_say,AU,Toronto,+1-747-616-5677,2020-11-10,2023-02-24,basic,true
+USR-0000218,user218@hotmail.com,user_218,Patricia,Davis,51.0,prefer_not_to_say,AU,Paris,+1-907-302-6614,2020-11-11,2023-02-24,basic,true
+USR-0000219,user219@company.com,user_219,James,Williams,53.0,M,SG,Toronto,+1-452-975-3263,2020-11-12,2023-02-24,free,true
+USR-0000220,user220@gmail.com,user_220,Robert,Anderson,55.0,M,US,Berlin,+1-896-668-2932,2020-11-13,2023-02-25,basic,false
+USR-0000221,user221@yahoo.com,user_221,Michael,Taylor,28.0,F,AU,Mumbai,+1-806-316-3360,2020-11-13,2023-02-25,free,true
+USR-0000222,user222@hotmail.com,user_222,John,Anderson,22.0,M,DE,Toronto,+1-475-712-4523,2020-11-14,2023-02-25,free,true
+USR-0000223,user223@company.com,user_223,Michael,Davis,57.0,prefer_not_to_say,US,Toronto,+1-654-597-2769,2020-11-15,2023-02-25,free,true
+USR-0000224,bad email here,user_224,Michael,Wilson,19.0,M,IN,Mumbai,+1-385-375-3000,2020-11-16,2023-02-26,free,true
+USR-0000225,,user_225,Mary,Miller,56.0,M,AU,Berlin,+1-934-442-4643,2020-11-16,2023-02-26,free,true
+USR-0000226,user226@hotmail.com,user_226,Robert,Miller,25.0,M,SG,Mumbai,+1-736-808-7192,2020-11-17,2023-02-26,free,true
+USR-0000227,user227@company.com,user_227,Jennifer,Wilson,32.0,M,DE,New York,+1-640-977-9097,2020-11-18,2023-02-26,pro,true
+USR-0000228,user228@gmail.com,user_228,Patricia,Miller,56.0,M,JP,New York,+1-361-243-4535,2020-11-19,2023-02-27,basic,true
+USR-0000229,user229@yahoo.com,user_229,Jennifer,Taylor,51.0,F,BR,New York,+1-867-967-7322,2020-11-19,2023-02-27,free,false
+USR-0000230,user230@hotmail.com,user_230,Linda,Williams,60.0,M,JP,Berlin,+1-751-310-6329,2020-11-20,2023-02-27,pro,false
+USR-0000231,user231@company.com,user_231,Jennifer,Brown,50.0,F,JP,Sydney,+1-347-585-2743,2020-11-21,2023-02-27,pro,true
+USR-0000232,user232@gmail.com,user_232,Michael,Anderson,20.0,M,BR,Berlin,+1-260-969-9039,2020-11-22,2023-02-28,pro,true
+USR-0000233,user233@yahoo.com,user_233,Michael,Anderson,63.0,M,BR,São Paulo,+1-747-662-3159,2020-11-22,2023-02-28,pro,true
+USR-0000234,user234@hotmail.com,user_234,Michael,Taylor,29.0,M,GB,London,+1-656-772-5854,2020-11-23,2023-02-28,enterprise,true
+USR-0000235,user235@company.com,user_235,Michael,Davis,25.0,M,BR,Berlin,+1-425-452-8567,2020-11-24,2023-02-28,basic,true
+USR-0000236,user236@gmail.com,user_236,Mary,Miller,65.0,M,US,London,+1-403-964-7797,2020-11-25,2023-03-01,enterprise,true
+USR-0000237,user237@yahoo.com,user_237,James,Williams,28.0,M,BR,Mumbai,+1-911-558-3013,2020-11-25,2023-03-01,enterprise,true
+USR-0000238,user238@hotmail.com,user_238,Mary,Davis,46.0,F,FR,Sydney,+1-227-580-4591,2020-11-26,2023-03-01,free,false
+USR-0000239,user239@company.com,user_239,Mary,Moore,44.0,F,BR,Mumbai,+1-290-934-9731,2020-11-27,2023-03-01,pro,false
+USR-0000240,user240@gmail.com,user_240,Jennifer,Davis,59.0,NB,FR,Mumbai,+1-498-700-4718,2020-11-28,2023-03-02,pro,true
+USR-0000241,user241@yahoo.com,user_241,Robert,Miller,20.0,M,DE,Toronto,+1-596-660-4747,2020-11-28,2023-03-02,pro,true
+USR-0000242,user242@hotmail.com,user_242,Patricia,Williams,23.0,F,DE,Paris,+1-840-270-7015,2020-11-29,2023-03-02,pro,true
+USR-0000243,user243@company.com,user_243,James,Miller,40.0,F,CA,London,+1-985-864-1411,2020-11-30,2023-03-02,free,true
+USR-0000244,user244@gmail.com,user_244,Jennifer,Moore,43.0,M,AU,New York,+1-291-665-9320,2020-12-01,2023-03-03,free,true
+USR-0000245,user245@yahoo.com,user_245,John,Wilson,60.0,M,DE,London,+1-874-912-2347,2020-12-01,2023-03-03,basic,true
+USR-0000246,user246@hotmail.com,user_246,Michael,Wilson,50.0,F,AU,Sydney,+1-614-752-6622,2020-12-02,2023-03-03,basic,true
+USR-0000247,user247@company.com,user_247,James,Anderson,26.0,F,CA,São Paulo,+1-820-291-5113,2020-12-03,2023-03-03,pro,true
+USR-0000248,user248@gmail.com,user_248,John,Brown,70.0,F,IN,London,+1-557-944-2824,2020-12-04,2023-03-04,pro,true
+USR-0000249,user249@yahoo.com,user_249,James,Davis,42.0,M,FR,New York,+1-460-119-2365,2020-12-04,2023-03-04,basic,true
+USR-0000250,user250@hotmail.com,user_250,John,Wilson,70.0,prefer_not_to_say,DE,Sydney,+1-983-862-3332,2020-12-05,2023-03-04,enterprise,true
+USR-0000251,user251@company.com,user_251,Linda,Miller,71.0,M,IN,São Paulo,+1-760-633-9158,2020-12-06,2023-03-04,free,true
+USR-0000252,user252@gmail.com,user_252,Patricia,Anderson,20.0,prefer_not_to_say,AU,Sydney,+1-439-993-4335,2020-12-07,2023-03-05,enterprise,true
+USR-0000253,user253@yahoo.com,user_253,Patricia,Williams,45.0,F,GB,São Paulo,+1-772-457-7043,2020-12-07,2023-03-05,free,true
+USR-0000254,user254@hotmail.com,user_254,John,Williams,40.0,F,FR,Toronto,+1-467-858-6735,2020-12-08,2023-03-05,basic,true
+USR-0000255,user255@company.com,user_255,John,Davis,44.0,F,BR,New York,+1-430-963-7381,2020-12-09,2023-03-05,free,true
+USR-0000256,user256@gmail.com,user_256,Jennifer,Miller,34.0,M,SG,Berlin,+1-542-222-9758,2020-12-10,2023-03-06,basic,true
+USR-0000257,user257@yahoo.com,user_257,Linda,Anderson,48.0,F,IN,Paris,+1-803-700-8497,2020-12-10,2023-03-06,free,true
+USR-0000258,user258@hotmail.com,user_258,Jennifer,Miller,44.0,F,CA,Sydney,+1-685-308-3133,2020-12-11,2023-03-06,free,false
+USR-0000259,user259@company.com,user_259,Jennifer,Miller,28.0,F,CA,London,+1-263-156-7557,2020-12-12,2023-03-06,basic,true
+USR-0000260,user260@gmail.com,user_260,Patricia,Brown,33.0,M,BR,London,+1-880-247-6165,2020-12-13,2023-03-07,basic,true
+USR-0000261,user261@yahoo.com,user_261,James,Miller,25.0,M,FR,Toronto,+1-299-472-8115,2020-12-13,2023-03-07,free,true
+USR-0000262,user262@hotmail.com,user_262,Jennifer,Wilson,63.0,M,JP,Berlin,+1-848-952-3794,2020-12-14,2023-03-07,basic,true
+USR-0000263,user263@company.com,user_263,Michael,Wilson,54.0,F,JP,Sydney,+1-958-804-4047,2020-12-15,2023-03-07,free,true
+USR-0000264,user264@gmail.com,user_264,Robert,Wilson,38.0,F,GB,Mumbai,+1-462-196-9287,2020-12-16,2023-03-08,free,true
+USR-0000265,user265@yahoo.com,user_265,James,Miller,39.0,F,DE,Mumbai,+1-362-340-4715,2020-12-16,2023-03-08,free,false
+USR-0000266,user266@hotmail.com,user_266,Jennifer,Brown,22.0,F,FR,Toronto,+1-309-824-7282,2020-12-17,2023-03-08,basic,true
+USR-0000267,user267@company.com,user_267,Linda,Brown,33.0,F,CA,New York,+1-325-246-1197,2020-12-18,2023-03-08,pro,true
+USR-0000268,user268@gmail.com,user_268,Mary,Brown,67.0,M,AU,Berlin,+1-958-491-6899,2020-12-19,2023-03-09,basic,true
+USR-0000269,user269@yahoo.com,user_269,Mary,Wilson,19.0,F,GB,Mumbai,+1-319-307-5872,2020-12-19,2023-03-09,pro,true
+USR-0000270,user270@hotmail.com,user_270,Jennifer,Taylor,25.0,M,CA,Paris,+1-366-651-9313,2020-12-20,2023-03-09,basic,false
+USR-0000271,user271@company.com,user_271,John,Anderson,63.0,M,BR,Toronto,+1-443-646-9240,2020-12-21,2023-03-09,pro,true
+USR-0000272,user272@gmail.com,user_272,Jennifer,Davis,46.0,M,US,Berlin,+1-914-106-1991,2020-12-22,2023-03-10,enterprise,true
+USR-0000273,user273@yahoo.com,user_273,Jennifer,Williams,19.0,M,CA,Mumbai,+1-987-931-3896,2020-12-22,2023-03-10,free,true
+USR-0000274,user274@hotmail.com,user_274,John,Moore,44.0,M,SG,London,+1-615-614-7015,2020-12-23,2023-03-10,free,true
+USR-0000275,user275@company.com,user_275,James,Williams,58.0,F,CA,London,+1-799-435-9008,2020-12-24,2023-03-10,free,true
+USR-0000276,user276@gmail.com,user_276,Robert,Moore,36.0,M,SG,Mumbai,+1-247-129-9620,2020-12-25,2023-03-11,basic,true
+USR-0000277,user277@yahoo.com,user_277,Patricia,Miller,38.0,M,DE,Paris,+1-341-994-3573,2020-12-25,2023-03-11,basic,true
+USR-0000278,user278@hotmail.com,user_278,Michael,Taylor,52.0,M,US,New York,+1-491-125-9493,2020-12-26,2023-03-11,free,true
+USR-0000279,user279@company.com,user_279,John,Moore,50.0,F,FR,New York,+1-487-250-5349,2020-12-27,2023-03-11,pro,false
+USR-0000280,user280@gmail.com,user_280,Mary,Moore,66.0,F,IN,Sydney,+1-323-810-1657,2020-12-28,2023-03-12,enterprise,true
+USR-0000281,user281@yahoo.com,user_281,Michael,Miller,31.0,M,US,London,+1-598-451-1334,2020-12-28,2023-03-12,free,true
+USR-0000282,user282@hotmail.com,user_282,Jennifer,Taylor,32.0,M,GB,Paris,+1-241-566-4551,2020-12-29,2023-03-12,free,true
+USR-0000283,user283@company.com,user_283,Robert,Wilson,26.0,prefer_not_to_say,SG,Paris,+1-303-224-8242,2020-12-30,2023-03-12,free,true
+USR-0000284,user284@gmail.com,user_284,Linda,Moore,53.0,F,BR,Paris,+1-783-646-8499,2020-12-31,2023-03-13,free,true
+USR-0000285,user285@yahoo.com,user_285,Michael,Davis,46.0,F,IN,Berlin,+1-255-718-7772,2020-12-31,2023-03-13,pro,true
+USR-0000286,user286@hotmail.com,user_286,Michael,Miller,36.0,F,CA,Berlin,+1-360-582-7900,2021-01-01,2023-03-13,basic,true
+USR-0000287,user287@company.com,user_287,Michael,Taylor,55.0,F,DE,Berlin,+1-682-324-6982,2021-01-02,2023-03-13,free,true
+USR-0000288,user288@gmail.com,user_288,Patricia,Miller,38.0,F,GB,London,+1-806-108-6106,2021-01-03,2023-03-14,free,true
+USR-0000289,user289@yahoo.com,user_289,James,Williams,28.0,M,SG,Sydney,+1-603-429-1398,2021-01-03,2023-03-14,free,true
+USR-0000290,user290@hotmail.com,user_290,Robert,Miller,47.0,F,JP,Paris,+1-266-774-8446,2021-01-04,2023-03-14,free,true
+USR-0000291,user291@company.com,user_291,Michael,Miller,41.0,M,DE,Mumbai,+1-534-944-9348,2021-01-05,2023-03-14,free,true
+USR-0000292,user292@gmail.com,user_292,Linda,Miller,39.0,F,DE,New York,+1-732-622-9679,2021-01-06,2023-03-15,basic,true
+USR-0000293,user293@yahoo.com,user_293,Jennifer,Williams,42.0,M,JP,Sydney,+1-687-939-9809,2021-01-06,2023-03-15,basic,false
+USR-0000294,user294@hotmail.com,user_294,Robert,Brown,67.0,M,AU,Berlin,+1-355-693-7580,2021-01-07,2023-03-15,pro,true
+USR-0000295,user295@company.com,user_295,Robert,Davis,29.0,prefer_not_to_say,DE,Paris,+1-855-414-8753,2021-01-08,2023-03-15,free,true
+USR-0000296,user296@gmail.com,user_296,James,Miller,32.0,F,DE,Paris,+1-589-447-2412,2021-01-09,2023-03-16,pro,false
+USR-0000297,user297@yahoo.com,user_297,James,Williams,48.0,M,AU,São Paulo,+1-456-976-7445,2021-01-09,2023-03-16,free,true
+USR-0000298,user298@hotmail.com,user_298,James,Miller,999.0,prefer_not_to_say,CA,Berlin,+1-780-905-3401,2021-01-10,2023-03-16,free,true
+USR-0000299,user299@company.com,user_299,Linda,Davis,25.0,M,US,São Paulo,+1-728-433-8631,2021-01-11,2023-03-16,pro,false
+USR-0000300,user300@gmail.com,user_300,Michael,Williams,48.0,F,AU,New York,+1-537-868-7727,2021-01-12,2023-03-17,basic,true
+USR-0000301,user301@yahoo.com,user_301,John,Davis,45.0,F,AU,Mumbai,+1-816-932-8114,2021-01-12,2023-03-17,free,true
+USR-0000302,bad email here,user_302,Patricia,Davis,53.0,M,IN,Mumbai,+1-456-568-5252,2021-01-13,2023-03-17,free,true
+USR-0000303,user303@company.com,user_303,Patricia,Brown,999.0,F,DE,São Paulo,+1-251-633-4936,2021-01-14,2023-03-17,basic,true
+USR-0000304,user304@gmail.com,user_304,Mary,Taylor,64.0,F,AU,Sydney,+1-514-198-5537,2021-01-15,2023-03-18,enterprise,true
+USR-0000305,user305@yahoo.com,user_305,Patricia,Williams,44.0,M,DE,Mumbai,+1-662-195-6713,2021-01-15,2023-03-18,basic,true
+USR-0000306,user306@hotmail.com,user_306,John,Wilson,26.0,M,SG,London,+1-333-230-4609,2021-01-16,2023-03-18,free,false
+USR-0000307,user307@company.com,user_307,Jennifer,Moore,34.0,M,CA,Paris,+1-510-922-1608,2021-01-17,2023-03-18,free,true
+USR-0000308,user308@gmail.com,user_308,Michael,Taylor,30.0,F,CA,Toronto,+1-479-760-3247,2021-01-18,2023-03-19,free,true
+USR-0000309,user309@yahoo.com,user_309,James,Wilson,42.0,M,IN,Paris,+1-984-767-9513,2021-01-18,2023-03-19,free,false
+USR-0000310,user310@hotmail.com,user_310,Patricia,Wilson,43.0,M,SG,Berlin,+1-958-198-5131,2021-01-19,2023-03-19,basic,true
+USR-0000311,user311@company.com,user_311,Linda,Taylor,41.0,F,US,London,+1-794-107-5067,2021-01-20,2023-03-19,pro,true
+USR-0000312,user312@gmail.com,user_312,Michael,Taylor,42.0,M,CA,Mumbai,+1-749-812-4735,2021-01-21,2023-03-20,free,true
+USR-0000313,user313@yahoo.com,user_313,Michael,Brown,67.0,M,GB,Sydney,+1-889-705-1409,2021-01-21,2023-03-20,pro,true
+USR-0000314,user314@hotmail.com,user_314,Jennifer,Taylor,69.0,F,BR,London,+1-421-943-1021,2021-01-22,2023-03-20,basic,false
+USR-0000315,user315@company.com,user_315,James,Miller,44.0,F,DE,New York,+1-286-409-9943,2021-01-23,2023-03-20,pro,true
+USR-0000316,user316@gmail.com,user_316,Linda,Williams,70.0,M,IN,Paris,+1-763-232-4537,2021-01-24,2023-03-21,free,true
+USR-0000317,user317@yahoo.com,user_317,Jennifer,Wilson,62.0,F,US,Sydney,+1-950-297-6178,2021-01-24,2023-03-21,free,true
+USR-0000318,,user_318,Linda,Anderson,62.0,F,BR,Berlin,+1-570-783-7770,2021-01-25,2023-03-21,free,true
+USR-0000319,user319@company.com,user_319,Linda,Brown,30.0,M,DE,Sydney,+1-865-207-5084,2021-01-26,2023-03-21,free,true
+USR-0000320,user320@gmail.com,user_320,John,Williams,41.0,F,IN,Toronto,+1-752-476-7005,2021-01-27,2023-03-22,free,false
+USR-0000321,user321@yahoo.com,user_321,James,Anderson,37.0,F,JP,New York,+1-707-433-1901,2021-01-27,2023-03-22,free,true
+USR-0000322,user322@hotmail.com,user_322,Jennifer,Wilson,23.0,F,US,Berlin,+1-975-842-9051,2021-01-28,2023-03-22,free,true
+USR-0000323,user323@company.com,user_323,Patricia,Brown,22.0,F,AU,Mumbai,+1-439-384-3910,2021-01-29,2023-03-22,free,true
+USR-0000324,user324@gmail.com,user_324,James,Taylor,51.0,F,GB,New York,+1-224-252-3774,2021-01-30,2023-03-23,pro,true
+USR-0000325,user325@yahoo.com,user_325,John,Miller,40.0,prefer_not_to_say,GB,New York,+1-988-284-5569,2021-01-30,2023-03-23,pro,true
+USR-0000326,user326@hotmail.com,user_326,Linda,Davis,62.0,F,US,Berlin,+1-637-423-9267,2021-01-31,2023-03-23,free,true
+USR-0000327,user327@company.com,user_327,John,Davis,54.0,F,GB,Sydney,+1-274-882-7692,2021-02-01,2023-03-23,enterprise,true
+USR-0000328,user328@gmail.com,user_328,John,Wilson,22.0,F,SG,Sydney,+1-444-790-4856,2021-02-02,2023-03-24,free,true
+USR-0000329,user329@yahoo.com,user_329,Jennifer,Brown,63.0,F,AU,Paris,+1-975-132-1267,2021-02-02,2023-03-24,free,true
+USR-0000330,user330@hotmail.com,user_330,Jennifer,Davis,44.0,prefer_not_to_say,SG,Berlin,+1-634-937-1570,2021-02-03,2023-03-24,pro,true
+USR-0000331,user331@company.com,user_331,John,Davis,48.0,M,IN,Sydney,+1-821-943-5376,2021-02-04,2023-03-24,free,true
+USR-0000332,user332@gmail.com,user_332,Michael,Williams,70.0,M,BR,Paris,+1-892-780-2927,2021-02-05,2023-03-25,free,true
+USR-0000333,user333@yahoo.com,user_333,Robert,Taylor,52.0,F,US,Toronto,+1-882-728-1113,2021-02-05,2023-03-25,free,true
+USR-0000334,user334@hotmail.com,user_334,Mary,Williams,19.0,M,GB,São Paulo,+1-653-688-8211,2021-02-06,2023-03-25,basic,true
+USR-0000335,user335@company.com,user_335,John,Anderson,27.0,F,US,London,+1-816-527-3690,2021-02-07,2023-03-25,basic,true
+USR-0000336,missing@,user_336,Michael,Williams,41.0,F,JP,Paris,+1-353-180-6757,2021-02-08,2023-03-26,free,false
+USR-0000337,user337@yahoo.com,user_337,James,Davis,20.0,NB,FR,Toronto,+1-966-172-7323,2021-02-08,2023-03-26,free,false
+USR-0000338,user338@hotmail.com,user_338,James,Williams,27.0,M,BR,Sydney,+1-667-254-2914,2021-02-09,2023-03-26,free,true
+USR-0000339,user339@company.com,user_339,Jennifer,Davis,60.0,F,SG,New York,+1-427-715-3687,2021-02-10,2023-03-26,basic,true
+USR-0000340,user340@gmail.com,user_340,Patricia,Wilson,25.0,M,DE,Sydney,+1-861-432-1985,2021-02-11,2023-03-27,free,true
+USR-0000341,user341@yahoo.com,user_341,John,Williams,27.0,F,BR,Paris,+1-276-459-4670,2021-02-11,2023-03-27,pro,true
+USR-0000342,user342@hotmail.com,user_342,Patricia,Wilson,45.0,M,CA,Toronto,+1-786-530-2473,2021-02-12,2023-03-27,basic,false
+USR-0000343,user343@company.com,user_343,Mary,Taylor,22.0,F,CA,New York,+1-370-609-4007,2021-02-13,2023-03-27,free,true
+USR-0000344,user344@gmail.com,user_344,John,Miller,31.0,F,FR,Mumbai,+1-736-929-4192,2021-02-14,2023-03-28,basic,true
+USR-0000345,user345@yahoo.com,user_345,Mary,Williams,68.0,F,AU,Sydney,+1-640-847-2892,2021-02-14,2023-03-28,free,true
+USR-0000346,user346@hotmail.com,user_346,Robert,Moore,52.0,F,US,Paris,+1-608-374-6642,2021-02-15,2023-03-28,free,true
+USR-0000347,user347@company.com,user_347,Jennifer,Brown,70.0,M,US,Berlin,+1-793-226-2687,2021-02-16,2023-03-28,free,true
+USR-0000348,user348@gmail.com,user_348,Linda,Williams,37.0,M,CA,Paris,+1-218-110-1456,2021-02-17,2023-03-29,free,true
+USR-0000349,user349@yahoo.com,user_349,James,Miller,51.0,M,CA,Paris,+1-764-912-4686,2021-02-17,2023-03-29,basic,true
+USR-0000350,user350@hotmail.com,user_350,John,Davis,30.0,prefer_not_to_say,BR,Mumbai,+1-905-755-8267,2021-02-18,2023-03-29,enterprise,true
+USR-0000351,user351@company.com,user_351,John,Williams,38.0,NB,CA,London,+1-791-279-5709,2021-02-19,2023-03-29,free,true
+USR-0000352,user352@gmail.com,user_352,Robert,Taylor,27.0,M,GB,São Paulo,+1-619-676-8164,2021-02-20,2023-03-30,free,false
+USR-0000353,user353@yahoo.com,user_353,Robert,Wilson,62.0,M,DE,Sydney,+1-290-706-8496,2021-02-20,2023-03-30,basic,true
+USR-0000354,user354@hotmail.com,user_354,Linda,Anderson,27.0,M,AU,Paris,+1-292-473-9058,2021-02-21,2023-03-30,free,true
+USR-0000355,bad email here,user_355,Linda,Miller,29.0,F,SG,São Paulo,+1-219-244-8234,2021-02-22,2023-03-30,free,true
+USR-0000356,user356@gmail.com,user_356,Michael,Miller,43.0,M,CA,Berlin,+1-337-731-9108,2021-02-23,2023-03-31,enterprise,true
+USR-0000357,user357@yahoo.com,user_357,Mary,Taylor,41.0,M,FR,New York,+1-598-535-4858,2021-02-23,2023-03-31,pro,true
+USR-0000358,user358@hotmail.com,user_358,James,Williams,34.0,M,BR,São Paulo,+1-497-441-5982,2021-02-24,2023-03-31,enterprise,true
+USR-0000359,user359@company.com,user_359,Linda,Davis,37.0,M,DE,Sydney,+1-915-982-8791,2021-02-25,2023-03-31,free,true
+USR-0000360,user360@gmail.com,user_360,Linda,Taylor,33.0,M,SG,New York,+1-295-375-7811,2021-02-26,2023-04-01,free,true
+USR-0000361,user361@yahoo.com,user_361,John,Davis,67.0,M,FR,Sydney,+1-635-400-3800,2021-02-26,2023-04-01,free,true
+USR-0000362,user362@hotmail.com,user_362,James,Anderson,49.0,F,JP,New York,+1-293-398-4796,2021-02-27,2023-04-01,enterprise,true
+USR-0000363,user363@company.com,user_363,Jennifer,Davis,67.0,F,BR,Mumbai,+1-532-593-3456,2021-02-28,2023-04-01,free,true
+USR-0000364,user364@gmail.com,user_364,Robert,Miller,71.0,M,FR,Mumbai,+1-364-897-4647,2021-03-01,2023-04-02,free,false
+USR-0000365,user365@yahoo.com,user_365,Linda,Anderson,53.0,F,US,Berlin,+1-403-671-5880,2021-03-01,2023-04-02,free,true
+USR-0000366,user366@hotmail.com,user_366,Robert,Brown,62.0,F,CA,Sydney,+1-660-299-7507,2021-03-02,2023-04-02,pro,true
+USR-0000367,user367@company.com,user_367,Michael,Anderson,23.0,F,GB,Paris,+1-353-851-4816,2021-03-03,2023-04-02,pro,true
+USR-0000368,user368@gmail.com,user_368,Michael,Williams,69.0,prefer_not_to_say,FR,Mumbai,+1-526-449-4806,2021-03-04,2023-04-03,basic,true
+USR-0000369,user369@yahoo.com,user_369,James,Davis,44.0,M,BR,Toronto,+1-731-546-2141,2021-03-04,2023-04-03,free,true
+USR-0000370,user370@hotmail.com,user_370,Mary,Wilson,56.0,F,CA,São Paulo,+1-652-340-1974,2021-03-05,2023-04-03,basic,true
+USR-0000371,user371@company.com,user_371,Michael,Wilson,31.0,F,DE,Toronto,+1-871-381-6354,2021-03-06,2023-04-03,free,true
+USR-0000372,user372@gmail.com,user_372,Mary,Anderson,23.0,F,US,Mumbai,+1-337-405-4472,2021-03-07,2023-04-04,free,true
+USR-0000373,user373@yahoo.com,user_373,Mary,Anderson,65.0,M,FR,Toronto,+1-306-975-3804,2021-03-07,2023-04-04,free,false
+USR-0000374,user374@hotmail.com,user_374,Michael,Moore,42.0,M,FR,Mumbai,+1-665-608-4864,2021-03-08,2023-04-04,basic,true
+USR-0000375,user375@company.com,user_375,Mary,Moore,25.0,M,AU,Berlin,+1-667-608-1720,2021-03-09,2023-04-04,free,true
+USR-0000376,user376@gmail.com,user_376,Mary,Davis,53.0,prefer_not_to_say,BR,Toronto,+1-734-202-4914,2021-03-10,2023-04-05,enterprise,true
+USR-0000377,user377@yahoo.com,user_377,James,Taylor,20.0,F,BR,Mumbai,+1-491-502-1647,2021-03-10,2023-04-05,free,true
+USR-0000378,user378@hotmail.com,user_378,Patricia,Moore,42.0,M,CA,New York,+1-760-476-1547,2021-03-11,2023-04-05,free,true
+USR-0000379,user379@company.com,user_379,Jennifer,Williams,56.0,F,US,Paris,+1-202-585-6995,2021-03-12,2023-04-05,basic,true
+USR-0000380,user380@gmail.com,user_380,Jennifer,Taylor,56.0,M,JP,Toronto,+1-637-747-7810,2021-03-13,2023-04-06,basic,true
+USR-0000381,user381@yahoo.com,user_381,Linda,Davis,42.0,M,AU,New York,+1-896-983-8962,2021-03-13,2023-04-06,free,true
+USR-0000382,user382@hotmail.com,user_382,Jennifer,Miller,37.0,F,FR,Berlin,+1-835-487-5533,2021-03-14,2023-04-06,basic,false
+USR-0000383,user383@company.com,user_383,Michael,Miller,63.0,F,SG,Mumbai,+1-692-252-7098,2021-03-15,2023-04-06,free,false
+USR-0000384,user384@gmail.com,user_384,Mary,Taylor,27.0,F,DE,São Paulo,+1-670-567-8507,2021-03-16,2023-04-07,free,true
+USR-0000385,user385@yahoo.com,user_385,John,Davis,22.0,F,FR,São Paulo,+1-749-938-9787,2021-03-16,2023-04-07,basic,true
+USR-0000386,user386@hotmail.com,user_386,John,Miller,26.0,F,US,Toronto,+1-859-367-2700,2021-03-17,2023-04-07,basic,true
+USR-0000387,user387@company.com,user_387,James,Williams,61.0,F,JP,Berlin,+1-439-740-8777,2021-03-18,2023-04-07,free,false
+USR-0000388,user388@gmail.com,user_388,Linda,Davis,43.0,M,US,New York,+1-903-714-7128,2021-03-19,2023-04-08,free,true
+USR-0000389,user389@yahoo.com,user_389,Mary,Williams,20.0,F,CA,London,+1-960-716-2268,2021-03-19,2023-04-08,basic,true
+USR-0000390,user390@hotmail.com,user_390,Patricia,Wilson,27.0,F,DE,New York,+1-599-422-6732,2021-03-20,2023-04-08,free,true
+USR-0000391,user391@company.com,user_391,John,Anderson,19.0,M,US,Paris,+1-708-364-3696,2021-03-21,2023-04-08,pro,true
+USR-0000392,user392@gmail.com,user_392,James,Miller,61.0,M,AU,New York,+1-270-363-8448,2021-03-22,2023-04-09,basic,true
+USR-0000393,user393@yahoo.com,user_393,Linda,Anderson,42.0,M,SG,Toronto,+1-723-947-9335,2021-03-22,2023-04-09,pro,true
+USR-0000394,user394@hotmail.com,user_394,Mary,Anderson,21.0,M,GB,São Paulo,+1-884-261-4004,2021-03-23,2023-04-09,free,true
+USR-0000395,user395@company.com,user_395,James,Williams,29.0,F,IN,Mumbai,+1-245-184-3079,2021-03-24,2023-04-09,pro,true
+USR-0000396,user396@gmail.com,user_396,John,Wilson,51.0,M,GB,Toronto,+1-423-113-8584,2021-03-25,2023-04-10,free,true
+USR-0000397,user397@yahoo.com,user_397,Mary,Wilson,50.0,F,GB,São Paulo,+1-621-689-6881,2021-03-25,2023-04-10,free,true
+USR-0000398,user398@hotmail.com,user_398,Linda,Miller,62.0,M,IN,Berlin,+1-972-232-4083,2021-03-26,2023-04-10,free,false
+USR-0000399,user399@company.com,user_399,Mary,Taylor,19.0,M,CA,Berlin,+1-446-595-5735,2021-03-27,2023-04-10,free,true
+USR-0000400,user400@gmail.com,user_400,John,Miller,21.0,M,BR,London,+1-831-604-3105,2021-03-28,2023-04-11,pro,true
+USR-0000401,user401@yahoo.com,user_401,John,Williams,19.0,M,FR,Berlin,+1-651-966-6209,2021-03-28,2023-04-11,basic,true
+USR-0000402,user402@hotmail.com,user_402,James,Wilson,39.0,prefer_not_to_say,BR,Paris,+1-673-258-1071,2021-03-29,2023-04-11,basic,true
+USR-0000403,user403@company.com,user_403,James,Brown,57.0,M,BR,Toronto,+1-367-122-5069,2021-03-30,2023-04-11,basic,false
+USR-0000404,user404@gmail.com,user_404,Robert,Davis,53.0,M,DE,London,+1-904-501-6806,2021-03-31,2023-04-12,basic,true
+USR-0000405,user405@yahoo.com,user_405,Mary,Wilson,29.0,M,SG,Sydney,+1-883-786-6854,2021-03-31,2023-04-12,basic,false
+USR-0000406,user406@hotmail.com,user_406,James,Moore,53.0,M,GB,Toronto,+1-826-352-4783,2021-04-01,2023-04-12,pro,true
+USR-0000407,user407@company.com,user_407,John,Davis,53.0,F,FR,New York,+1-518-817-4678,2021-04-02,2023-04-12,basic,true
+USR-0000408,user408@gmail.com,user_408,John,Miller,28.0,F,GB,Paris,+1-949-267-2549,2021-04-03,2023-04-13,basic,true
+USR-0000409,user409@yahoo.com,user_409,Patricia,Williams,58.0,M,BR,London,+1-772-786-7110,2021-04-03,2023-04-13,free,true
+USR-0000410,user410@hotmail.com,user_410,Linda,Miller,40.0,F,US,Mumbai,+1-445-108-3893,2021-04-04,2023-04-13,enterprise,true
+USR-0000411,user411@company.com,user_411,John,Wilson,21.0,F,IN,Berlin,+1-572-471-9297,2021-04-05,2023-04-13,free,false
+USR-0000412,user412@gmail.com,user_412,Jennifer,Wilson,39.0,F,DE,Sydney,+1-890-796-1198,2021-04-06,2023-04-14,free,false
+USR-0000413,user413@yahoo.com,user_413,Michael,Davis,59.0,F,FR,São Paulo,+1-301-490-6594,2021-04-06,2023-04-14,pro,true
+USR-0000414,user414@hotmail.com,user_414,James,Williams,55.0,M,US,London,+1-743-366-1993,2021-04-07,2023-04-14,free,false
+USR-0000415,user415@company.com,user_415,Robert,Wilson,32.0,F,IN,Mumbai,+1-462-812-9878,2021-04-08,2023-04-14,free,false
+USR-0000416,user416@gmail.com,user_416,Patricia,Moore,58.0,F,DE,Berlin,+1-952-633-1818,2021-04-09,2023-04-15,free,true
+USR-0000417,user417@yahoo.com,user_417,Robert,Williams,39.0,F,BR,Paris,+1-973-237-3414,2021-04-09,2023-04-15,free,true
+USR-0000418,user418@hotmail.com,user_418,Mary,Wilson,42.0,prefer_not_to_say,SG,São Paulo,+1-978-552-2780,2021-04-10,2023-04-15,enterprise,true
+USR-0000419,user419@company.com,user_419,Patricia,Williams,22.0,F,FR,Berlin,+1-601-170-3840,2021-04-11,2023-04-15,pro,true
+USR-0000420,user420@gmail.com,user_420,James,Miller,71.0,M,CA,Toronto,+1-960-368-9032,2021-04-12,2023-04-16,free,true
+USR-0000421,user421@yahoo.com,user_421,Linda,Moore,63.0,F,DE,São Paulo,+1-633-689-7326,2021-04-12,2023-04-16,enterprise,false
+USR-0000422,user422@hotmail.com,user_422,Robert,Moore,28.0,F,JP,Paris,+1-640-130-9272,2021-04-13,2023-04-16,basic,true
+USR-0000423,user423@company.com,user_423,James,Moore,48.0,F,GB,Toronto,+1-579-689-5984,2021-04-14,2023-04-16,pro,true
+USR-0000424,user424@gmail.com,user_424,Robert,Taylor,60.0,F,GB,Sydney,+1-726-418-8592,2021-04-15,2023-04-17,free,true
+USR-0000425,user425@yahoo.com,user_425,Linda,Brown,45.0,F,IN,São Paulo,+1-379-687-6200,2021-04-15,2023-04-17,free,true
+USR-0000426,user426@hotmail.com,user_426,Jennifer,Taylor,29.0,F,IN,London,+1-602-119-4507,2021-04-16,2023-04-17,free,true
+USR-0000427,user427@company.com,user_427,John,Davis,70.0,F,AU,Mumbai,+1-237-552-7189,2021-04-17,2023-04-17,free,true
+USR-0000428,user428@gmail.com,user_428,Linda,Davis,32.0,M,SG,Toronto,+1-617-780-4247,2021-04-18,2023-04-18,basic,true
+USR-0000429,user429@yahoo.com,user_429,Mary,Taylor,36.0,M,FR,New York,+1-444-502-3061,2021-04-18,2023-04-18,free,true
+USR-0000430,user430@hotmail.com,user_430,Mary,Davis,38.0,NB,DE,Sydney,+1-840-827-4748,2021-04-19,2023-04-18,basic,true
+USR-0000431,user431@company.com,user_431,Mary,Williams,66.0,F,IN,Paris,+1-833-122-2392,2021-04-20,2023-04-18,basic,true
+USR-0000432,user432@gmail.com,user_432,Linda,Moore,45.0,M,FR,London,+1-426-448-3085,2021-04-21,2023-04-19,free,true
+USR-0000433,user433@yahoo.com,user_433,Jennifer,Moore,56.0,F,IN,Paris,+1-609-813-5105,2021-04-21,2023-04-19,free,true
+USR-0000434,user434@hotmail.com,user_434,Robert,Wilson,66.0,F,SG,Berlin,+1-558-153-3522,2021-04-22,2023-04-19,basic,true
+USR-0000435,user435@company.com,user_435,Jennifer,Brown,68.0,F,AU,Paris,+1-844-828-1938,2021-04-23,2023-04-19,pro,true
+USR-0000436,user436@gmail.com,user_436,John,Moore,64.0,M,CA,Toronto,+1-215-847-2568,2021-04-24,2023-04-20,free,true
+USR-0000437,user437@yahoo.com,user_437,James,Brown,67.0,F,SG,London,+1-659-843-8085,2021-04-24,2023-04-20,enterprise,true
+USR-0000438,user438@hotmail.com,user_438,Michael,Wilson,69.0,M,DE,Toronto,+1-639-438-7962,2021-04-25,2023-04-20,pro,false
+USR-0000439,user439@company.com,user_439,Linda,Wilson,71.0,M,AU,New York,+1-755-853-5624,2021-04-26,2023-04-20,basic,false
+USR-0000440,user440@gmail.com,user_440,James,Taylor,52.0,F,CA,London,+1-952-791-1570,2021-04-27,2023-04-21,free,true
+USR-0000441,user441@yahoo.com,user_441,James,Anderson,25.0,NB,IN,São Paulo,+1-434-818-2044,2021-04-27,2023-04-21,basic,true
+USR-0000442,user442@hotmail.com,user_442,Robert,Brown,24.0,M,US,São Paulo,+1-766-406-2863,2021-04-28,2023-04-21,pro,true
+USR-0000443,user443@company.com,user_443,James,Williams,60.0,F,IN,New York,+1-631-937-9078,2021-04-29,2023-04-21,free,false
+USR-0000444,user444@gmail.com,user_444,Jennifer,Wilson,35.0,NB,GB,Berlin,+1-522-103-8987,2021-04-30,2023-04-22,enterprise,true
+USR-0000445,user445@yahoo.com,user_445,Linda,Anderson,61.0,M,FR,New York,+1-916-643-6656,2021-04-30,2023-04-22,pro,true
+USR-0000446,user446@hotmail.com,user_446,John,Brown,68.0,M,US,Mumbai,+1-620-111-2435,2021-05-01,2023-04-22,free,true
+USR-0000447,user447@company.com,user_447,John,Miller,52.0,F,DE,São Paulo,+1-314-921-1448,2021-05-02,2023-04-22,basic,true
+USR-0000448,user448@gmail.com,user_448,Michael,Miller,59.0,F,JP,London,+1-644-426-1054,2021-05-03,2023-04-23,basic,true
+USR-0000449,user449@yahoo.com,user_449,John,Davis,33.0,M,CA,Toronto,+1-934-116-8701,2021-05-03,2023-04-23,pro,true
+USR-0000450,user450@hotmail.com,user_450,Mary,Moore,41.0,F,FR,Paris,+1-821-813-2457,2021-05-04,2023-04-23,pro,true
+USR-0000451,user451@company.com,user_451,James,Davis,70.0,F,FR,São Paulo,+1-903-638-4617,2021-05-05,2023-04-23,free,true
+USR-0000452,user452@gmail.com,user_452,Michael,Miller,62.0,F,IN,Mumbai,+1-744-406-3514,2021-05-06,2023-04-24,free,true
+USR-0000453,,user_453,Linda,Taylor,29.0,F,FR,Toronto,+1-430-611-6408,2021-05-06,2023-04-24,free,true
+USR-0000454,user454@hotmail.com,user_454,James,Miller,68.0,M,IN,Berlin,+1-391-320-9515,2021-05-07,2023-04-24,pro,true
+USR-0000455,user455@company.com,user_455,Michael,Williams,44.0,M,FR,New York,+1-611-873-3971,2021-05-08,2023-04-24,free,false
+USR-0000456,user456@gmail.com,user_456,Mary,Anderson,63.0,M,FR,London,+1-430-354-5758,2021-05-09,2023-04-25,pro,true
+USR-0000457,user457@yahoo.com,user_457,Mary,Davis,46.0,NB,JP,Toronto,+1-822-550-3654,2021-05-09,2023-04-25,free,false
+USR-0000458,user458@hotmail.com,user_458,Patricia,Taylor,50.0,NB,SG,Toronto,+1-967-614-4545,2021-05-10,2023-04-25,free,true
+USR-0000459,user459@company.com,user_459,Patricia,Taylor,26.0,F,US,Sydney,+1-207-605-6588,2021-05-11,2023-04-25,pro,false
+USR-0000460,user460@gmail.com,user_460,Michael,Wilson,36.0,M,IN,Paris,+1-942-307-2465,2021-05-12,2023-04-26,basic,true
+USR-0000461,user461@yahoo.com,user_461,Jennifer,Williams,57.0,F,CA,Toronto,+1-998-594-1241,2021-05-12,2023-04-26,free,true
+USR-0000462,user462@hotmail.com,user_462,Mary,Anderson,63.0,M,DE,Mumbai,+1-284-527-6556,2021-05-13,2023-04-26,free,true
+USR-0000463,user463@company.com,user_463,Robert,Moore,22.0,M,FR,Mumbai,+1-394-428-7625,2021-05-14,2023-04-26,free,false
+USR-0000464,user464@gmail.com,user_464,Linda,Miller,22.0,M,JP,São Paulo,+1-973-541-4738,2021-05-15,2023-04-27,free,false
+USR-0000465,user465@yahoo.com,user_465,Jennifer,Taylor,55.0,F,IN,São Paulo,+1-488-222-1474,2021-05-15,2023-04-27,free,true
+USR-0000466,user466@hotmail.com,user_466,Mary,Taylor,42.0,M,JP,New York,+1-866-133-8386,2021-05-16,2023-04-27,basic,true
+USR-0000467,user467@company.com,user_467,Mary,Taylor,63.0,F,JP,Paris,+1-397-724-9563,2021-05-17,2023-04-27,free,true
+USR-0000468,user468@gmail.com,user_468,Patricia,Brown,21.0,prefer_not_to_say,SG,London,+1-798-755-3382,2021-05-18,2023-04-28,free,true
+USR-0000469,user469@yahoo.com,user_469,Patricia,Moore,36.0,F,US,Paris,+1-677-677-4827,2021-05-18,2023-04-28,free,true
+USR-0000470,user470@hotmail.com,user_470,John,Davis,19.0,M,IN,Sydney,+1-230-920-2771,2021-05-19,2023-04-28,free,true
+USR-0000471,user471@company.com,user_471,James,Williams,56.0,NB,GB,Toronto,+1-977-938-1169,2021-05-20,2023-04-28,enterprise,true
+USR-0000472,,user_472,James,Davis,64.0,F,GB,Toronto,+1-790-670-3075,2021-05-21,2023-04-29,free,true
+USR-0000473,user473@yahoo.com,user_473,Robert,Williams,26.0,F,US,Sydney,+1-849-200-3237,2021-05-21,2023-04-29,free,false
+USR-0000474,user474@hotmail.com,user_474,Linda,Williams,35.0,F,AU,Mumbai,+1-958-767-2009,2021-05-22,2023-04-29,basic,true
+USR-0000475,user475@company.com,user_475,Robert,Moore,63.0,F,US,Paris,+1-315-331-1634,2021-05-23,2023-04-29,pro,true
+USR-0000476,user476@gmail.com,user_476,Patricia,Wilson,20.0,F,IN,Sydney,+1-345-614-1067,2021-05-24,2023-04-30,pro,true
+USR-0000477,user477@yahoo.com,user_477,Linda,Miller,69.0,F,SG,Sydney,+1-429-382-9736,2021-05-24,2023-04-30,pro,true
+USR-0000478,user478@hotmail.com,user_478,Jennifer,Brown,65.0,F,JP,Mumbai,+1-978-860-4076,2021-05-25,2023-04-30,pro,true
+USR-0000479,user479@company.com,user_479,Jennifer,Taylor,26.0,M,SG,New York,+1-621-553-8740,2021-05-26,2023-04-30,basic,true
+USR-0000480,user480@gmail.com,user_480,Robert,Moore,25.0,F,US,Sydney,+1-796-915-5959,2021-05-27,2023-05-01,enterprise,true
+USR-0000481,user481@yahoo.com,user_481,Michael,Wilson,55.0,M,FR,Mumbai,+1-934-768-7648,2021-05-27,2023-05-01,free,true
+USR-0000482,user482@hotmail.com,user_482,Robert,Brown,18.0,M,FR,Toronto,+1-728-401-6476,2021-05-28,2023-05-01,pro,true
+USR-0000483,user483@company.com,user_483,Robert,Williams,45.0,M,GB,Mumbai,+1-484-684-3292,2021-05-29,2023-05-01,pro,true
+USR-0000484,user484@gmail.com,user_484,Robert,Williams,21.0,M,SG,São Paulo,+1-838-613-7391,2021-05-30,2023-05-02,pro,true
+USR-0000485,user485@yahoo.com,user_485,Michael,Williams,46.0,M,AU,Toronto,+1-377-811-8222,2021-05-30,2023-05-02,free,true
+USR-0000486,user486@hotmail.com,user_486,Linda,Anderson,36.0,F,SG,Berlin,+1-316-414-7098,2021-05-31,2023-05-02,pro,true
+USR-0000487,user487@company.com,user_487,John,Davis,56.0,M,GB,Toronto,+1-897-762-5244,2021-06-01,2023-05-02,free,true
+USR-0000488,user488@gmail.com,user_488,Jennifer,Moore,65.0,M,FR,Toronto,+1-439-918-8870,2021-06-02,2023-05-03,basic,true
+USR-0000489,user489@yahoo.com,user_489,James,Anderson,44.0,F,GB,Sydney,+1-916-373-4927,2021-06-02,2023-05-03,free,true
+USR-0000490,user490@hotmail.com,user_490,Robert,Anderson,52.0,prefer_not_to_say,SG,Sydney,+1-394-958-8803,2021-06-03,2023-05-03,basic,true
+USR-0000491,user491@company.com,user_491,Linda,Davis,50.0,F,FR,São Paulo,+1-338-322-5967,2021-06-04,2023-05-03,basic,true
+USR-0000492,user492@gmail.com,user_492,Jennifer,Miller,71.0,M,US,Mumbai,+1-531-513-4310,2021-06-05,2023-05-04,free,true
+USR-0000493,user493@yahoo.com,user_493,John,Miller,30.0,M,IN,Berlin,+1-738-907-9254,2021-06-05,2023-05-04,free,true
+USR-0000494,user494@hotmail.com,user_494,Robert,Williams,30.0,M,DE,Mumbai,+1-563-844-7248,2021-06-06,2023-05-04,free,true
+USR-0000495,user495@company.com,user_495,John,Taylor,38.0,M,US,Sydney,+1-357-813-4153,2021-06-07,2023-05-04,basic,true
+USR-0000496,user496@gmail.com,user_496,Patricia,Wilson,57.0,NB,US,São Paulo,+1-701-747-9492,2021-06-08,2023-05-05,basic,true
+USR-0000497,user497@yahoo.com,user_497,Mary,Davis,64.0,F,SG,Sydney,+1-957-821-5553,2021-06-08,2023-05-05,basic,true
+USR-0000498,user498@hotmail.com,user_498,Robert,Wilson,33.0,M,SG,London,+1-519-496-9556,2021-06-09,2023-05-05,free,true
+USR-0000499,user499@company.com,user_499,Mary,Moore,23.0,prefer_not_to_say,CA,São Paulo,+1-363-571-7115,2021-06-10,2023-05-05,pro,true

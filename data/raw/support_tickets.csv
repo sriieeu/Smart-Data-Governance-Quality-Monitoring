@@ -1,0 +1,501 @@
+ticket_id,customer_id,subject,category,priority,status,created_at,resolved_at,agent_id,satisfaction,channel,first_response_hours
+TICK-0000000,CUST-000016,Refund request,shipping,low,in_progress,2023-01-01 00:00:00,2023-01-02 20:00:00,AGENT-39,4.0,chat,16.4
+TICK-0000001,CUST-000056,Password reset,product,high,open,2023-01-01 04:00:00,2023-01-02 10:00:00,AGENT-13,4.0,chat,14.3
+TICK-0000002,CUST-000440,Product defect,billing,medium,in_progress,2023-01-01 08:00:00,2023-01-03 03:00:00,AGENT-36,1.0,portal,18.4
+TICK-0000003,CUST-000340,Feature request,account,medium,resolved,2023-01-01 12:00:00,,AGENT-29,,portal,8.8
+TICK-0000004,CUST-000394,Account locked,account,medium,in_progress,2023-01-01 16:00:00,2023-01-02 12:00:00,AGENT-22,1.0,email,35.9
+TICK-0000005,CUST-000345,Refund request,shipping,medium,open,2023-01-01 20:00:00,2023-01-03 16:00:00,AGENT-43,3.0,phone,22.9
+TICK-0000006,CUST-000398,Refund request,product,medium,resolved,2023-01-02 00:00:00,2023-01-04 20:00:00,AGENT-29,4.0,portal,42.5
+TICK-0000007,CUST-000248,Refund request,shipping,low,closed,2023-01-02 04:00:00,2023-01-03 03:00:00,AGENT-28,3.0,email,42.2
+TICK-0000008,CUST-000404,Billing query,product,medium,closed,2023-01-02 08:00:00,,AGENT-22,,phone,7.6
+TICK-0000009,CUST-000028,Product defect,account,medium,resolved,2023-01-02 12:00:00,2023-01-04 01:00:00,AGENT-49,,chat,10.6
+TICK-0000010,CUST-000291,Account locked,technical,medium,resolved,2023-01-02 16:00:00,2023-01-05 02:00:00,AGENT-24,4.0,phone,19.8
+TICK-0000011,CUST-000377,Shipping delay,product,medium,closed,2023-01-02 20:00:00,2023-01-04 10:00:00,AGENT-20,,phone,5.8
+TICK-0000012,CUST-000496,Password reset,account,medium,resolved,2023-01-03 00:00:00,,AGENT-36,4.0,portal,33.1
+TICK-0000013,CUST-000179,Refund request,billing,low,resolved,2023-01-03 04:00:00,2023-01-03 10:00:00,AGENT-11,2.0,email,35.4
+TICK-0000014,CUST-000089,Login issue,account,high,open,2023-01-03 08:00:00,,AGENT-33,,email,34.7
+TICK-0000015,CUST-000360,Account locked,shipping,medium,in_progress,2023-01-03 12:00:00,2023-01-04 17:00:00,AGENT-32,5.0,chat,22.6
+TICK-0000016,CUST-000036,Refund request,product,medium,in_progress,2023-01-03 16:00:00,2023-01-04 09:00:00,AGENT-19,,portal,40.5
+TICK-0000017,CUST-000388,Product defect,billing,high,in_progress,2023-01-03 20:00:00,2023-01-03 22:00:00,AGENT-40,,phone,29.1
+TICK-0000018,CUST-000352,Password reset,billing,high,closed,2023-01-04 00:00:00,,AGENT-11,3.0,email,47.7
+TICK-0000019,CUST-000345,Product defect,technical,medium,in_progress,2023-01-04 04:00:00,2023-01-05 00:00:00,AGENT-49,,email,39.2
+TICK-0000020,CUST-000146,Login issue,account,medium,resolved,2023-01-04 08:00:00,2023-01-07 02:00:00,AGENT-44,,portal,34.7
+TICK-0000021,CUST-000060,Login issue,product,high,closed,2023-01-04 12:00:00,2023-01-06 20:00:00,AGENT-17,5.0,email,6.0
+TICK-0000022,CUST-000304,Feature request,account,high,resolved,2023-01-04 16:00:00,2023-01-05 17:00:00,AGENT-29,4.0,email,40.0
+TICK-0000023,CUST-000181,Shipping delay,billing,low,in_progress,2023-01-04 20:00:00,2023-01-07 17:00:00,AGENT-17,,chat,14.7
+TICK-0000024,CUST-000195,Shipping delay,product,medium,closed,2023-01-05 00:00:00,2023-01-07 12:00:00,AGENT-34,1.0,phone,20.2
+TICK-0000025,CUST-000093,Product defect,billing,high,in_progress,2023-01-05 04:00:00,2023-01-05 22:00:00,AGENT-24,,chat,22.3
+TICK-0000026,CUST-000166,Account locked,account,high,open,2023-01-05 08:00:00,,AGENT-29,5.0,email,16.0
+TICK-0000027,CUST-000415,Refund request,shipping,low,resolved,2023-01-05 12:00:00,,AGENT-48,4.0,email,5.3
+TICK-0000028,CUST-000446,Feature request,product,medium,in_progress,2023-01-05 16:00:00,2023-01-07 01:00:00,AGENT-34,1.0,chat,9.6
+TICK-0000029,CUST-000174,Feature request,product,medium,closed,2023-01-05 20:00:00,2023-01-06 23:00:00,AGENT-44,,portal,38.6
+TICK-0000030,CUST-000071,Feature request,billing,low,in_progress,2023-01-06 00:00:00,2023-01-08 17:00:00,AGENT-35,5.0,email,31.3
+TICK-0000031,CUST-000016,Product defect,technical,medium,closed,2023-01-06 04:00:00,2023-01-08 03:00:00,AGENT-28,,phone,45.3
+TICK-0000032,CUST-000094,Refund request,technical,medium,open,2023-01-06 08:00:00,2023-01-07 16:00:00,AGENT-10,2.0,email,39.4
+TICK-0000033,CUST-000004,Product defect,account,low,closed,2023-01-06 12:00:00,2023-01-09 02:00:00,AGENT-13,1.0,phone,19.4
+TICK-0000034,CUST-000333,Account locked,billing,medium,open,2023-01-06 16:00:00,2023-01-08 21:00:00,AGENT-31,,email,37.8
+TICK-0000035,CUST-000321,Account locked,technical,high,closed,2023-01-06 20:00:00,2023-01-07 21:00:00,AGENT-30,1.0,email,27.7
+TICK-0000036,CUST-000391,Product defect,product,high,open,2023-01-07 00:00:00,2023-01-08 07:00:00,AGENT-30,,email,13.8
+TICK-0000037,CUST-000166,Password reset,account,high,closed,2023-01-07 04:00:00,2023-01-07 08:00:00,AGENT-43,3.0,phone,46.8
+TICK-0000038,CUST-000416,Product defect,technical,high,closed,2023-01-07 08:00:00,2023-01-07 16:00:00,AGENT-13,,phone,44.6
+TICK-0000039,CUST-000084,Feature request,account,critical,resolved,2023-01-07 12:00:00,2023-01-10 08:00:00,AGENT-36,2.0,email,5.5
+TICK-0000040,CUST-000115,Password reset,account,medium,open,2023-01-07 16:00:00,2023-01-07 20:00:00,AGENT-39,2.0,chat,40.3
+TICK-0000041,CUST-000457,Login issue,product,low,resolved,2023-01-07 20:00:00,2023-01-10 08:00:00,AGENT-35,1.0,chat,3.8
+TICK-0000042,CUST-000441,Shipping delay,product,high,resolved,2023-01-08 00:00:00,2023-01-08 15:00:00,AGENT-19,3.0,email,44.6
+TICK-0000043,CUST-000299,Shipping delay,product,medium,resolved,2023-01-08 04:00:00,2023-01-09 19:00:00,AGENT-26,5.0,email,30.0
+TICK-0000044,CUST-000304,Password reset,product,medium,resolved,2023-01-08 08:00:00,2023-01-10 12:00:00,AGENT-12,4.0,portal,8.1
+TICK-0000045,CUST-000350,Account locked,account,critical,closed,2023-01-08 12:00:00,,AGENT-17,1.0,phone,39.2
+TICK-0000046,CUST-000411,Login issue,account,medium,closed,2023-01-08 16:00:00,2023-01-09 19:00:00,AGENT-42,2.0,phone,24.8
+TICK-0000047,CUST-000115,Password reset,shipping,high,resolved,2023-01-08 20:00:00,2023-01-11 14:00:00,AGENT-34,,chat,3.0
+TICK-0000048,CUST-000034,Billing query,account,medium,open,2023-01-09 00:00:00,2023-01-10 09:00:00,AGENT-44,2.0,chat,38.3
+TICK-0000049,CUST-000092,Product defect,product,low,open,2023-01-09 04:00:00,2023-01-11 18:00:00,AGENT-37,4.0,portal,37.9
+TICK-0000050,CUST-000178,Billing query,technical,high,resolved,2023-01-09 08:00:00,2023-01-09 16:00:00,AGENT-19,,chat,23.2
+TICK-0000051,CUST-000117,Billing query,technical,high,closed,2023-01-09 12:00:00,2023-01-10 08:00:00,AGENT-42,,email,35.1
+TICK-0000052,CUST-000262,Refund request,shipping,medium,resolved,2023-01-09 16:00:00,2023-01-11 13:00:00,AGENT-37,5.0,chat,2.0
+TICK-0000053,CUST-000069,Login issue,billing,medium,open,2023-01-09 20:00:00,2023-01-11 23:00:00,AGENT-17,3.0,phone,15.3
+TICK-0000054,CUST-000288,Login issue,shipping,low,in_progress,2023-01-10 00:00:00,2023-01-12 10:00:00,AGENT-10,1.0,phone,32.3
+TICK-0000055,CUST-000355,Password reset,billing,low,in_progress,2023-01-10 04:00:00,,AGENT-40,2.0,phone,11.1
+TICK-0000056,CUST-000049,Product defect,account,low,closed,2023-01-10 08:00:00,2023-01-12 05:00:00,AGENT-38,4.0,portal,21.7
+TICK-0000057,CUST-000143,Account locked,product,low,resolved,2023-01-10 12:00:00,2023-01-12 09:00:00,AGENT-13,1.0,email,44.7
+TICK-0000058,CUST-000269,Feature request,billing,medium,open,2023-01-10 16:00:00,2023-01-13 14:00:00,AGENT-28,,phone,39.7
+TICK-0000059,CUST-000033,Login issue,account,medium,in_progress,2023-01-10 20:00:00,2023-01-11 05:00:00,AGENT-46,,portal,26.8
+TICK-0000060,CUST-000332,Password reset,technical,low,open,2023-01-11 00:00:00,2023-01-11 02:00:00,AGENT-41,,portal,27.7
+TICK-0000061,CUST-000376,Login issue,account,medium,resolved,2023-01-11 04:00:00,2023-01-12 21:00:00,AGENT-42,3.0,portal,42.6
+TICK-0000062,CUST-000180,Password reset,account,low,resolved,2023-01-11 08:00:00,,AGENT-25,,phone,41.4
+TICK-0000063,CUST-000004,Product defect,account,low,open,2023-01-11 12:00:00,2023-01-12 02:00:00,AGENT-14,4.0,email,4.3
+TICK-0000064,CUST-000250,Billing query,shipping,critical,in_progress,2023-01-11 16:00:00,2023-01-13 04:00:00,AGENT-24,1.0,portal,22.4
+TICK-0000065,CUST-000434,Billing query,technical,critical,closed,2023-01-11 20:00:00,2023-01-12 16:00:00,AGENT-37,,email,9.2
+TICK-0000066,CUST-000146,Product defect,product,high,closed,2023-01-12 00:00:00,2023-01-12 19:00:00,AGENT-43,,phone,4.1
+TICK-0000067,CUST-000424,Account locked,technical,low,resolved,2023-01-12 04:00:00,2023-01-13 05:00:00,AGENT-35,,chat,14.1
+TICK-0000068,CUST-000435,Account locked,shipping,medium,resolved,2023-01-12 08:00:00,,AGENT-11,3.0,phone,29.3
+TICK-0000069,CUST-000140,Account locked,technical,low,closed,2023-01-12 12:00:00,2023-01-13 14:00:00,AGENT-33,3.0,portal,38.2
+TICK-0000070,CUST-000299,Login issue,product,medium,resolved,2023-01-12 16:00:00,,AGENT-17,1.0,phone,43.8
+TICK-0000071,CUST-000021,Feature request,shipping,high,closed,2023-01-12 20:00:00,2023-01-13 08:00:00,AGENT-34,,email,20.4
+TICK-0000072,CUST-000275,Shipping delay,shipping,medium,open,2023-01-13 00:00:00,2023-01-13 08:00:00,AGENT-26,,portal,20.3
+TICK-0000073,CUST-000439,Login issue,billing,high,in_progress,2023-01-13 04:00:00,2023-01-13 16:00:00,AGENT-31,2.0,portal,7.4
+TICK-0000074,CUST-000472,Feature request,account,medium,open,2023-01-13 08:00:00,2023-01-16 02:00:00,AGENT-33,,email,9.4
+TICK-0000075,CUST-000099,Password reset,billing,medium,closed,2023-01-13 12:00:00,2023-01-14 08:00:00,AGENT-35,1.0,phone,5.0
+TICK-0000076,CUST-000332,Login issue,account,low,resolved,2023-01-13 16:00:00,2023-01-13 19:00:00,AGENT-10,3.0,email,46.8
+TICK-0000077,CUST-000033,Shipping delay,product,high,in_progress,2023-01-13 20:00:00,2023-01-14 19:00:00,AGENT-48,3.0,phone,6.2
+TICK-0000078,CUST-000139,Feature request,billing,medium,closed,2023-01-14 00:00:00,2023-01-16 01:00:00,AGENT-33,1.0,email,36.3
+TICK-0000079,CUST-000417,Account locked,account,low,closed,2023-01-14 04:00:00,2023-01-15 06:00:00,AGENT-30,3.0,chat,15.3
+TICK-0000080,CUST-000320,Billing query,billing,low,in_progress,2023-01-14 08:00:00,,AGENT-25,1.0,chat,25.8
+TICK-0000081,CUST-000196,Account locked,product,critical,resolved,2023-01-14 12:00:00,2023-01-14 19:00:00,AGENT-14,1.0,portal,41.9
+TICK-0000082,CUST-000480,Billing query,product,low,resolved,2023-01-14 16:00:00,2023-01-16 16:00:00,AGENT-35,,portal,44.9
+TICK-0000083,CUST-000379,Product defect,billing,critical,open,2023-01-14 20:00:00,2023-01-15 12:00:00,AGENT-24,5.0,portal,11.6
+TICK-0000084,CUST-000011,Billing query,billing,medium,resolved,2023-01-15 00:00:00,2023-01-15 07:00:00,AGENT-46,3.0,phone,43.7
+TICK-0000085,CUST-000039,Account locked,technical,medium,in_progress,2023-01-15 04:00:00,,AGENT-36,5.0,chat,12.2
+TICK-0000086,CUST-000313,Feature request,account,medium,closed,2023-01-15 08:00:00,2023-01-18 03:00:00,AGENT-27,,email,38.6
+TICK-0000087,CUST-000438,Login issue,product,high,closed,2023-01-15 12:00:00,2023-01-17 08:00:00,AGENT-11,3.0,phone,0.8
+TICK-0000088,CUST-000078,Refund request,technical,medium,closed,2023-01-15 16:00:00,2023-01-18 11:00:00,AGENT-32,,chat,25.7
+TICK-0000089,CUST-000269,Billing query,product,low,closed,2023-01-15 20:00:00,2023-01-17 01:00:00,AGENT-43,3.0,chat,34.9
+TICK-0000090,CUST-000408,Password reset,account,low,in_progress,2023-01-16 00:00:00,2023-01-17 13:00:00,AGENT-28,5.0,email,40.3
+TICK-0000091,CUST-000431,Billing query,shipping,high,in_progress,2023-01-16 04:00:00,2023-01-17 06:00:00,AGENT-36,1.0,email,40.4
+TICK-0000092,CUST-000320,Product defect,billing,medium,resolved,2023-01-16 08:00:00,2023-01-17 21:00:00,AGENT-14,,portal,14.4
+TICK-0000093,CUST-000499,Billing query,account,medium,in_progress,2023-01-16 12:00:00,2023-01-19 04:00:00,AGENT-26,1.0,chat,41.0
+TICK-0000094,CUST-000468,Password reset,shipping,low,resolved,2023-01-16 16:00:00,2023-01-18 14:00:00,AGENT-41,,portal,15.6
+TICK-0000095,CUST-000417,Login issue,product,medium,in_progress,2023-01-16 20:00:00,2023-01-16 22:00:00,AGENT-26,1.0,phone,11.3
+TICK-0000096,CUST-000334,Refund request,shipping,high,in_progress,2023-01-17 00:00:00,2023-01-18 18:00:00,AGENT-45,3.0,email,0.2
+TICK-0000097,CUST-000492,Login issue,technical,low,resolved,2023-01-17 04:00:00,2023-01-18 07:00:00,AGENT-26,,email,11.4
+TICK-0000098,CUST-000008,Refund request,billing,critical,resolved,2023-01-17 08:00:00,,AGENT-42,,chat,5.8
+TICK-0000099,CUST-000044,Password reset,billing,high,resolved,2023-01-17 12:00:00,2023-01-19 04:00:00,AGENT-35,3.0,email,32.4
+TICK-0000100,CUST-000255,Password reset,shipping,medium,resolved,2023-01-17 16:00:00,2023-01-19 10:00:00,AGENT-47,3.0,portal,7.0
+TICK-0000101,CUST-000335,Login issue,billing,high,resolved,2023-01-17 20:00:00,2023-01-20 10:00:00,AGENT-31,2.0,portal,28.1
+TICK-0000102,CUST-000451,Password reset,product,medium,closed,2023-01-18 00:00:00,2023-01-20 13:00:00,AGENT-28,,phone,6.2
+TICK-0000103,CUST-000339,Product defect,billing,medium,resolved,2023-01-18 04:00:00,2023-01-21 01:00:00,AGENT-24,5.0,chat,33.8
+TICK-0000104,CUST-000116,Account locked,account,low,resolved,2023-01-18 08:00:00,2023-01-20 04:00:00,AGENT-36,5.0,portal,13.8
+TICK-0000105,CUST-000454,Feature request,billing,high,resolved,2023-01-18 12:00:00,2023-01-19 09:00:00,AGENT-49,5.0,phone,14.9
+TICK-0000106,CUST-000041,Login issue,product,medium,resolved,2023-01-18 16:00:00,,AGENT-16,2.0,chat,30.8
+TICK-0000107,CUST-000047,Product defect,product,high,open,2023-01-18 20:00:00,2023-01-21 09:00:00,AGENT-47,,portal,45.1
+TICK-0000108,CUST-000359,Password reset,account,low,resolved,2023-01-19 00:00:00,2023-01-21 17:00:00,AGENT-49,,email,47.6
+TICK-0000109,CUST-000481,Billing query,account,medium,in_progress,2023-01-19 04:00:00,2023-01-19 07:00:00,AGENT-40,5.0,phone,17.2
+TICK-0000110,CUST-000251,Product defect,account,critical,closed,2023-01-19 08:00:00,2023-01-20 00:00:00,AGENT-33,4.0,phone,45.4
+TICK-0000111,CUST-000067,Refund request,shipping,medium,closed,2023-01-19 12:00:00,2023-01-21 13:00:00,AGENT-44,3.0,portal,29.4
+TICK-0000112,CUST-000023,Feature request,shipping,low,resolved,2023-01-19 16:00:00,2023-01-20 04:00:00,AGENT-20,4.0,email,43.5
+TICK-0000113,CUST-000489,Product defect,technical,high,closed,2023-01-19 20:00:00,2023-01-20 00:00:00,AGENT-35,1.0,chat,1.4
+TICK-0000114,CUST-000139,Shipping delay,product,low,resolved,2023-01-20 00:00:00,2023-01-22 23:00:00,AGENT-42,,portal,1.7
+TICK-0000115,CUST-000319,Password reset,product,high,open,2023-01-20 04:00:00,2023-01-20 11:00:00,AGENT-42,3.0,chat,3.7
+TICK-0000116,CUST-000163,Login issue,shipping,high,resolved,2023-01-20 08:00:00,2023-01-21 00:00:00,AGENT-33,,portal,38.6
+TICK-0000117,CUST-000107,Product defect,product,low,closed,2023-01-20 12:00:00,,AGENT-25,3.0,portal,6.7
+TICK-0000118,CUST-000333,Product defect,shipping,medium,open,2023-01-20 16:00:00,,AGENT-47,1.0,chat,8.6
+TICK-0000119,CUST-000369,Shipping delay,technical,critical,in_progress,2023-01-20 20:00:00,2023-01-23 05:00:00,AGENT-36,,chat,28.1
+TICK-0000120,CUST-000235,Refund request,product,critical,resolved,2023-01-21 00:00:00,2023-01-22 16:00:00,AGENT-40,,chat,46.0
+TICK-0000121,CUST-000253,Billing query,shipping,medium,resolved,2023-01-21 04:00:00,2023-01-22 19:00:00,AGENT-34,3.0,email,27.3
+TICK-0000122,CUST-000243,Shipping delay,product,medium,resolved,2023-01-21 08:00:00,,AGENT-45,2.0,portal,35.2
+TICK-0000123,CUST-000295,Feature request,billing,medium,resolved,2023-01-21 12:00:00,2023-01-21 14:00:00,AGENT-29,,email,9.1
+TICK-0000124,CUST-000403,Password reset,shipping,low,closed,2023-01-21 16:00:00,2023-01-21 21:00:00,AGENT-31,3.0,portal,43.9
+TICK-0000125,CUST-000355,Feature request,account,medium,open,2023-01-21 20:00:00,2023-01-22 10:00:00,AGENT-42,4.0,portal,2.8
+TICK-0000126,CUST-000139,Account locked,technical,medium,resolved,2023-01-22 00:00:00,,AGENT-30,1.0,chat,13.6
+TICK-0000127,CUST-000123,Refund request,product,medium,closed,2023-01-22 04:00:00,,AGENT-19,4.0,email,21.8
+TICK-0000128,CUST-000336,Billing query,account,medium,in_progress,2023-01-22 08:00:00,2023-01-22 13:00:00,AGENT-40,5.0,portal,10.9
+TICK-0000129,CUST-000322,Billing query,technical,high,resolved,2023-01-22 12:00:00,2023-01-23 18:00:00,AGENT-25,,chat,31.9
+TICK-0000130,CUST-000183,Refund request,account,low,open,2023-01-22 16:00:00,2023-01-23 23:00:00,AGENT-14,1.0,email,32.6
+TICK-0000131,CUST-000419,Shipping delay,product,low,in_progress,2023-01-22 20:00:00,2023-01-23 10:00:00,AGENT-24,2.0,chat,10.2
+TICK-0000132,CUST-000209,Password reset,billing,low,resolved,2023-01-23 00:00:00,,AGENT-12,5.0,portal,0.5
+TICK-0000133,CUST-000167,Login issue,account,low,in_progress,2023-01-23 04:00:00,2023-01-23 19:00:00,AGENT-45,5.0,phone,3.7
+TICK-0000134,CUST-000277,Feature request,account,critical,resolved,2023-01-23 08:00:00,2023-01-23 18:00:00,AGENT-49,1.0,phone,0.1
+TICK-0000135,CUST-000096,Billing query,technical,medium,resolved,2023-01-23 12:00:00,2023-01-25 02:00:00,AGENT-20,1.0,phone,43.5
+TICK-0000136,CUST-000347,Shipping delay,shipping,low,closed,2023-01-23 16:00:00,2023-01-26 11:00:00,AGENT-46,2.0,email,29.9
+TICK-0000137,CUST-000448,Product defect,shipping,critical,closed,2023-01-23 20:00:00,,AGENT-38,2.0,portal,6.7
+TICK-0000138,CUST-000472,Feature request,billing,low,in_progress,2023-01-24 00:00:00,2023-01-25 22:00:00,AGENT-48,1.0,phone,4.5
+TICK-0000139,CUST-000223,Account locked,billing,medium,open,2023-01-24 04:00:00,2023-01-26 04:00:00,AGENT-16,5.0,phone,39.3
+TICK-0000140,CUST-000134,Login issue,account,high,closed,2023-01-24 08:00:00,2023-01-26 20:00:00,AGENT-12,2.0,phone,38.9
+TICK-0000141,CUST-000239,Password reset,account,high,in_progress,2023-01-24 12:00:00,2023-01-26 23:00:00,AGENT-46,,chat,44.5
+TICK-0000142,CUST-000051,Account locked,billing,low,in_progress,2023-01-24 16:00:00,2023-01-27 09:00:00,AGENT-20,4.0,phone,7.7
+TICK-0000143,CUST-000333,Login issue,technical,medium,in_progress,2023-01-24 20:00:00,,AGENT-33,5.0,portal,25.1
+TICK-0000144,CUST-000214,Password reset,account,medium,resolved,2023-01-25 00:00:00,2023-01-27 19:00:00,AGENT-46,4.0,chat,5.9
+TICK-0000145,CUST-000060,Login issue,technical,medium,in_progress,2023-01-25 04:00:00,2023-01-28 01:00:00,AGENT-23,1.0,email,38.2
+TICK-0000146,CUST-000273,Shipping delay,technical,low,in_progress,2023-01-25 08:00:00,2023-01-27 14:00:00,AGENT-13,2.0,phone,19.9
+TICK-0000147,CUST-000359,Billing query,billing,high,resolved,2023-01-25 12:00:00,2023-01-27 00:00:00,AGENT-41,,portal,33.4
+TICK-0000148,CUST-000114,Login issue,product,medium,closed,2023-01-25 16:00:00,2023-01-26 14:00:00,AGENT-28,4.0,portal,1.6
+TICK-0000149,CUST-000202,Refund request,account,medium,in_progress,2023-01-25 20:00:00,2023-01-27 13:00:00,AGENT-10,5.0,portal,37.4
+TICK-0000150,CUST-000445,Account locked,billing,critical,resolved,2023-01-26 00:00:00,2023-01-28 11:00:00,AGENT-23,5.0,chat,11.1
+TICK-0000151,CUST-000354,Shipping delay,shipping,high,resolved,2023-01-26 04:00:00,2023-01-28 10:00:00,AGENT-31,3.0,portal,40.5
+TICK-0000152,CUST-000399,Product defect,product,high,resolved,2023-01-26 08:00:00,2023-01-27 21:00:00,AGENT-45,2.0,email,9.0
+TICK-0000153,CUST-000224,Refund request,account,low,in_progress,2023-01-26 12:00:00,2023-01-26 18:00:00,AGENT-19,2.0,phone,37.9
+TICK-0000154,CUST-000246,Billing query,account,low,open,2023-01-26 16:00:00,2023-01-27 12:00:00,AGENT-30,,portal,6.5
+TICK-0000155,CUST-000248,Login issue,technical,medium,in_progress,2023-01-26 20:00:00,,AGENT-17,2.0,portal,31.9
+TICK-0000156,CUST-000225,Billing query,billing,low,closed,2023-01-27 00:00:00,,AGENT-21,3.0,phone,37.4
+TICK-0000157,CUST-000072,Login issue,technical,medium,open,2023-01-27 04:00:00,2023-01-28 13:00:00,AGENT-20,5.0,phone,18.6
+TICK-0000158,CUST-000020,Password reset,product,medium,closed,2023-01-27 08:00:00,2023-01-28 06:00:00,AGENT-30,4.0,chat,11.8
+TICK-0000159,CUST-000416,Refund request,billing,medium,open,2023-01-27 12:00:00,2023-01-27 18:00:00,AGENT-36,2.0,portal,16.6
+TICK-0000160,CUST-000268,Billing query,shipping,low,in_progress,2023-01-27 16:00:00,,AGENT-14,,portal,14.3
+TICK-0000161,CUST-000266,Refund request,shipping,high,resolved,2023-01-27 20:00:00,2023-01-29 04:00:00,AGENT-13,2.0,email,30.4
+TICK-0000162,CUST-000297,Shipping delay,shipping,medium,closed,2023-01-28 00:00:00,2023-01-30 08:00:00,AGENT-39,1.0,email,2.2
+TICK-0000163,CUST-000206,Login issue,technical,medium,open,2023-01-28 04:00:00,2023-01-28 12:00:00,AGENT-21,,portal,2.1
+TICK-0000164,CUST-000445,Feature request,product,medium,open,2023-01-28 08:00:00,2023-01-29 19:00:00,AGENT-34,,portal,13.9
+TICK-0000165,CUST-000234,Feature request,billing,low,resolved,2023-01-28 12:00:00,2023-01-31 01:00:00,AGENT-13,4.0,email,13.4
+TICK-0000166,CUST-000250,Password reset,product,medium,in_progress,2023-01-28 16:00:00,,AGENT-34,2.0,chat,8.6
+TICK-0000167,CUST-000265,Password reset,account,low,resolved,2023-01-28 20:00:00,2023-01-29 19:00:00,AGENT-46,,phone,34.4
+TICK-0000168,CUST-000078,Refund request,account,medium,closed,2023-01-29 00:00:00,2023-01-29 07:00:00,AGENT-27,,email,1.2
+TICK-0000169,CUST-000086,Password reset,account,low,open,2023-01-29 04:00:00,2023-01-30 21:00:00,AGENT-33,1.0,phone,44.4
+TICK-0000170,CUST-000090,Refund request,product,low,closed,2023-01-29 08:00:00,,AGENT-21,2.0,portal,36.4
+TICK-0000171,CUST-000127,Billing query,billing,low,open,2023-01-29 12:00:00,2023-01-30 23:00:00,AGENT-21,4.0,email,19.4
+TICK-0000172,CUST-000079,Billing query,billing,low,closed,2023-01-29 16:00:00,,AGENT-12,5.0,portal,41.2
+TICK-0000173,CUST-000112,Password reset,account,high,closed,2023-01-29 20:00:00,2023-02-01 02:00:00,AGENT-29,2.0,email,29.7
+TICK-0000174,CUST-000469,Shipping delay,billing,high,resolved,2023-01-30 00:00:00,2023-01-31 08:00:00,AGENT-47,3.0,email,27.4
+TICK-0000175,CUST-000180,Account locked,product,low,closed,2023-01-30 04:00:00,2023-01-31 09:00:00,AGENT-14,5.0,phone,15.1
+TICK-0000176,CUST-000396,Billing query,technical,low,closed,2023-01-30 08:00:00,2023-02-01 15:00:00,AGENT-26,4.0,portal,31.9
+TICK-0000177,CUST-000196,Shipping delay,product,high,open,2023-01-30 12:00:00,2023-01-31 09:00:00,AGENT-43,,portal,6.8
+TICK-0000178,CUST-000412,Login issue,billing,low,open,2023-01-30 16:00:00,2023-02-02 05:00:00,AGENT-29,5.0,portal,25.2
+TICK-0000179,CUST-000376,Billing query,technical,medium,open,2023-01-30 20:00:00,2023-01-31 16:00:00,AGENT-40,2.0,portal,5.7
+TICK-0000180,CUST-000420,Login issue,account,low,resolved,2023-01-31 00:00:00,2023-02-01 13:00:00,AGENT-25,,portal,21.4
+TICK-0000181,CUST-000144,Billing query,billing,medium,resolved,2023-01-31 04:00:00,,AGENT-34,5.0,chat,29.6
+TICK-0000182,CUST-000047,Refund request,billing,critical,resolved,2023-01-31 08:00:00,2023-02-02 05:00:00,AGENT-49,5.0,email,7.5
+TICK-0000183,CUST-000154,Login issue,shipping,low,resolved,2023-01-31 12:00:00,2023-02-01 19:00:00,AGENT-33,4.0,portal,10.7
+TICK-0000184,CUST-000351,Billing query,shipping,critical,resolved,2023-01-31 16:00:00,2023-02-01 09:00:00,AGENT-41,,email,39.1
+TICK-0000185,CUST-000327,Account locked,technical,high,open,2023-01-31 20:00:00,2023-02-03 01:00:00,AGENT-37,,phone,12.3
+TICK-0000186,CUST-000352,Billing query,technical,critical,in_progress,2023-02-01 00:00:00,2023-02-03 19:00:00,AGENT-13,4.0,portal,4.7
+TICK-0000187,CUST-000496,Refund request,shipping,high,closed,2023-02-01 04:00:00,,AGENT-16,2.0,email,15.9
+TICK-0000188,CUST-000112,Password reset,billing,high,in_progress,2023-02-01 08:00:00,2023-02-03 01:00:00,AGENT-34,5.0,portal,44.9
+TICK-0000189,CUST-000222,Password reset,shipping,medium,in_progress,2023-02-01 12:00:00,2023-02-03 16:00:00,AGENT-23,,chat,33.3
+TICK-0000190,CUST-000245,Login issue,account,high,in_progress,2023-02-01 16:00:00,2023-02-03 20:00:00,AGENT-29,5.0,email,27.7
+TICK-0000191,CUST-000074,Billing query,account,low,closed,2023-02-01 20:00:00,,AGENT-29,3.0,chat,40.4
+TICK-0000192,CUST-000331,Account locked,technical,medium,in_progress,2023-02-02 00:00:00,2023-02-02 09:00:00,AGENT-41,,chat,31.7
+TICK-0000193,CUST-000024,Product defect,product,medium,resolved,2023-02-02 04:00:00,2023-02-03 17:00:00,AGENT-49,1.0,chat,39.0
+TICK-0000194,CUST-000448,Shipping delay,account,low,open,2023-02-02 08:00:00,,AGENT-49,,email,31.6
+TICK-0000195,CUST-000044,Shipping delay,technical,low,open,2023-02-02 12:00:00,2023-02-03 09:00:00,AGENT-13,,email,41.5
+TICK-0000196,CUST-000055,Refund request,account,low,resolved,2023-02-02 16:00:00,,AGENT-39,3.0,chat,30.0
+TICK-0000197,CUST-000086,Shipping delay,product,medium,resolved,2023-02-02 20:00:00,2023-02-04 10:00:00,AGENT-39,,email,12.8
+TICK-0000198,CUST-000446,Login issue,shipping,low,resolved,2023-02-03 00:00:00,,AGENT-44,5.0,phone,2.1
+TICK-0000199,CUST-000430,Login issue,product,low,in_progress,2023-02-03 04:00:00,,AGENT-27,5.0,portal,5.1
+TICK-0000200,CUST-000461,Login issue,product,low,closed,2023-02-03 08:00:00,2023-02-05 09:00:00,AGENT-30,3.0,email,24.6
+TICK-0000201,CUST-000416,Product defect,product,medium,resolved,2023-02-03 12:00:00,,AGENT-28,,email,46.6
+TICK-0000202,CUST-000461,Password reset,product,low,closed,2023-02-03 16:00:00,,AGENT-24,,phone,36.5
+TICK-0000203,CUST-000235,Feature request,technical,low,in_progress,2023-02-03 20:00:00,2023-02-03 21:00:00,AGENT-19,4.0,email,37.2
+TICK-0000204,CUST-000002,Shipping delay,technical,medium,resolved,2023-02-04 00:00:00,,AGENT-35,5.0,phone,31.9
+TICK-0000205,CUST-000219,Login issue,account,medium,in_progress,2023-02-04 04:00:00,,AGENT-10,5.0,chat,43.4
+TICK-0000206,CUST-000110,Login issue,account,low,closed,2023-02-04 08:00:00,2023-02-06 22:00:00,AGENT-39,5.0,chat,35.3
+TICK-0000207,CUST-000122,Password reset,shipping,critical,resolved,2023-02-04 12:00:00,2023-02-06 10:00:00,AGENT-43,1.0,phone,12.5
+TICK-0000208,CUST-000345,Product defect,billing,medium,resolved,2023-02-04 16:00:00,2023-02-05 08:00:00,AGENT-19,3.0,portal,24.0
+TICK-0000209,CUST-000083,Feature request,product,low,open,2023-02-04 20:00:00,2023-02-07 08:00:00,AGENT-18,1.0,email,19.5
+TICK-0000210,CUST-000160,Refund request,shipping,medium,in_progress,2023-02-05 00:00:00,2023-02-06 16:00:00,AGENT-30,4.0,email,8.0
+TICK-0000211,CUST-000196,Feature request,account,high,open,2023-02-05 04:00:00,2023-02-05 08:00:00,AGENT-43,2.0,phone,10.8
+TICK-0000212,CUST-000030,Billing query,account,medium,closed,2023-02-05 08:00:00,2023-02-05 19:00:00,AGENT-14,5.0,email,13.8
+TICK-0000213,CUST-000350,Password reset,product,low,in_progress,2023-02-05 12:00:00,2023-02-07 22:00:00,AGENT-27,1.0,chat,8.4
+TICK-0000214,CUST-000381,Refund request,account,medium,open,2023-02-05 16:00:00,2023-02-06 13:00:00,AGENT-18,2.0,chat,10.5
+TICK-0000215,CUST-000279,Shipping delay,account,medium,in_progress,2023-02-05 20:00:00,2023-02-07 10:00:00,AGENT-44,4.0,chat,44.0
+TICK-0000216,CUST-000014,Refund request,product,medium,open,2023-02-06 00:00:00,2023-02-08 16:00:00,AGENT-45,,phone,16.5
+TICK-0000217,CUST-000393,Product defect,technical,critical,closed,2023-02-06 04:00:00,2023-02-07 01:00:00,AGENT-13,3.0,email,39.7
+TICK-0000218,CUST-000223,Refund request,account,critical,in_progress,2023-02-06 08:00:00,,AGENT-15,5.0,chat,3.2
+TICK-0000219,CUST-000133,Password reset,shipping,medium,closed,2023-02-06 12:00:00,2023-02-06 18:00:00,AGENT-16,1.0,email,47.1
+TICK-0000220,CUST-000473,Password reset,account,low,resolved,2023-02-06 16:00:00,2023-02-09 10:00:00,AGENT-42,1.0,portal,36.7
+TICK-0000221,CUST-000429,Feature request,billing,medium,resolved,2023-02-06 20:00:00,2023-02-08 15:00:00,AGENT-46,,portal,43.5
+TICK-0000222,CUST-000220,Shipping delay,shipping,critical,resolved,2023-02-07 00:00:00,2023-02-08 00:00:00,AGENT-24,1.0,chat,25.3
+TICK-0000223,CUST-000221,Password reset,billing,high,resolved,2023-02-07 04:00:00,2023-02-07 10:00:00,AGENT-16,1.0,email,30.5
+TICK-0000224,CUST-000455,Feature request,technical,low,resolved,2023-02-07 08:00:00,,AGENT-36,,chat,17.4
+TICK-0000225,CUST-000095,Login issue,shipping,low,open,2023-02-07 12:00:00,2023-02-07 15:00:00,AGENT-45,,portal,20.8
+TICK-0000226,CUST-000204,Shipping delay,technical,low,closed,2023-02-07 16:00:00,2023-02-07 23:00:00,AGENT-46,3.0,portal,36.1
+TICK-0000227,CUST-000285,Account locked,technical,high,in_progress,2023-02-07 20:00:00,2023-02-09 15:00:00,AGENT-27,,phone,2.5
+TICK-0000228,CUST-000173,Shipping delay,shipping,medium,in_progress,2023-02-08 00:00:00,2023-02-09 22:00:00,AGENT-41,5.0,portal,1.9
+TICK-0000229,CUST-000157,Login issue,product,medium,resolved,2023-02-08 04:00:00,2023-02-09 21:00:00,AGENT-48,1.0,email,42.0
+TICK-0000230,CUST-000053,Account locked,account,medium,resolved,2023-02-08 08:00:00,2023-02-11 01:00:00,AGENT-43,1.0,phone,5.4
+TICK-0000231,CUST-000133,Shipping delay,technical,low,in_progress,2023-02-08 12:00:00,2019-01-01 00:00:00,AGENT-28,,portal,34.6
+TICK-0000232,CUST-000179,Refund request,technical,high,in_progress,2023-02-08 16:00:00,2023-02-10 08:00:00,AGENT-20,5.0,email,9.7
+TICK-0000233,CUST-000418,Login issue,shipping,medium,open,2023-02-08 20:00:00,2023-02-09 18:00:00,AGENT-24,3.0,chat,17.6
+TICK-0000234,CUST-000168,Login issue,shipping,low,resolved,2023-02-09 00:00:00,2023-02-10 02:00:00,AGENT-24,,chat,14.2
+TICK-0000235,CUST-000080,Refund request,technical,medium,open,2023-02-09 04:00:00,2023-02-09 15:00:00,AGENT-49,,email,23.6
+TICK-0000236,CUST-000423,Feature request,billing,medium,closed,2023-02-09 08:00:00,2023-02-11 17:00:00,AGENT-39,3.0,email,39.7
+TICK-0000237,CUST-000175,Account locked,technical,medium,in_progress,2023-02-09 12:00:00,2023-02-11 14:00:00,AGENT-44,5.0,portal,42.0
+TICK-0000238,CUST-000459,Feature request,shipping,high,closed,2023-02-09 16:00:00,2023-02-11 19:00:00,AGENT-41,5.0,phone,10.7
+TICK-0000239,CUST-000054,Password reset,account,low,resolved,2023-02-09 20:00:00,2023-02-10 07:00:00,AGENT-29,2.0,email,16.3
+TICK-0000240,CUST-000010,Product defect,billing,low,closed,2023-02-10 00:00:00,2023-02-10 09:00:00,AGENT-41,5.0,phone,40.2
+TICK-0000241,CUST-000460,Login issue,shipping,low,closed,2023-02-10 04:00:00,,AGENT-35,,phone,4.4
+TICK-0000242,CUST-000049,Refund request,billing,medium,in_progress,2023-02-10 08:00:00,2019-01-01 00:00:00,AGENT-39,,chat,5.7
+TICK-0000243,CUST-000004,Refund request,product,critical,resolved,2023-02-10 12:00:00,2023-02-10 15:00:00,AGENT-22,1.0,chat,23.1
+TICK-0000244,CUST-000321,Password reset,technical,medium,open,2023-02-10 16:00:00,2023-02-12 16:00:00,AGENT-19,2.0,phone,37.9
+TICK-0000245,CUST-000158,Refund request,shipping,high,open,2023-02-10 20:00:00,2023-02-13 18:00:00,AGENT-17,,portal,16.2
+TICK-0000246,CUST-000242,Feature request,billing,medium,in_progress,2023-02-11 00:00:00,2023-02-13 06:00:00,AGENT-21,,portal,3.4
+TICK-0000247,CUST-000204,Password reset,shipping,critical,resolved,2023-02-11 04:00:00,2023-02-12 00:00:00,AGENT-49,3.0,chat,46.5
+TICK-0000248,CUST-000148,Refund request,shipping,medium,closed,2023-02-11 08:00:00,2023-02-12 07:00:00,AGENT-47,5.0,email,45.1
+TICK-0000249,CUST-000240,Refund request,account,low,in_progress,2023-02-11 12:00:00,2023-02-13 18:00:00,AGENT-15,,email,31.3
+TICK-0000250,CUST-000129,Login issue,product,high,resolved,2023-02-11 16:00:00,2023-02-12 21:00:00,AGENT-32,1.0,email,32.8
+TICK-0000251,CUST-000112,Password reset,shipping,high,in_progress,2023-02-11 20:00:00,2023-02-14 01:00:00,AGENT-47,4.0,email,44.8
+TICK-0000252,CUST-000112,Account locked,billing,medium,open,2023-02-12 00:00:00,,AGENT-40,,portal,30.9
+TICK-0000253,CUST-000059,Feature request,shipping,high,open,2023-02-12 04:00:00,,AGENT-34,2.0,phone,37.9
+TICK-0000254,CUST-000262,Login issue,shipping,medium,resolved,2023-02-12 08:00:00,,AGENT-33,1.0,email,22.3
+TICK-0000255,CUST-000274,Billing query,product,medium,resolved,2023-02-12 12:00:00,2023-02-13 23:00:00,AGENT-23,,portal,11.0
+TICK-0000256,CUST-000008,Account locked,shipping,low,in_progress,2023-02-12 16:00:00,2023-02-14 05:00:00,AGENT-46,4.0,email,40.0
+TICK-0000257,CUST-000229,Shipping delay,product,medium,open,2023-02-12 20:00:00,2023-02-13 02:00:00,AGENT-13,1.0,phone,32.9
+TICK-0000258,CUST-000369,Refund request,account,low,resolved,2023-02-13 00:00:00,2023-02-15 23:00:00,AGENT-44,4.0,email,14.0
+TICK-0000259,CUST-000000,Shipping delay,shipping,low,closed,2023-02-13 04:00:00,2023-02-14 19:00:00,AGENT-44,,phone,30.0
+TICK-0000260,CUST-000150,Account locked,billing,low,open,2023-02-13 08:00:00,2023-02-14 01:00:00,AGENT-20,2.0,phone,39.2
+TICK-0000261,CUST-000480,Account locked,billing,medium,resolved,2023-02-13 12:00:00,,AGENT-30,3.0,portal,13.0
+TICK-0000262,CUST-000213,Billing query,technical,high,resolved,2023-02-13 16:00:00,2023-02-14 21:00:00,AGENT-45,4.0,phone,36.9
+TICK-0000263,CUST-000008,Password reset,shipping,medium,resolved,2023-02-13 20:00:00,2023-02-16 07:00:00,AGENT-28,,chat,3.6
+TICK-0000264,CUST-000263,Shipping delay,product,medium,open,2023-02-14 00:00:00,2023-02-16 06:00:00,AGENT-22,5.0,phone,30.0
+TICK-0000265,CUST-000205,Refund request,technical,low,closed,2023-02-14 04:00:00,,AGENT-12,1.0,phone,47.9
+TICK-0000266,CUST-000105,Refund request,product,medium,resolved,2023-02-14 08:00:00,2023-02-16 11:00:00,AGENT-27,3.0,chat,41.6
+TICK-0000267,CUST-000036,Account locked,product,low,in_progress,2023-02-14 12:00:00,2023-02-14 15:00:00,AGENT-21,,phone,42.0
+TICK-0000268,CUST-000441,Product defect,shipping,medium,closed,2023-02-14 16:00:00,2023-02-17 13:00:00,AGENT-44,,phone,32.7
+TICK-0000269,CUST-000406,Login issue,billing,high,closed,2023-02-14 20:00:00,2023-02-16 09:00:00,AGENT-44,5.0,portal,22.2
+TICK-0000270,CUST-000341,Billing query,shipping,medium,resolved,2023-02-15 00:00:00,2023-02-16 23:00:00,AGENT-22,4.0,email,32.5
+TICK-0000271,CUST-000008,Feature request,product,medium,closed,2023-02-15 04:00:00,2023-02-17 02:00:00,AGENT-18,4.0,phone,15.5
+TICK-0000272,CUST-000435,Billing query,technical,medium,open,2023-02-15 08:00:00,2023-02-16 07:00:00,AGENT-21,,portal,26.6
+TICK-0000273,CUST-000236,Billing query,shipping,low,closed,2023-02-15 12:00:00,2023-02-17 13:00:00,AGENT-26,1.0,phone,26.0
+TICK-0000274,CUST-000237,Password reset,technical,medium,in_progress,2023-02-15 16:00:00,,AGENT-36,4.0,portal,26.1
+TICK-0000275,CUST-000438,Billing query,account,low,closed,2023-02-15 20:00:00,2023-02-17 21:00:00,AGENT-16,1.0,chat,19.8
+TICK-0000276,CUST-000216,Shipping delay,technical,medium,in_progress,2023-02-16 00:00:00,2023-02-16 07:00:00,AGENT-49,1.0,phone,17.0
+TICK-0000277,CUST-000118,Product defect,billing,high,open,2023-02-16 04:00:00,2023-02-16 15:00:00,AGENT-38,2.0,email,15.9
+TICK-0000278,CUST-000118,Account locked,account,medium,resolved,2023-02-16 08:00:00,2023-02-19 02:00:00,AGENT-15,4.0,chat,10.9
+TICK-0000279,CUST-000463,Refund request,account,medium,closed,2023-02-16 12:00:00,2023-02-18 17:00:00,AGENT-22,1.0,email,21.1
+TICK-0000280,CUST-000272,Refund request,billing,low,resolved,2023-02-16 16:00:00,2023-02-17 02:00:00,AGENT-38,3.0,portal,5.7
+TICK-0000281,CUST-000289,Refund request,shipping,medium,closed,2023-02-16 20:00:00,2023-02-17 12:00:00,AGENT-30,,portal,43.3
+TICK-0000282,CUST-000296,Password reset,technical,critical,open,2023-02-17 00:00:00,2023-02-18 15:00:00,AGENT-31,3.0,email,3.4
+TICK-0000283,CUST-000110,Refund request,shipping,medium,in_progress,2023-02-17 04:00:00,2023-02-17 05:00:00,AGENT-11,3.0,portal,40.2
+TICK-0000284,CUST-000209,Refund request,technical,medium,resolved,2023-02-17 08:00:00,2023-02-18 13:00:00,AGENT-26,1.0,chat,11.7
+TICK-0000285,CUST-000475,Feature request,product,low,in_progress,2023-02-17 12:00:00,2023-02-18 12:00:00,AGENT-34,2.0,phone,41.0
+TICK-0000286,CUST-000072,Login issue,technical,low,resolved,2023-02-17 16:00:00,2023-02-18 02:00:00,AGENT-39,5.0,portal,34.6
+TICK-0000287,CUST-000475,Password reset,account,medium,closed,2023-02-17 20:00:00,,AGENT-27,5.0,portal,44.2
+TICK-0000288,CUST-000136,Billing query,shipping,high,resolved,2023-02-18 00:00:00,2023-02-18 21:00:00,AGENT-32,5.0,email,41.8
+TICK-0000289,CUST-000147,Product defect,billing,low,resolved,2023-02-18 04:00:00,,AGENT-18,4.0,email,33.7
+TICK-0000290,CUST-000007,Login issue,shipping,medium,resolved,2023-02-18 08:00:00,2023-02-20 05:00:00,AGENT-41,3.0,email,7.4
+TICK-0000291,CUST-000331,Refund request,technical,low,closed,2023-02-18 12:00:00,2023-02-19 08:00:00,AGENT-37,5.0,portal,26.4
+TICK-0000292,CUST-000159,Password reset,shipping,medium,resolved,2023-02-18 16:00:00,2023-02-18 19:00:00,AGENT-39,1.0,phone,16.4
+TICK-0000293,CUST-000229,Shipping delay,account,medium,closed,2023-02-18 20:00:00,2023-02-18 22:00:00,AGENT-36,,email,42.5
+TICK-0000294,CUST-000290,Account locked,shipping,medium,in_progress,2023-02-19 00:00:00,2023-02-21 21:00:00,AGENT-49,5.0,phone,41.9
+TICK-0000295,CUST-000317,Shipping delay,billing,low,resolved,2023-02-19 04:00:00,2023-02-19 13:00:00,AGENT-45,5.0,phone,15.1
+TICK-0000296,CUST-000477,Password reset,shipping,low,open,2023-02-19 08:00:00,2023-02-22 01:00:00,AGENT-42,3.0,phone,32.3
+TICK-0000297,CUST-000277,Feature request,product,high,resolved,2023-02-19 12:00:00,2023-02-20 00:00:00,AGENT-23,1.0,phone,16.3
+TICK-0000298,CUST-000088,Account locked,account,medium,closed,2023-02-19 16:00:00,2023-02-19 23:00:00,AGENT-12,,email,32.6
+TICK-0000299,CUST-000351,Product defect,technical,low,closed,2023-02-19 20:00:00,2023-02-21 11:00:00,AGENT-10,,chat,29.5
+TICK-0000300,CUST-000027,Password reset,billing,medium,open,2023-02-20 00:00:00,,AGENT-41,2.0,phone,24.6
+TICK-0000301,CUST-000421,Login issue,technical,low,closed,2023-02-20 04:00:00,2023-02-20 10:00:00,AGENT-45,4.0,portal,42.2
+TICK-0000302,CUST-000148,Feature request,billing,medium,open,2023-02-20 08:00:00,2023-02-21 08:00:00,AGENT-35,,email,11.9
+TICK-0000303,CUST-000361,Password reset,account,medium,resolved,2023-02-20 12:00:00,2023-02-22 18:00:00,AGENT-38,,phone,38.3
+TICK-0000304,CUST-000078,Account locked,product,low,resolved,2023-02-20 16:00:00,2023-02-20 21:00:00,AGENT-13,,portal,33.1
+TICK-0000305,CUST-000203,Refund request,shipping,medium,resolved,2023-02-20 20:00:00,2023-02-21 09:00:00,AGENT-32,1.0,phone,13.6
+TICK-0000306,CUST-000347,Product defect,account,medium,in_progress,2023-02-21 00:00:00,2023-02-21 22:00:00,AGENT-34,1.0,email,20.3
+TICK-0000307,CUST-000310,Shipping delay,billing,high,resolved,2023-02-21 04:00:00,,AGENT-16,2.0,phone,3.4
+TICK-0000308,CUST-000002,Login issue,shipping,medium,resolved,2023-02-21 08:00:00,2023-02-23 18:00:00,AGENT-40,,email,28.7
+TICK-0000309,CUST-000017,Product defect,product,medium,resolved,2023-02-21 12:00:00,2023-02-23 15:00:00,AGENT-23,2.0,chat,42.6
+TICK-0000310,CUST-000490,Refund request,billing,high,resolved,2023-02-21 16:00:00,2023-02-23 16:00:00,AGENT-17,,phone,5.7
+TICK-0000311,CUST-000264,Product defect,billing,low,resolved,2023-02-21 20:00:00,2023-02-21 22:00:00,AGENT-37,,email,6.4
+TICK-0000312,CUST-000427,Password reset,technical,medium,resolved,2023-02-22 00:00:00,2023-02-22 17:00:00,AGENT-27,5.0,email,22.8
+TICK-0000313,CUST-000036,Password reset,billing,low,open,2023-02-22 04:00:00,2023-02-24 22:00:00,AGENT-31,,portal,13.6
+TICK-0000314,CUST-000245,Refund request,technical,low,resolved,2023-02-22 08:00:00,2023-02-24 12:00:00,AGENT-31,,phone,13.4
+TICK-0000315,CUST-000288,Product defect,product,medium,resolved,2023-02-22 12:00:00,2023-02-23 06:00:00,AGENT-34,5.0,chat,30.7
+TICK-0000316,CUST-000460,Product defect,product,low,in_progress,2023-02-22 16:00:00,2023-02-24 19:00:00,AGENT-26,,email,19.8
+TICK-0000317,CUST-000355,Refund request,shipping,medium,open,2023-02-22 20:00:00,2023-02-25 00:00:00,AGENT-42,4.0,email,40.6
+TICK-0000318,CUST-000314,Account locked,shipping,medium,closed,2023-02-23 00:00:00,2023-02-25 05:00:00,AGENT-45,,chat,20.6
+TICK-0000319,CUST-000146,Billing query,billing,low,closed,2023-02-23 04:00:00,2023-02-26 02:00:00,AGENT-29,2.0,phone,29.6
+TICK-0000320,CUST-000496,Shipping delay,technical,medium,resolved,2023-02-23 08:00:00,2023-02-24 23:00:00,AGENT-16,4.0,email,19.2
+TICK-0000321,CUST-000163,Shipping delay,shipping,medium,closed,2023-02-23 12:00:00,2023-02-23 17:00:00,AGENT-21,5.0,portal,12.4
+TICK-0000322,CUST-000139,Product defect,technical,medium,closed,2023-02-23 16:00:00,2023-02-26 03:00:00,AGENT-40,4.0,chat,22.7
+TICK-0000323,CUST-000361,Billing query,product,high,resolved,2023-02-23 20:00:00,,AGENT-20,5.0,email,34.6
+TICK-0000324,CUST-000498,Password reset,billing,medium,in_progress,2023-02-24 00:00:00,2023-02-25 22:00:00,AGENT-41,3.0,email,45.7
+TICK-0000325,CUST-000428,Shipping delay,account,high,resolved,2023-02-24 04:00:00,2023-02-26 13:00:00,AGENT-36,4.0,portal,2.1
+TICK-0000326,CUST-000090,Refund request,billing,medium,closed,2023-02-24 08:00:00,2023-02-24 17:00:00,AGENT-27,2.0,chat,25.6
+TICK-0000327,CUST-000407,Login issue,technical,low,resolved,2023-02-24 12:00:00,2023-02-26 21:00:00,AGENT-15,,chat,30.6
+TICK-0000328,CUST-000176,Product defect,shipping,medium,open,2023-02-24 16:00:00,2023-02-27 02:00:00,AGENT-31,2.0,email,4.2
+TICK-0000329,CUST-000110,Billing query,technical,low,closed,2023-02-24 20:00:00,2023-02-26 19:00:00,AGENT-37,4.0,portal,39.8
+TICK-0000330,CUST-000467,Product defect,billing,low,closed,2023-02-25 00:00:00,2023-02-25 23:00:00,AGENT-16,,portal,13.3
+TICK-0000331,CUST-000474,Password reset,billing,low,resolved,2023-02-25 04:00:00,,AGENT-42,1.0,email,42.0
+TICK-0000332,CUST-000185,Refund request,product,high,closed,2023-02-25 08:00:00,2023-02-27 11:00:00,AGENT-17,5.0,phone,26.6
+TICK-0000333,CUST-000013,Feature request,shipping,high,resolved,2023-02-25 12:00:00,2023-02-26 00:00:00,AGENT-26,2.0,chat,7.4
+TICK-0000334,CUST-000104,Shipping delay,account,critical,closed,2023-02-25 16:00:00,2023-02-27 16:00:00,AGENT-31,1.0,email,35.5
+TICK-0000335,CUST-000270,Password reset,shipping,medium,closed,2023-02-25 20:00:00,,AGENT-39,4.0,portal,7.6
+TICK-0000336,CUST-000029,Billing query,product,medium,open,2023-02-26 00:00:00,2023-02-27 00:00:00,AGENT-18,1.0,email,34.6
+TICK-0000337,CUST-000113,Password reset,shipping,high,closed,2023-02-26 04:00:00,2023-02-27 16:00:00,AGENT-23,2.0,portal,38.8
+TICK-0000338,CUST-000074,Refund request,product,medium,in_progress,2023-02-26 08:00:00,2023-02-26 20:00:00,AGENT-42,3.0,email,27.7
+TICK-0000339,CUST-000476,Login issue,product,medium,closed,2023-02-26 12:00:00,,AGENT-23,,chat,13.1
+TICK-0000340,CUST-000177,Account locked,product,low,closed,2023-02-26 16:00:00,2023-02-28 18:00:00,AGENT-34,3.0,email,21.0
+TICK-0000341,CUST-000190,Shipping delay,account,medium,closed,2023-02-26 20:00:00,2023-02-26 22:00:00,AGENT-25,3.0,email,25.4
+TICK-0000342,CUST-000210,Login issue,product,medium,closed,2023-02-27 00:00:00,2023-03-01 13:00:00,AGENT-12,3.0,chat,32.0
+TICK-0000343,CUST-000006,Password reset,account,medium,closed,2023-02-27 04:00:00,2023-03-01 07:00:00,AGENT-30,3.0,portal,30.5
+TICK-0000344,CUST-000271,Refund request,billing,low,in_progress,2023-02-27 08:00:00,2023-03-01 20:00:00,AGENT-24,5.0,chat,19.3
+TICK-0000345,CUST-000456,Refund request,technical,medium,resolved,2023-02-27 12:00:00,2023-03-01 07:00:00,AGENT-20,2.0,phone,36.4
+TICK-0000346,CUST-000406,Refund request,billing,medium,open,2023-02-27 16:00:00,2023-03-01 13:00:00,AGENT-44,2.0,portal,37.1
+TICK-0000347,CUST-000125,Login issue,shipping,low,closed,2023-02-27 20:00:00,2023-03-01 00:00:00,AGENT-40,2.0,chat,33.5
+TICK-0000348,CUST-000006,Product defect,technical,medium,resolved,2023-02-28 00:00:00,2023-02-28 17:00:00,AGENT-21,2.0,portal,13.1
+TICK-0000349,CUST-000386,Account locked,billing,critical,resolved,2023-02-28 04:00:00,2023-02-28 21:00:00,AGENT-30,3.0,chat,22.6
+TICK-0000350,CUST-000420,Product defect,account,medium,in_progress,2023-02-28 08:00:00,2023-03-01 07:00:00,AGENT-38,5.0,email,20.8
+TICK-0000351,CUST-000460,Feature request,billing,medium,resolved,2023-02-28 12:00:00,2023-03-01 09:00:00,AGENT-12,,chat,39.2
+TICK-0000352,CUST-000288,Product defect,account,medium,resolved,2023-02-28 16:00:00,2019-01-01 00:00:00,AGENT-13,,email,38.8
+TICK-0000353,CUST-000236,Shipping delay,product,critical,closed,2023-02-28 20:00:00,2023-03-02 10:00:00,AGENT-31,3.0,portal,41.6
+TICK-0000354,CUST-000378,Shipping delay,technical,medium,closed,2023-03-01 00:00:00,2023-03-02 06:00:00,AGENT-47,,email,11.2
+TICK-0000355,CUST-000345,Login issue,account,low,resolved,2023-03-01 04:00:00,2023-03-03 08:00:00,AGENT-47,1.0,portal,36.0
+TICK-0000356,CUST-000378,Password reset,product,medium,closed,2023-03-01 08:00:00,2023-03-03 13:00:00,AGENT-27,,email,41.8
+TICK-0000357,CUST-000142,Billing query,technical,high,in_progress,2023-03-01 12:00:00,2023-03-04 07:00:00,AGENT-38,2.0,email,8.1
+TICK-0000358,CUST-000451,Shipping delay,account,low,open,2023-03-01 16:00:00,,AGENT-29,4.0,phone,2.0
+TICK-0000359,CUST-000018,Feature request,shipping,low,resolved,2023-03-01 20:00:00,,AGENT-46,2.0,email,5.2
+TICK-0000360,CUST-000046,Feature request,account,low,resolved,2023-03-02 00:00:00,,AGENT-32,,email,29.1
+TICK-0000361,CUST-000327,Billing query,technical,medium,open,2023-03-02 04:00:00,2023-03-02 16:00:00,AGENT-45,,portal,20.3
+TICK-0000362,CUST-000285,Shipping delay,shipping,medium,in_progress,2023-03-02 08:00:00,,AGENT-24,3.0,email,9.4
+TICK-0000363,CUST-000277,Refund request,billing,medium,resolved,2023-03-02 12:00:00,,AGENT-47,5.0,phone,25.4
+TICK-0000364,CUST-000454,Account locked,technical,low,open,2023-03-02 16:00:00,2023-03-04 11:00:00,AGENT-39,5.0,email,37.7
+TICK-0000365,CUST-000435,Product defect,account,high,resolved,2023-03-02 20:00:00,2023-03-05 19:00:00,AGENT-40,5.0,email,41.1
+TICK-0000366,CUST-000359,Refund request,shipping,low,resolved,2023-03-03 00:00:00,2023-03-04 21:00:00,AGENT-10,,phone,36.1
+TICK-0000367,CUST-000082,Password reset,product,medium,closed,2023-03-03 04:00:00,2023-03-05 19:00:00,AGENT-42,,chat,42.5
+TICK-0000368,CUST-000048,Password reset,technical,low,in_progress,2023-03-03 08:00:00,,AGENT-16,,email,29.0
+TICK-0000369,CUST-000069,Password reset,account,high,in_progress,2023-03-03 12:00:00,2023-03-04 11:00:00,AGENT-47,2.0,phone,40.2
+TICK-0000370,CUST-000306,Feature request,account,medium,open,2023-03-03 16:00:00,2023-03-06 02:00:00,AGENT-17,,portal,20.1
+TICK-0000371,CUST-000356,Password reset,account,medium,open,2023-03-03 20:00:00,2023-03-05 19:00:00,AGENT-43,,phone,40.9
+TICK-0000372,CUST-000399,Refund request,billing,low,closed,2023-03-04 00:00:00,2023-03-05 11:00:00,AGENT-35,,chat,43.0
+TICK-0000373,CUST-000051,Feature request,account,low,resolved,2023-03-04 04:00:00,2023-03-07 00:00:00,AGENT-25,4.0,portal,33.0
+TICK-0000374,CUST-000137,Shipping delay,billing,medium,in_progress,2023-03-04 08:00:00,2023-03-06 15:00:00,AGENT-45,2.0,chat,20.7
+TICK-0000375,CUST-000169,Account locked,account,medium,closed,2023-03-04 12:00:00,,AGENT-25,3.0,phone,13.6
+TICK-0000376,CUST-000316,Feature request,shipping,high,closed,2023-03-04 16:00:00,2019-01-01 00:00:00,AGENT-12,,chat,15.7
+TICK-0000377,CUST-000023,Login issue,shipping,medium,open,2023-03-04 20:00:00,2023-03-06 01:00:00,AGENT-13,5.0,phone,6.4
+TICK-0000378,CUST-000420,Feature request,shipping,medium,in_progress,2023-03-05 00:00:00,2023-03-06 06:00:00,AGENT-44,,phone,2.4
+TICK-0000379,CUST-000040,Password reset,technical,high,closed,2023-03-05 04:00:00,2023-03-07 14:00:00,AGENT-25,3.0,chat,20.0
+TICK-0000380,CUST-000261,Feature request,billing,medium,resolved,2023-03-05 08:00:00,,AGENT-42,3.0,chat,2.1
+TICK-0000381,CUST-000466,Password reset,billing,high,closed,2023-03-05 12:00:00,2023-03-05 13:00:00,AGENT-10,1.0,chat,42.3
+TICK-0000382,CUST-000097,Billing query,product,medium,open,2023-03-05 16:00:00,2023-03-07 09:00:00,AGENT-13,3.0,chat,31.2
+TICK-0000383,CUST-000343,Product defect,shipping,medium,closed,2023-03-05 20:00:00,2019-01-01 00:00:00,AGENT-49,4.0,email,40.5
+TICK-0000384,CUST-000274,Login issue,technical,high,open,2023-03-06 00:00:00,,AGENT-15,,chat,21.4
+TICK-0000385,CUST-000409,Refund request,technical,low,in_progress,2023-03-06 04:00:00,2023-03-07 02:00:00,AGENT-37,1.0,email,10.8
+TICK-0000386,CUST-000294,Shipping delay,product,low,closed,2023-03-06 08:00:00,,AGENT-24,,chat,14.0
+TICK-0000387,CUST-000424,Shipping delay,technical,low,resolved,2023-03-06 12:00:00,2023-03-09 08:00:00,AGENT-30,,chat,41.0
+TICK-0000388,CUST-000201,Account locked,technical,medium,open,2023-03-06 16:00:00,2023-03-06 23:00:00,AGENT-14,1.0,email,5.9
+TICK-0000389,CUST-000081,Password reset,billing,medium,in_progress,2023-03-06 20:00:00,2023-03-08 15:00:00,AGENT-20,4.0,chat,33.5
+TICK-0000390,CUST-000339,Login issue,billing,low,closed,2023-03-07 00:00:00,2023-03-09 17:00:00,AGENT-40,5.0,phone,10.9
+TICK-0000391,CUST-000483,Feature request,technical,low,open,2023-03-07 04:00:00,2023-03-08 09:00:00,AGENT-31,2.0,portal,17.0
+TICK-0000392,CUST-000216,Product defect,product,medium,in_progress,2023-03-07 08:00:00,2023-03-08 08:00:00,AGENT-30,3.0,phone,0.2
+TICK-0000393,CUST-000409,Password reset,technical,low,in_progress,2023-03-07 12:00:00,2023-03-08 06:00:00,AGENT-47,,phone,23.0
+TICK-0000394,CUST-000438,Refund request,account,low,open,2023-03-07 16:00:00,2023-03-08 08:00:00,AGENT-26,,phone,6.2
+TICK-0000395,CUST-000322,Shipping delay,product,low,closed,2023-03-07 20:00:00,2023-03-09 00:00:00,AGENT-42,3.0,portal,41.3
+TICK-0000396,CUST-000395,Billing query,account,high,open,2023-03-08 00:00:00,2023-03-10 07:00:00,AGENT-38,,portal,4.8
+TICK-0000397,CUST-000281,Billing query,technical,medium,resolved,2023-03-08 04:00:00,2023-03-08 17:00:00,AGENT-28,4.0,email,12.1
+TICK-0000398,CUST-000402,Account locked,account,low,resolved,2023-03-08 08:00:00,2023-03-09 01:00:00,AGENT-21,1.0,chat,0.8
+TICK-0000399,CUST-000168,Product defect,billing,low,open,2023-03-08 12:00:00,2023-03-11 11:00:00,AGENT-24,,portal,47.7
+TICK-0000400,CUST-000263,Billing query,shipping,low,resolved,2023-03-08 16:00:00,2023-03-11 15:00:00,AGENT-44,,portal,30.8
+TICK-0000401,CUST-000038,Login issue,billing,medium,in_progress,2023-03-08 20:00:00,2023-03-09 13:00:00,AGENT-22,3.0,phone,30.9
+TICK-0000402,CUST-000098,Password reset,account,medium,closed,2023-03-09 00:00:00,2023-03-10 06:00:00,AGENT-36,5.0,chat,25.0
+TICK-0000403,CUST-000289,Shipping delay,shipping,high,closed,2023-03-09 04:00:00,2023-03-10 09:00:00,AGENT-14,,email,41.7
+TICK-0000404,CUST-000362,Product defect,technical,medium,closed,2023-03-09 08:00:00,2023-03-10 06:00:00,AGENT-23,,chat,7.0
+TICK-0000405,CUST-000014,Product defect,shipping,medium,in_progress,2023-03-09 12:00:00,2023-03-09 23:00:00,AGENT-47,5.0,phone,38.1
+TICK-0000406,CUST-000034,Refund request,account,low,closed,2023-03-09 16:00:00,2023-03-09 21:00:00,AGENT-31,,phone,38.8
+TICK-0000407,CUST-000003,Shipping delay,product,medium,resolved,2023-03-09 20:00:00,2023-03-11 16:00:00,AGENT-42,2.0,phone,1.8
+TICK-0000408,CUST-000258,Refund request,product,critical,in_progress,2023-03-10 00:00:00,2023-03-10 03:00:00,AGENT-20,3.0,email,6.5
+TICK-0000409,CUST-000167,Product defect,technical,low,open,2023-03-10 04:00:00,2023-03-12 01:00:00,AGENT-40,,portal,26.3
+TICK-0000410,CUST-000026,Product defect,product,high,open,2023-03-10 08:00:00,,AGENT-49,5.0,email,4.4
+TICK-0000411,CUST-000396,Password reset,shipping,low,in_progress,2023-03-10 12:00:00,2023-03-10 23:00:00,AGENT-47,4.0,chat,13.6
+TICK-0000412,CUST-000264,Shipping delay,account,medium,in_progress,2023-03-10 16:00:00,2023-03-10 17:00:00,AGENT-27,3.0,phone,19.4
+TICK-0000413,CUST-000005,Feature request,billing,low,closed,2023-03-10 20:00:00,,AGENT-37,,chat,7.6
+TICK-0000414,CUST-000342,Password reset,account,medium,closed,2023-03-11 00:00:00,2023-03-12 00:00:00,AGENT-45,3.0,email,33.8
+TICK-0000415,CUST-000455,Account locked,billing,low,open,2023-03-11 04:00:00,2023-03-12 04:00:00,AGENT-42,2.0,phone,23.8
+TICK-0000416,CUST-000209,Refund request,shipping,medium,closed,2023-03-11 08:00:00,,AGENT-49,5.0,email,30.7
+TICK-0000417,CUST-000474,Password reset,billing,medium,resolved,2023-03-11 12:00:00,2023-03-14 07:00:00,AGENT-11,1.0,portal,22.8
+TICK-0000418,CUST-000208,Login issue,billing,medium,resolved,2023-03-11 16:00:00,2023-03-12 23:00:00,AGENT-31,,portal,19.9
+TICK-0000419,CUST-000038,Shipping delay,shipping,medium,closed,2023-03-11 20:00:00,2023-03-14 06:00:00,AGENT-41,2.0,chat,23.7
+TICK-0000420,CUST-000061,Account locked,product,low,resolved,2023-03-12 00:00:00,2023-03-12 17:00:00,AGENT-39,3.0,chat,43.2
+TICK-0000421,CUST-000033,Login issue,account,medium,resolved,2023-03-12 04:00:00,2023-03-13 15:00:00,AGENT-16,1.0,portal,19.1
+TICK-0000422,CUST-000150,Billing query,account,low,in_progress,2023-03-12 08:00:00,2023-03-12 13:00:00,AGENT-32,3.0,email,30.9
+TICK-0000423,CUST-000192,Login issue,billing,medium,in_progress,2023-03-12 12:00:00,2023-03-13 07:00:00,AGENT-16,,chat,40.0
+TICK-0000424,CUST-000222,Shipping delay,shipping,low,closed,2023-03-12 16:00:00,,AGENT-13,,email,29.9
+TICK-0000425,CUST-000240,Refund request,shipping,medium,in_progress,2023-03-12 20:00:00,,AGENT-14,3.0,email,10.9
+TICK-0000426,CUST-000431,Shipping delay,account,medium,open,2023-03-13 00:00:00,2023-03-13 13:00:00,AGENT-48,1.0,portal,5.9
+TICK-0000427,CUST-000005,Login issue,technical,critical,in_progress,2023-03-13 04:00:00,2023-03-13 16:00:00,AGENT-20,1.0,email,28.4
+TICK-0000428,CUST-000448,Shipping delay,technical,medium,resolved,2023-03-13 08:00:00,,AGENT-28,5.0,portal,34.9
+TICK-0000429,CUST-000119,Feature request,shipping,low,in_progress,2023-03-13 12:00:00,2023-03-15 17:00:00,AGENT-20,5.0,portal,36.9
+TICK-0000430,CUST-000476,Login issue,product,medium,closed,2023-03-13 16:00:00,2023-03-14 03:00:00,AGENT-45,5.0,phone,33.3
+TICK-0000431,CUST-000067,Password reset,account,low,resolved,2023-03-13 20:00:00,2023-03-15 16:00:00,AGENT-45,4.0,phone,0.3
+TICK-0000432,CUST-000050,Product defect,product,low,closed,2023-03-14 00:00:00,2023-03-15 02:00:00,AGENT-36,,email,37.2
+TICK-0000433,CUST-000060,Login issue,billing,medium,resolved,2023-03-14 04:00:00,2023-03-15 09:00:00,AGENT-43,1.0,email,29.1
+TICK-0000434,CUST-000148,Login issue,billing,high,resolved,2023-03-14 08:00:00,2023-03-17 02:00:00,AGENT-14,3.0,chat,47.4
+TICK-0000435,CUST-000470,Login issue,account,critical,in_progress,2023-03-14 12:00:00,2023-03-15 22:00:00,AGENT-49,2.0,portal,36.7
+TICK-0000436,CUST-000231,Shipping delay,technical,high,in_progress,2023-03-14 16:00:00,2023-03-15 11:00:00,AGENT-26,,chat,20.7
+TICK-0000437,CUST-000082,Shipping delay,product,low,closed,2023-03-14 20:00:00,,AGENT-26,3.0,email,32.5
+TICK-0000438,CUST-000320,Refund request,account,low,closed,2023-03-15 00:00:00,2023-03-15 12:00:00,AGENT-17,,portal,29.6
+TICK-0000439,CUST-000254,Login issue,shipping,high,resolved,2023-03-15 04:00:00,2023-03-17 13:00:00,AGENT-45,,phone,16.3
+TICK-0000440,CUST-000351,Account locked,technical,low,closed,2023-03-15 08:00:00,2023-03-17 08:00:00,AGENT-16,2.0,phone,25.7
+TICK-0000441,CUST-000370,Account locked,billing,medium,closed,2023-03-15 12:00:00,2023-03-16 08:00:00,AGENT-44,5.0,chat,9.9
+TICK-0000442,CUST-000393,Login issue,product,critical,open,2023-03-15 16:00:00,2023-03-17 03:00:00,AGENT-38,5.0,portal,4.3
+TICK-0000443,CUST-000075,Account locked,technical,low,resolved,2023-03-15 20:00:00,2023-03-17 08:00:00,AGENT-40,3.0,phone,35.2
+TICK-0000444,CUST-000247,Login issue,technical,medium,closed,2023-03-16 00:00:00,2023-03-16 04:00:00,AGENT-11,3.0,chat,18.5
+TICK-0000445,CUST-000315,Shipping delay,billing,high,closed,2023-03-16 04:00:00,2023-03-18 21:00:00,AGENT-39,1.0,email,36.3
+TICK-0000446,CUST-000278,Account locked,billing,medium,open,2023-03-16 08:00:00,2023-03-18 16:00:00,AGENT-48,4.0,portal,23.5
+TICK-0000447,CUST-000486,Password reset,account,critical,in_progress,2023-03-16 12:00:00,,AGENT-25,,email,38.9
+TICK-0000448,CUST-000480,Refund request,technical,medium,resolved,2023-03-16 16:00:00,,AGENT-27,,chat,35.5
+TICK-0000449,CUST-000405,Shipping delay,account,medium,in_progress,2023-03-16 20:00:00,2023-03-17 04:00:00,AGENT-14,1.0,portal,36.7
+TICK-0000450,CUST-000120,Password reset,account,high,open,2023-03-17 00:00:00,,AGENT-29,1.0,chat,20.7
+TICK-0000451,CUST-000264,Billing query,billing,high,resolved,2023-03-17 04:00:00,2023-03-19 02:00:00,AGENT-36,,portal,46.1
+TICK-0000452,CUST-000401,Billing query,shipping,critical,resolved,2023-03-17 08:00:00,2023-03-20 03:00:00,AGENT-21,4.0,chat,19.5
+TICK-0000453,CUST-000134,Shipping delay,account,medium,in_progress,2023-03-17 12:00:00,2023-03-20 02:00:00,AGENT-39,1.0,phone,38.1
+TICK-0000454,CUST-000355,Login issue,product,medium,resolved,2023-03-17 16:00:00,2023-03-19 10:00:00,AGENT-13,5.0,phone,23.6
+TICK-0000455,CUST-000124,Login issue,account,medium,open,2023-03-17 20:00:00,2023-03-18 17:00:00,AGENT-36,2.0,chat,11.4
+TICK-0000456,CUST-000070,Product defect,product,low,in_progress,2023-03-18 00:00:00,2023-03-20 01:00:00,AGENT-33,4.0,portal,30.2
+TICK-0000457,CUST-000119,Billing query,technical,critical,closed,2023-03-18 04:00:00,,AGENT-19,5.0,chat,22.6
+TICK-0000458,CUST-000463,Account locked,account,critical,closed,2023-03-18 08:00:00,2023-03-19 14:00:00,AGENT-23,3.0,chat,12.7
+TICK-0000459,CUST-000497,Refund request,account,medium,in_progress,2023-03-18 12:00:00,2023-03-20 15:00:00,AGENT-19,,phone,18.4
+TICK-0000460,CUST-000427,Shipping delay,billing,critical,closed,2023-03-18 16:00:00,2023-03-21 08:00:00,AGENT-34,5.0,portal,7.8
+TICK-0000461,CUST-000135,Shipping delay,billing,medium,closed,2023-03-18 20:00:00,2023-03-19 09:00:00,AGENT-35,5.0,portal,47.4
+TICK-0000462,CUST-000389,Login issue,technical,high,resolved,2023-03-19 00:00:00,2023-03-20 16:00:00,AGENT-32,2.0,chat,30.9
+TICK-0000463,CUST-000109,Shipping delay,product,medium,closed,2023-03-19 04:00:00,2023-03-21 12:00:00,AGENT-17,3.0,email,8.4
+TICK-0000464,CUST-000063,Login issue,product,medium,in_progress,2023-03-19 08:00:00,,AGENT-18,1.0,chat,36.7
+TICK-0000465,CUST-000129,Product defect,technical,medium,open,2023-03-19 12:00:00,2023-03-20 13:00:00,AGENT-42,,chat,28.9
+TICK-0000466,CUST-000069,Account locked,billing,medium,closed,2023-03-19 16:00:00,2023-03-19 17:00:00,AGENT-28,,chat,34.7
+TICK-0000467,CUST-000320,Feature request,shipping,high,resolved,2023-03-19 20:00:00,2023-03-20 19:00:00,AGENT-27,5.0,chat,28.1
+TICK-0000468,CUST-000341,Product defect,product,medium,in_progress,2023-03-20 00:00:00,2023-03-21 18:00:00,AGENT-22,4.0,email,3.0
+TICK-0000469,CUST-000017,Product defect,product,high,open,2023-03-20 04:00:00,2023-03-23 01:00:00,AGENT-47,2.0,phone,9.8
+TICK-0000470,CUST-000053,Account locked,product,low,open,2023-03-20 08:00:00,2023-03-21 22:00:00,AGENT-19,5.0,portal,36.9
+TICK-0000471,CUST-000239,Feature request,product,low,open,2023-03-20 12:00:00,2023-03-21 09:00:00,AGENT-40,3.0,chat,36.2
+TICK-0000472,CUST-000056,Product defect,account,medium,in_progress,2023-03-20 16:00:00,,AGENT-40,3.0,email,36.2
+TICK-0000473,CUST-000414,Password reset,billing,high,closed,2023-03-20 20:00:00,2023-03-21 10:00:00,AGENT-19,,chat,0.8
+TICK-0000474,CUST-000200,Product defect,account,high,in_progress,2023-03-21 00:00:00,,AGENT-10,3.0,chat,38.7
+TICK-0000475,CUST-000206,Account locked,shipping,low,closed,2023-03-21 04:00:00,,AGENT-19,,phone,21.1
+TICK-0000476,CUST-000002,Billing query,product,low,open,2023-03-21 08:00:00,2023-03-23 18:00:00,AGENT-20,,chat,33.3
+TICK-0000477,CUST-000350,Product defect,shipping,medium,in_progress,2023-03-21 12:00:00,2023-03-22 04:00:00,AGENT-39,1.0,chat,13.1
+TICK-0000478,CUST-000360,Feature request,account,high,closed,2023-03-21 16:00:00,,AGENT-31,4.0,phone,37.0
+TICK-0000479,CUST-000378,Shipping delay,technical,critical,in_progress,2023-03-21 20:00:00,,AGENT-27,1.0,email,47.2
+TICK-0000480,CUST-000270,Login issue,account,high,in_progress,2023-03-22 00:00:00,,AGENT-29,3.0,portal,12.2
+TICK-0000481,CUST-000134,Password reset,shipping,medium,closed,2023-03-22 04:00:00,2023-03-24 05:00:00,AGENT-48,1.0,chat,37.7
+TICK-0000482,CUST-000039,Billing query,shipping,high,open,2023-03-22 08:00:00,2023-03-23 13:00:00,AGENT-47,5.0,portal,29.1
+TICK-0000483,CUST-000157,Login issue,account,low,open,2023-03-22 12:00:00,,AGENT-11,,email,13.2
+TICK-0000484,CUST-000271,Password reset,shipping,high,closed,2023-03-22 16:00:00,2023-03-23 16:00:00,AGENT-43,5.0,chat,14.2
+TICK-0000485,CUST-000058,Product defect,technical,medium,resolved,2023-03-22 20:00:00,2023-03-24 06:00:00,AGENT-24,5.0,chat,35.1
+TICK-0000486,CUST-000027,Billing query,billing,medium,resolved,2023-03-23 00:00:00,2023-03-24 07:00:00,AGENT-40,3.0,chat,13.7
+TICK-0000487,CUST-000108,Feature request,product,medium,open,2023-03-23 04:00:00,2023-03-25 20:00:00,AGENT-49,3.0,email,2.4
+TICK-0000488,CUST-000035,Product defect,product,high,in_progress,2023-03-23 08:00:00,2023-03-24 00:00:00,AGENT-30,2.0,email,42.0
+TICK-0000489,CUST-000007,Account locked,account,low,resolved,2023-03-23 12:00:00,2023-03-24 11:00:00,AGENT-34,,portal,28.3
+TICK-0000490,CUST-000242,Product defect,account,low,resolved,2023-03-23 16:00:00,2023-03-24 06:00:00,AGENT-27,3.0,portal,36.4
+TICK-0000491,CUST-000372,Refund request,billing,medium,in_progress,2023-03-23 20:00:00,2023-03-25 13:00:00,AGENT-12,1.0,chat,29.0
+TICK-0000492,CUST-000249,Account locked,account,critical,closed,2023-03-24 00:00:00,2023-03-26 10:00:00,AGENT-11,1.0,email,24.8
+TICK-0000493,CUST-000045,Password reset,shipping,medium,closed,2023-03-24 04:00:00,2023-03-26 19:00:00,AGENT-24,4.0,chat,37.0
+TICK-0000494,CUST-000169,Shipping delay,technical,low,resolved,2023-03-24 08:00:00,2023-03-25 01:00:00,AGENT-42,4.0,portal,1.6
+TICK-0000495,CUST-000017,Refund request,product,medium,resolved,2023-03-24 12:00:00,2023-03-25 19:00:00,AGENT-23,,portal,15.0
+TICK-0000496,CUST-000310,Password reset,product,low,resolved,2023-03-24 16:00:00,2023-03-26 21:00:00,AGENT-27,,portal,30.2
+TICK-0000497,CUST-000116,Password reset,technical,medium,resolved,2023-03-24 20:00:00,2023-03-25 00:00:00,AGENT-31,4.0,portal,45.3
+TICK-0000498,CUST-000193,Account locked,shipping,low,open,2023-03-25 00:00:00,2023-03-27 03:00:00,AGENT-22,1.0,phone,19.0
+TICK-0000499,CUST-000451,Shipping delay,account,medium,closed,2023-03-25 04:00:00,,AGENT-29,4.0,phone,46.8

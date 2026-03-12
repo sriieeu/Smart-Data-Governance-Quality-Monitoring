@@ -1,0 +1,117 @@
+# config.yaml — Data Governance Platform Configuration
+# All environment-specific values should be overridden via .env or environment variables
+
+fabric:
+  workspace_name: "DataGovernance-Workspace"
+  lakehouse_name: "GovernanceLakehouse"
+  # Connection string injected from env: FABRIC_CONNECTION_STRING
+  # Tenant ID injected from env: AZURE_TENANT_ID
+  delta_table_prefix: "governance_"
+  abfss_path: "abfss://{workspace}@onelake.dfs.fabric.microsoft.com/{lakehouse}.Lakehouse/Tables/"
+
+datasets:
+  # Each dataset registered here gets full governance treatment
+  - name: customer_consent
+    source_path: "data/raw/customer_consent.csv"
+    schema_version: "1.0"
+    owner: "data-engineering@company.com"
+    sensitivity: "PII"
+    validation_suite: "consent_suite"
+    sla_freshness_hours: 24
+
+  - name: financial_transactions
+    source_path: "data/raw/financial_transactions.csv"
+    schema_version: "2.1"
+    owner: "finance-analytics@company.com"
+    sensitivity: "CONFIDENTIAL"
+    validation_suite: "financial_suite"
+    sla_freshness_hours: 4
+
+  - name: user_profiles
+    source_path: "data/raw/user_profiles.csv"
+    schema_version: "1.3"
+    owner: "product-analytics@company.com"
+    sensitivity: "PII"
+    validation_suite: "profile_suite"
+    sla_freshness_hours: 48
+
+  - name: campaign_events
+    source_path: "data/raw/campaign_events.csv"
+    schema_version: "1.0"
+    owner: "marketing@company.com"
+    sensitivity: "INTERNAL"
+    validation_suite: "events_suite"
+    sla_freshness_hours: 12
+
+  - name: product_catalog
+    source_path: "data/raw/product_catalog.csv"
+    schema_version: "3.0"
+    owner: "product@company.com"
+    sensitivity: "PUBLIC"
+    validation_suite: "catalog_suite"
+    sla_freshness_hours: 72
+
+  - name: support_tickets
+    source_path: "data/raw/support_tickets.csv"
+    schema_version: "1.1"
+    owner: "cx-analytics@company.com"
+    sensitivity: "INTERNAL"
+    validation_suite: "tickets_suite"
+    sla_freshness_hours: 6
+
+  - name: inventory_levels
+    source_path: "data/raw/inventory_levels.csv"
+    schema_version: "2.0"
+    owner: "supply-chain@company.com"
+    sensitivity: "CONFIDENTIAL"
+    validation_suite: "inventory_suite"
+    sla_freshness_hours: 8
+
+  - name: employee_records
+    source_path: "data/raw/employee_records.csv"
+    schema_version: "1.5"
+    owner: "hr-systems@company.com"
+    sensitivity: "RESTRICTED"
+    validation_suite: "hr_suite"
+    sla_freshness_hours: 168   # weekly
+
+  - name: web_analytics
+    source_path: "data/raw/web_analytics.csv"
+    schema_version: "1.0"
+    owner: "growth@company.com"
+    sensitivity: "INTERNAL"
+    validation_suite: "web_suite"
+    sla_freshness_hours: 2
+
+  - name: subscription_billing
+    source_path: "data/raw/subscription_billing.csv"
+    schema_version: "2.3"
+    owner: "billing@company.com"
+    sensitivity: "CONFIDENTIAL"
+    validation_suite: "billing_suite"
+    sla_freshness_hours: 6
+
+validation:
+  fail_on_critical: true        # Stop pipeline on CRITICAL check failures
+  quarantine_threshold: 0.05    # Reject row if >5% of checks fail
+  alert_on_score_below: 80      # Alert when dataset quality score < 80
+  max_null_pct_default: 0.10    # Default max null % per column
+
+pipeline:
+  batch_size: 10000
+  parallelism: 4
+  retry_attempts: 3
+  retry_delay_seconds: 30
+  audit_retention_days: 90
+
+notifications:
+  email_on_failure: true
+  email_on_degradation: true   # Alert when score drops >10 points
+  # SENDGRID_API_KEY injected from env
+  alert_recipients:
+    - "data-governance@company.com"
+    - "data-engineering@company.com"
+
+powerbi:
+  export_path: "data/processed/powerbi/"
+  refresh_schedule: "0 6 * * *"   # 6 AM daily

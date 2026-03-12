@@ -1,0 +1,501 @@
+employee_id,email,first_name,last_name,department,job_title,level,hire_date,salary_band,manager_id,location,employment_type,is_active,performance_rating
+EMP-000000,emp0@company.com,David,Johnson,Sales,Specialist,C-Suite,2018-01-01,L4,EMP-000055,HQ-SYD,contractor,true,na
+EMP-000001,emp1@company.com,Carol,Wilson,Product,Director,M2,2018-01-03,L6,EMP-000099,REMOTE,full_time,true,meets
+EMP-000002,emp2@company.com,Grace,Williams,Engineering,Analyst,VP,2018-01-05,L6,EMP-000079,HQ-NYC,full_time,false,meets
+EMP-000003,emp3@company.com,Bob,Brown,HR,Intern,IC3,2018-01-07,L2,EMP-000050,HQ-SYD,full_time,false,na
+EMP-000004,emp4@company.com,Frank,Miller,Data,Senior Engineer,VP,2018-01-09,L2,EMP-000080,REMOTE,full_time,false,meets
+EMP-000005,emp5@company.com,Alice,Williams,Engineering,Analyst,VP,2018-01-11,L6,EMP-000015,HQ-LON,part_time,true,exceeds
+EMP-000006,emp6@company.com,Carol,Smith,Support,Coordinator,C-Suite,2018-01-13,L1,EMP-000067,HQ-BLR,contractor,true,na
+EMP-000007,emp7@company.com,Henry,Brown,HR,Lead,C-Suite,2018-01-15,L4,EMP-000061,HQ-LON,full_time,true,below
+EMP-000008,emp8@company.com,David,Miller,HR,Coordinator,IC4,2018-01-17,L3,EMP-000049,REMOTE,contractor,false,exceeds
+EMP-000009,emp9@company.com,Jack,Jones,Product,Lead,IC2,2018-01-19,L5,EMP-000064,HQ-BLR,full_time,false,exceeds
+EMP-000010,emp10@company.com,David,Davis,Product,Lead,M3,2018-01-21,L6,EMP-000085,REMOTE,full_time,true,below
+EMP-000011,emp11@company.com,Grace,Smith,HR,Lead,M3,2018-01-23,L2,EMP-000057,HQ-BLR,full_time,true,meets
+EMP-000012,emp12@company.com,Alice,Williams,Engineering,Specialist,M2,2018-01-26,L2,EMP-000037,HQ-NYC,contractor,true,meets
+EMP-000013,emp13@company.com,Jack,Williams,Support,VP,M2,2018-01-28,L2,EMP-000042,HQ-SYD,full_time,true,exceeds
+EMP-000014,emp14@company.com,Grace,Smith,Engineering,Engineer,IC1,2018-01-30,L5,EMP-000056,HQ-BLR,full_time,true,exceeds
+EMP-000015,emp15@company.com,Henry,Miller,Data,Analyst,M3,2018-02-01,L3,EMP-000058,HQ-BLR,full_time,true,meets
+EMP-000016,emp16@company.com,David,Williams,HR,Intern,M1,2018-02-03,L4,EMP-000031,HQ-SYD,full_time,true,na
+EMP-000017,emp17@company.com,Carol,Jones,Operations,Senior Engineer,IC1,2018-02-05,L3,EMP-000053,REMOTE,part_time,true,meets
+EMP-000018,emp18@company.com,Eva,Moore,Product,Intern,VP,2018-02-07,L5,EMP-000028,HQ-NYC,full_time,true,exceeds
+EMP-000019,emp19@company.com,Carol,Williams,Support,Engineer,IC1,2018-02-09,L1,EMP-000094,HQ-NYC,intern,true,exceeds
+EMP-000020,emp20@company.com,Alice,Johnson,Sales,Lead,IC3,2018-02-11,L3,EMP-000053,HQ-SYD,full_time,true,exceeds
+EMP-000021,emp21@company.com,Grace,Moore,Data,Senior Engineer,IC3,2018-02-13,L2,EMP-000083,HQ-SYD,contractor,true,na
+EMP-000022,emp22@company.com,Henry,Brown,Legal,Specialist,VP,2018-02-15,L4,EMP-000037,HQ-NYC,full_time,true,meets
+EMP-000023,emp23@company.com,Grace,Williams,Finance,Intern,IC1,2018-02-17,L4,EMP-000039,HQ-BLR,full_time,true,na
+EMP-000024,emp24@company.com,Frank,Davis,HR,Intern,IC4,2018-02-20,L5,EMP-000028,HQ-BLR,contractor,true,below
+EMP-000025,emp25@company.com,Frank,Johnson,Product,Coordinator,IC4,2018-02-22,L6,EMP-000057,HQ-NYC,part_time,true,meets
+EMP-000026,emp26@company.com,Jack,Brown,Sales,VP,IC4,2018-02-24,L5,EMP-000061,HQ-BLR,full_time,true,exceeds
+EMP-000027,emp27@company.com,Frank,Johnson,Operations,Senior Engineer,VP,2018-02-26,L1,EMP-000056,REMOTE,part_time,true,na
+EMP-000028,emp28@company.com,Henry,Wilson,Product,Manager,IC3,2018-02-28,L5,EMP-000083,HQ-LON,full_time,true,exceeds
+EMP-000029,emp29@company.com,Eva,Williams,Operations,Senior Engineer,IC4,2018-03-02,L1,EMP-000051,REMOTE,full_time,true,below
+EMP-000030,emp30@company.com,Alice,Garcia,HR,Lead,IC4,2018-03-04,L3,EMP-000082,HQ-SYD,full_time,true,meets
+EMP-000031,emp31@company.com,David,Garcia,Operations,Intern,IC4,2018-03-06,L4,EMP-000005,HQ-LON,full_time,true,meets
+EMP-000032,emp32@company.com,Henry,Jones,Operations,VP,C-Suite,2018-03-08,L2,EMP-000036,HQ-BLR,full_time,true,meets
+EMP-000033,emp33@company.com,Grace,Smith,Data,Coordinator,IC3,2018-03-10,L5,EMP-000071,HQ-BLR,full_time,true,meets
+EMP-000034,emp34@company.com,Grace,Williams,Data,Senior Engineer,IC2,2018-03-12,L5,EMP-000038,HQ-BLR,full_time,true,meets
+EMP-000035,emp35@company.com,Henry,Wilson,Support,Senior Engineer,IC4,2018-03-14,L4,EMP-000073,HQ-BLR,full_time,true,meets
+EMP-000036,emp36@company.com,Carol,Garcia,Engineering,Specialist,IC1,2018-03-17,L4,EMP-000059,HQ-BLR,full_time,true,meets
+EMP-000037,emp37@company.com,Iris,Wilson,Finance,Intern,VP,2018-03-19,L6,EMP-000048,HQ-LON,full_time,true,meets
+EMP-000038,emp38@company.com,Henry,Garcia,Data,VP,C-Suite,2018-03-21,L4,EMP-000055,HQ-NYC,full_time,true,meets
+EMP-000039,emp39@company.com,David,Brown,Legal,Lead,VP,2018-03-23,L2,EMP-000090,HQ-SYD,full_time,true,na
+EMP-000040,emp40@company.com,Frank,Brown,Finance,Intern,VP,2018-03-25,L4,EMP-000067,HQ-LON,full_time,false,below
+EMP-000041,emp41@company.com,Iris,Davis,Legal,Analyst,IC4,2018-03-27,L3,EMP-000098,HQ-SYD,full_time,true,meets
+EMP-000042,emp42@company.com,Bob,Williams,HR,Senior Engineer,M3,2018-03-29,L1,EMP-000009,HQ-LON,full_time,true,na
+EMP-000043,emp43@company.com,David,Garcia,Data,Analyst,IC4,2018-03-31,L6,EMP-000081,HQ-LON,contractor,false,meets
+EMP-000044,emp44@company.com,Bob,Moore,Operations,Engineer,VP,2018-04-02,L5,EMP-000089,HQ-NYC,contractor,true,exceeds
+EMP-000045,emp45@company.com,David,Wilson,HR,Specialist,IC2,2018-04-04,L4,EMP-000092,REMOTE,full_time,true,exceeds
+EMP-000046,emp46@company.com,Carol,Brown,Legal,Director,IC2,2018-04-06,L5,EMP-000053,HQ-SYD,full_time,true,below
+EMP-000047,emp47@company.com,Iris,Williams,Sales,Director,C-Suite,2018-04-08,L4,EMP-000048,HQ-SYD,full_time,true,meets
+EMP-000048,emp48@company.com,Jack,Miller,Product,Engineer,IC4,2018-04-11,L3,EMP-000058,HQ-LON,full_time,true,below
+EMP-000049,emp49@company.com,Jack,Miller,Marketing,VP,IC3,2018-04-13,L6,EMP-000091,REMOTE,full_time,true,meets
+EMP-000050,emp50@company.com,David,Davis,Engineering,Analyst,M3,2018-04-15,L4,EMP-000086,HQ-BLR,full_time,true,exceeds
+EMP-000051,emp51@company.com,Jack,Smith,Engineering,Lead,IC4,2018-04-17,L3,EMP-000093,HQ-SYD,full_time,true,meets
+EMP-000052,emp52@company.com,Alice,Garcia,Engineering,Coordinator,M3,2018-04-19,L5,EMP-000096,HQ-BLR,full_time,true,meets
+EMP-000053,emp53@company.com,Bob,Smith,Sales,Specialist,IC4,2018-04-21,L1,EMP-000062,HQ-LON,contractor,true,meets
+EMP-000054,emp54@company.com,David,Moore,Engineering,Analyst,VP,2018-04-23,L2,EMP-000025,HQ-LON,full_time,true,below
+EMP-000055,emp55@company.com,Carol,Wilson,Finance,Specialist,IC1,2018-04-25,L1,EMP-000015,HQ-BLR,full_time,true,meets
+EMP-000056,emp56@company.com,Jack,Davis,Support,Senior Engineer,M3,2018-04-27,L1,EMP-000089,HQ-NYC,contractor,true,meets
+EMP-000057,emp57@company.com,Henry,Williams,Sales,VP,IC3,2018-04-29,L5,EMP-000015,REMOTE,full_time,true,meets
+EMP-000058,emp58@company.com,Henry,Davis,Legal,Analyst,IC4,2018-05-01,L3,EMP-000007,HQ-BLR,full_time,true,meets
+EMP-000059,emp59@company.com,Iris,Jones,Data,Engineer,C-Suite,2018-05-03,L6,EMP-000047,HQ-LON,full_time,true,below
+EMP-000060,emp60@company.com,Henry,Miller,Data,VP,M1,2018-05-06,L4,EMP-000074,REMOTE,full_time,true,meets
+EMP-000061,emp61@company.com,Frank,Williams,Finance,Engineer,IC1,2018-05-08,L2,EMP-000073,HQ-BLR,full_time,true,meets
+EMP-000062,emp62@company.com,Alice,Jones,Engineering,Analyst,M1,2018-05-10,L2,EMP-000025,REMOTE,full_time,true,meets
+EMP-000063,emp63@company.com,Alice,Wilson,Finance,Lead,IC3,2018-05-12,L3,EMP-000050,HQ-NYC,full_time,true,exceeds
+EMP-000064,emp64@company.com,Jack,Johnson,Legal,Director,M1,2018-05-14,L1,EMP-000089,REMOTE,full_time,true,meets
+EMP-000065,emp65@company.com,Frank,Brown,Product,Manager,IC2,2018-05-16,L4,EMP-000079,HQ-LON,full_time,true,meets
+EMP-000066,emp66@company.com,Jack,Williams,Sales,Manager,M2,2018-05-18,L3,EMP-000091,HQ-BLR,full_time,false,meets
+EMP-000067,emp67@company.com,Alice,Johnson,Finance,Specialist,IC3,2018-05-20,L1,EMP-000076,HQ-LON,full_time,true,meets
+EMP-000068,emp68@company.com,Grace,Brown,Legal,Coordinator,M1,2018-05-22,L4,EMP-000009,HQ-SYD,full_time,true,exceeds
+EMP-000069,emp69@company.com,Carol,Miller,Product,Coordinator,C-Suite,2018-05-24,L6,EMP-000020,HQ-NYC,full_time,true,exceeds
+EMP-000070,emp70@company.com,David,Smith,Finance,Coordinator,M2,2018-05-26,L6,EMP-000016,HQ-SYD,full_time,true,meets
+EMP-000071,emp71@company.com,Grace,Williams,Data,Director,M3,2018-05-28,L3,EMP-000013,HQ-NYC,full_time,true,meets
+EMP-000072,emp72@company.com,Eva,Wilson,Data,VP,M3,2018-05-31,L1,EMP-000085,HQ-BLR,full_time,true,meets
+EMP-000073,emp73@company.com,Bob,Williams,Finance,Manager,C-Suite,2018-06-02,L6,EMP-000070,HQ-LON,full_time,false,exceeds
+EMP-000074,emp74@company.com,Jack,Brown,Operations,Intern,VP,2018-06-04,L4,EMP-000091,HQ-NYC,full_time,true,meets
+EMP-000075,emp75@company.com,Henry,Miller,HR,Lead,VP,2018-06-06,L5,EMP-000032,HQ-LON,full_time,true,meets
+EMP-000076,emp76@company.com,David,Davis,Legal,Engineer,IC4,2018-06-08,L1,EMP-000097,HQ-NYC,full_time,true,below
+EMP-000077,emp77@company.com,Grace,Moore,Finance,Senior Engineer,M2,2018-06-10,L2,EMP-000093,HQ-NYC,full_time,true,meets
+EMP-000078,emp78@company.com,Bob,Johnson,Finance,Coordinator,VP,2018-06-12,L2,EMP-000010,HQ-LON,full_time,true,meets
+EMP-000079,emp79@company.com,Eva,Davis,HR,Senior Engineer,M2,2018-06-14,L5,EMP-000086,HQ-NYC,part_time,true,meets
+EMP-000080,emp80@company.com,Eva,Davis,Marketing,Intern,IC2,2018-06-16,L5,EMP-000011,HQ-SYD,full_time,true,meets
+EMP-000081,emp81@company.com,David,Johnson,Operations,Analyst,M1,2018-06-18,L5,EMP-000045,HQ-SYD,full_time,true,meets
+EMP-000082,emp82@company.com,Eva,Wilson,Support,Intern,IC2,2018-06-20,L3,EMP-000018,REMOTE,contractor,true,exceeds
+EMP-000083,emp83@company.com,Jack,Brown,Finance,Senior Engineer,M3,2018-06-22,L2,EMP-000058,HQ-NYC,full_time,false,meets
+EMP-000084,emp84@company.com,Alice,Jones,Data,Engineer,VP,2018-06-25,L2,EMP-000001,HQ-SYD,full_time,false,exceeds
+EMP-000085,emp85@company.com,Frank,Davis,HR,Specialist,M3,2018-06-27,L2,EMP-000084,HQ-BLR,full_time,true,exceeds
+EMP-000086,emp86@company.com,Jack,Garcia,Sales,Intern,M1,2018-06-29,L1,EMP-000047,HQ-NYC,full_time,true,exceeds
+EMP-000087,emp87@company.com,Iris,Williams,HR,VP,M2,2018-07-01,L5,EMP-000087,HQ-NYC,full_time,true,exceeds
+EMP-000088,emp88@company.com,Iris,Brown,HR,Lead,M1,2018-07-03,L5,EMP-000043,HQ-BLR,part_time,true,meets
+EMP-000089,emp89@company.com,Eva,Davis,Engineering,Lead,M1,2018-07-05,L5,EMP-000055,HQ-NYC,full_time,true,exceeds
+EMP-000090,emp90@company.com,Frank,Johnson,HR,Engineer,IC3,2018-07-07,L6,EMP-000073,HQ-BLR,full_time,true,exceeds
+EMP-000091,emp91@company.com,Frank,Jones,Sales,Specialist,M3,2018-07-09,L5,EMP-000097,REMOTE,full_time,true,exceeds
+EMP-000092,emp92@company.com,Iris,Davis,Product,Lead,IC4,2018-07-11,L2,EMP-000037,HQ-SYD,part_time,true,exceeds
+EMP-000093,emp93@company.com,Jack,Wilson,Operations,Director,IC2,2018-07-13,L2,EMP-000052,HQ-LON,full_time,true,meets
+EMP-000094,emp94@company.com,Carol,Wilson,Finance,VP,VP,2018-07-15,L1,EMP-000032,REMOTE,full_time,true,below
+EMP-000095,emp95@company.com,Bob,Brown,Engineering,VP,M1,2018-07-17,L5,EMP-000004,REMOTE,full_time,true,meets
+EMP-000096,emp96@company.com,Carol,Johnson,Operations,Intern,M1,2018-07-20,L6,EMP-000087,HQ-SYD,full_time,true,exceeds
+EMP-000097,emp97@company.com,Carol,Moore,Product,Intern,M1,2018-07-22,L5,EMP-000056,HQ-BLR,full_time,true,meets
+EMP-000098,emp98@company.com,David,Garcia,HR,Coordinator,IC1,2018-07-24,L3,EMP-000037,HQ-BLR,full_time,true,meets
+EMP-000099,emp99@company.com,Jack,Jones,Support,Intern,M1,2018-07-26,L2,EMP-000077,HQ-LON,contractor,true,exceeds
+EMP-000100,emp100@company.com,Carol,Moore,Sales,Engineer,M1,2018-07-28,L3,EMP-000081,REMOTE,full_time,true,meets
+EMP-000101,emp101@company.com,Eva,Davis,Product,Manager,M1,2018-07-30,L2,EMP-000098,HQ-NYC,full_time,true,meets
+EMP-000102,emp102@company.com,David,Jones,HR,Specialist,IC1,2018-08-01,L1,EMP-000043,HQ-LON,full_time,true,meets
+EMP-000103,emp103@company.com,Carol,Johnson,Finance,Senior Engineer,M3,2018-08-03,L3,EMP-000010,HQ-SYD,full_time,false,meets
+EMP-000104,emp104@company.com,Bob,Smith,Marketing,Intern,M2,2018-08-05,L2,EMP-000048,HQ-NYC,full_time,true,meets
+EMP-000105,emp105@company.com,Jack,Garcia,HR,Senior Engineer,M3,2018-08-07,L5,EMP-000044,HQ-NYC,full_time,true,exceeds
+EMP-000106,emp106@company.com,Grace,Johnson,Engineering,Director,M1,2018-08-09,L6,EMP-000020,REMOTE,full_time,true,exceeds
+EMP-000107,emp107@company.com,Bob,Brown,Legal,Manager,IC3,2018-08-11,L2,EMP-000058,HQ-BLR,full_time,true,below
+EMP-000108,emp108@company.com,Grace,Miller,HR,Coordinator,VP,2018-08-14,L1,EMP-000041,HQ-SYD,full_time,true,meets
+EMP-000109,emp109@company.com,Grace,Smith,Legal,Engineer,IC4,2018-08-16,L6,EMP-000088,REMOTE,full_time,false,meets
+EMP-000110,emp110@company.com,David,Moore,Operations,Intern,M1,2018-08-18,L2,EMP-000004,HQ-BLR,full_time,true,below
+EMP-000111,emp111@company.com,Henry,Jones,Support,Intern,IC1,2018-08-20,L2,EMP-000071,HQ-LON,full_time,true,meets
+EMP-000112,emp112@company.com,Iris,Wilson,Engineering,Lead,IC2,2018-08-22,L6,EMP-000060,REMOTE,full_time,false,exceeds
+EMP-000113,emp113@company.com,Henry,Johnson,HR,Senior Engineer,IC2,2018-08-24,L6,EMP-000023,HQ-LON,full_time,true,meets
+EMP-000114,emp114@company.com,Grace,Jones,Operations,Manager,IC4,2018-08-26,L4,EMP-000035,HQ-NYC,full_time,false,exceeds
+EMP-000115,emp115@company.com,Eva,Moore,Marketing,Manager,IC3,2018-08-28,L1,EMP-000085,HQ-LON,full_time,true,meets
+EMP-000116,emp116@company.com,Carol,Miller,Legal,Specialist,IC3,2018-08-30,L5,EMP-000036,HQ-LON,part_time,true,meets
+EMP-000117,emp117@company.com,Alice,Wilson,Finance,Intern,M3,2018-09-01,L5,EMP-000066,REMOTE,full_time,true,exceeds
+EMP-000118,emp118@company.com,Jack,Miller,Product,Intern,M3,2018-09-03,L3,EMP-000051,HQ-BLR,full_time,true,exceeds
+EMP-000119,emp119@company.com,Iris,Davis,Support,VP,VP,2018-09-05,L4,EMP-000089,HQ-SYD,full_time,false,meets
+EMP-000120,emp120@company.com,Carol,Brown,Data,Specialist,VP,2018-09-08,L4,EMP-000066,HQ-SYD,full_time,true,meets
+EMP-000121,emp121@company.com,Iris,Jones,Legal,Manager,IC3,2018-09-10,L4,EMP-000083,HQ-LON,contractor,true,exceeds
+EMP-000122,emp122@company.com,Alice,Smith,Product,Director,M2,2018-09-12,L4,EMP-000090,HQ-SYD,full_time,true,exceeds
+EMP-000123,emp123@company.com,Carol,Williams,Data,Manager,VP,2018-09-14,L6,EMP-000012,HQ-SYD,full_time,true,meets
+EMP-000124,emp124@company.com,Bob,Smith,Support,Engineer,IC3,2018-09-16,L1,EMP-000083,REMOTE,full_time,true,below
+EMP-000125,emp125@company.com,David,Brown,Product,Intern,IC4,2018-09-18,L1,EMP-000096,HQ-LON,full_time,true,meets
+EMP-000126,emp126@company.com,David,Davis,Support,Coordinator,M1,2018-09-20,L1,EMP-000003,HQ-BLR,full_time,true,meets
+EMP-000127,emp127@company.com,Frank,Williams,Support,VP,VP,2018-09-22,L1,EMP-000045,HQ-NYC,full_time,true,meets
+EMP-000128,emp128@company.com,Eva,Jones,Sales,Intern,IC2,2018-09-24,L3,EMP-000025,HQ-LON,part_time,true,meets
+EMP-000129,emp129@company.com,Bob,Garcia,Operations,Specialist,M1,2018-09-26,L1,EMP-000098,REMOTE,full_time,true,exceeds
+EMP-000130,emp130@company.com,Bob,Johnson,Finance,Engineer,IC3,2018-09-28,L2,EMP-000035,HQ-SYD,full_time,true,exceeds
+EMP-000131,emp131@company.com,Iris,Wilson,Support,Analyst,M3,2018-09-30,L4,EMP-000018,HQ-SYD,full_time,true,exceeds
+EMP-000132,emp132@company.com,Frank,Davis,Product,Analyst,IC3,2018-10-03,L6,EMP-000009,HQ-SYD,full_time,true,below
+EMP-000133,emp133@company.com,Jack,Johnson,Data,Specialist,IC4,2018-10-05,L5,EMP-000079,REMOTE,full_time,true,meets
+EMP-000134,emp134@company.com,Bob,Smith,Finance,Coordinator,IC4,2018-10-07,L2,EMP-000005,HQ-NYC,full_time,false,exceeds
+EMP-000135,emp135@company.com,David,Smith,Data,Lead,IC1,2018-10-09,L1,EMP-000030,HQ-BLR,full_time,true,meets
+EMP-000136,emp136@company.com,Bob,Williams,Engineering,Engineer,M3,2018-10-11,L5,EMP-000055,HQ-SYD,full_time,true,meets
+EMP-000137,emp137@company.com,Jack,Johnson,Support,Senior Engineer,IC3,2018-10-13,L5,EMP-000004,REMOTE,contractor,true,meets
+EMP-000138,emp138@company.com,Bob,Smith,Marketing,VP,M1,2018-10-15,L6,EMP-000017,REMOTE,full_time,true,meets
+EMP-000139,emp139@company.com,Iris,Jones,Operations,Analyst,M3,2018-10-17,L3,EMP-000099,HQ-SYD,full_time,true,below
+EMP-000140,emp140@company.com,Bob,Garcia,Product,Intern,VP,2018-10-19,L1,EMP-000045,HQ-NYC,full_time,true,meets
+EMP-000141,emp141@company.com,Henry,Smith,Product,Intern,C-Suite,2018-10-21,L6,EMP-000030,HQ-SYD,full_time,true,below
+EMP-000142,emp142@company.com,Eva,Garcia,Marketing,Senior Engineer,IC2,2018-10-23,L2,EMP-000086,REMOTE,full_time,true,exceeds
+EMP-000143,emp143@company.com,Jack,Jones,Operations,Lead,M2,2018-10-25,L3,EMP-000008,HQ-BLR,full_time,true,meets
+EMP-000144,emp144@company.com,Alice,Williams,Operations,Senior Engineer,IC3,2018-10-28,L3,EMP-000026,HQ-NYC,full_time,true,below
+EMP-000145,emp145@company.com,David,Johnson,Product,Senior Engineer,M3,2018-10-30,L6,EMP-000086,HQ-BLR,full_time,true,meets
+EMP-000146,emp146@company.com,Henry,Davis,Finance,Manager,IC4,2018-11-01,L3,EMP-000075,HQ-LON,full_time,true,meets
+EMP-000147,emp147@company.com,Jack,Johnson,Product,Lead,IC1,2018-11-03,L4,EMP-000043,REMOTE,full_time,true,na
+EMP-000148,emp148@company.com,Frank,Williams,Legal,Engineer,VP,2018-11-05,L4,EMP-000098,REMOTE,contractor,false,meets
+EMP-000149,emp149@company.com,Alice,Davis,Product,Specialist,M3,2018-11-07,L6,EMP-000057,HQ-SYD,full_time,true,exceeds
+EMP-000150,emp150@company.com,Grace,Miller,Data,Director,IC3,2018-11-09,L6,EMP-000074,HQ-BLR,full_time,true,meets
+EMP-000151,emp151@company.com,Eva,Moore,HR,Manager,VP,2018-11-11,L4,EMP-000098,REMOTE,full_time,true,meets
+EMP-000152,emp152@company.com,Henry,Smith,HR,Manager,IC4,2018-11-13,L1,EMP-000050,REMOTE,full_time,false,below
+EMP-000153,emp153@company.com,Frank,Johnson,Product,Director,IC4,2018-11-15,L3,EMP-000048,HQ-LON,full_time,true,exceeds
+EMP-000154,emp154@company.com,Iris,Miller,Product,Director,IC3,2018-11-17,L4,EMP-000066,HQ-BLR,full_time,true,meets
+EMP-000155,emp155@company.com,Bob,Williams,Data,Director,M1,2018-11-19,L5,EMP-000006,HQ-SYD,contractor,true,exceeds
+EMP-000156,emp156@company.com,Grace,Brown,Operations,Coordinator,C-Suite,2018-11-22,L5,EMP-000042,REMOTE,full_time,true,meets
+EMP-000157,emp157@company.com,Henry,Williams,Legal,VP,IC1,2018-11-24,L3,EMP-000069,HQ-BLR,full_time,true,meets
+EMP-000158,emp158@company.com,Eva,Wilson,Engineering,Analyst,M2,2018-11-26,L5,EMP-000037,HQ-LON,full_time,true,meets
+EMP-000159,emp159@company.com,Eva,Davis,HR,Senior Engineer,IC2,2018-11-28,L2,EMP-000071,REMOTE,contractor,true,meets
+EMP-000160,emp160@company.com,Grace,Wilson,Marketing,Specialist,IC2,2018-11-30,L4,EMP-000040,REMOTE,full_time,true,meets
+EMP-000161,emp161@company.com,Eva,Garcia,Data,Intern,IC1,2018-12-02,L3,EMP-000019,HQ-BLR,intern,true,meets
+EMP-000162,emp162@company.com,David,Jones,Sales,Coordinator,IC3,2018-12-04,L5,EMP-000014,HQ-LON,full_time,true,meets
+EMP-000163,emp163@company.com,Frank,Garcia,Product,Coordinator,M3,2018-12-06,L6,EMP-000054,HQ-LON,full_time,true,exceeds
+EMP-000164,emp164@company.com,Iris,Smith,Data,Specialist,M3,2018-12-08,L5,EMP-000019,HQ-LON,part_time,true,exceeds
+EMP-000165,emp165@company.com,Bob,Garcia,HR,Intern,VP,2018-12-10,L5,EMP-000036,REMOTE,full_time,true,below
+EMP-000166,emp166@company.com,Iris,Williams,Legal,Engineer,IC2,2018-12-12,L5,EMP-000051,HQ-LON,full_time,true,meets
+EMP-000167,emp167@company.com,Carol,Moore,Operations,VP,IC1,2018-12-14,L2,EMP-000004,HQ-NYC,full_time,true,meets
+EMP-000168,emp168@company.com,Alice,Johnson,Legal,Intern,C-Suite,2018-12-17,L2,EMP-000042,REMOTE,full_time,true,meets
+EMP-000169,emp169@company.com,Bob,Smith,Legal,VP,C-Suite,2018-12-19,L6,EMP-000031,HQ-SYD,contractor,true,meets
+EMP-000170,emp170@company.com,Alice,Moore,Marketing,Analyst,M3,2018-12-21,L4,EMP-000031,HQ-NYC,part_time,true,exceeds
+EMP-000171,emp171@company.com,Jack,Johnson,Legal,Intern,VP,2018-12-23,L3,EMP-000090,HQ-BLR,full_time,true,meets
+EMP-000172,emp172@company.com,Carol,Garcia,Support,Engineer,VP,2018-12-25,L4,EMP-000092,HQ-SYD,full_time,true,exceeds
+EMP-000173,emp173@company.com,Henry,Brown,Finance,Analyst,M2,2018-12-27,L1,EMP-000030,HQ-SYD,full_time,true,below
+EMP-000174,emp174@company.com,Bob,Williams,Finance,Intern,M1,2018-12-29,L1,EMP-000088,HQ-SYD,full_time,true,meets
+EMP-000175,emp175@company.com,Frank,Jones,Marketing,Manager,C-Suite,2018-12-31,L1,EMP-000022,HQ-LON,full_time,true,below
+EMP-000176,emp176@company.com,Eva,Davis,Support,Lead,M3,2019-01-02,L4,EMP-000034,HQ-NYC,full_time,true,meets
+EMP-000177,emp177@company.com,Grace,Johnson,Data,Director,VP,2019-01-04,L1,EMP-000094,HQ-SYD,part_time,true,below
+EMP-000178,emp178@company.com,Jack,Miller,Finance,Coordinator,IC2,2019-01-06,L1,EMP-000010,HQ-BLR,full_time,true,meets
+EMP-000179,emp179@company.com,Grace,Wilson,Support,Specialist,IC3,2019-01-08,L5,EMP-000038,HQ-LON,full_time,true,exceeds
+EMP-000180,emp180@company.com,Henry,Williams,Product,Intern,M2,2019-01-11,L5,EMP-000080,HQ-SYD,contractor,true,below
+EMP-000181,emp181@company.com,Carol,Miller,HR,Director,C-Suite,2019-01-13,L2,EMP-000094,HQ-LON,part_time,true,below
+EMP-000182,emp182@company.com,Bob,Moore,Data,Lead,M2,2019-01-15,L5,EMP-000094,HQ-BLR,full_time,true,below
+EMP-000183,emp183@company.com,Alice,Moore,Support,Analyst,IC4,2019-01-17,L1,EMP-000088,HQ-SYD,full_time,true,na
+EMP-000184,emp184@company.com,David,Miller,Data,Director,IC1,2019-01-19,L3,EMP-000096,HQ-BLR,full_time,false,meets
+EMP-000185,emp185@company.com,Frank,Moore,HR,Engineer,IC2,2019-01-21,L3,EMP-000047,HQ-BLR,full_time,true,meets
+EMP-000186,emp186@company.com,Alice,Davis,Marketing,Engineer,IC3,2019-01-23,L3,EMP-000032,HQ-NYC,full_time,true,meets
+EMP-000187,emp187@company.com,Carol,Garcia,Sales,Lead,IC2,2019-01-25,L6,EMP-000038,HQ-SYD,full_time,true,exceeds
+EMP-000188,emp188@company.com,Grace,Johnson,Data,Senior Engineer,M3,2019-01-27,L1,EMP-000012,REMOTE,full_time,true,meets
+EMP-000189,emp189@company.com,Iris,Wilson,Product,Senior Engineer,M3,2019-01-29,L4,EMP-000013,HQ-BLR,full_time,true,below
+EMP-000190,emp190@company.com,Jack,Williams,Product,Senior Engineer,IC4,2019-01-31,L2,EMP-000097,HQ-BLR,contractor,true,meets
+EMP-000191,emp191@company.com,Carol,Davis,Engineering,Director,C-Suite,2019-02-02,L3,EMP-000019,HQ-LON,part_time,true,meets
+EMP-000192,emp192@company.com,Bob,Miller,Support,Senior Engineer,IC4,2019-02-05,L2,EMP-000061,HQ-BLR,full_time,false,meets
+EMP-000193,emp193@company.com,Frank,Brown,Sales,Coordinator,M1,2019-02-07,L5,EMP-000023,HQ-LON,full_time,true,below
+EMP-000194,emp194@company.com,Jack,Davis,Operations,Intern,M1,2019-02-09,L1,EMP-000066,HQ-LON,full_time,false,exceeds
+EMP-000195,emp195@company.com,Eva,Miller,Support,Coordinator,M2,2019-02-11,L1,EMP-000047,HQ-SYD,full_time,true,meets
+EMP-000196,emp196@company.com,Jack,Davis,Marketing,Specialist,IC2,2019-02-13,L2,EMP-000010,HQ-BLR,part_time,false,meets
+EMP-000197,emp197@company.com,Henry,Moore,Operations,Intern,IC3,2019-02-15,L6,EMP-000037,REMOTE,full_time,true,below
+EMP-000198,emp198@company.com,Iris,Williams,Data,Intern,M3,2019-02-17,L1,EMP-000073,HQ-NYC,full_time,true,meets
+EMP-000199,emp199@company.com,Jack,Davis,Marketing,Specialist,VP,2019-02-19,L2,EMP-000080,HQ-BLR,full_time,true,meets
+EMP-000200,emp200@company.com,Bob,Smith,Sales,Engineer,IC4,2019-02-21,L3,EMP-000028,HQ-BLR,full_time,true,exceeds
+EMP-000201,emp201@company.com,Eva,Davis,HR,Lead,IC2,2019-02-23,L1,EMP-000029,HQ-NYC,full_time,true,meets
+EMP-000202,emp202@company.com,Alice,Johnson,Product,Lead,VP,2019-02-25,L4,EMP-000072,HQ-BLR,full_time,true,below
+EMP-000203,emp203@company.com,Alice,Williams,Operations,Director,M2,2019-02-27,L3,EMP-000042,HQ-LON,full_time,true,meets
+EMP-000204,emp204@company.com,Eva,Johnson,HR,Senior Engineer,IC4,2019-03-02,L4,EMP-000007,HQ-BLR,full_time,true,meets
+EMP-000205,emp205@company.com,Grace,Wilson,Legal,Senior Engineer,M2,2019-03-04,L1,EMP-000012,HQ-SYD,part_time,true,meets
+EMP-000206,emp206@company.com,Iris,Brown,Engineering,Manager,VP,2019-03-06,L2,EMP-000037,HQ-BLR,full_time,true,meets
+EMP-000207,emp207@company.com,Bob,Brown,Finance,Lead,IC1,2019-03-08,L2,EMP-000027,HQ-SYD,full_time,true,meets
+EMP-000208,emp208@company.com,Alice,Brown,Data,VP,IC4,2019-03-10,L5,EMP-000011,HQ-NYC,full_time,true,meets
+EMP-000209,emp209@company.com,Bob,Miller,Finance,Senior Engineer,C-Suite,2019-03-12,L5,EMP-000078,HQ-LON,contractor,true,meets
+EMP-000210,emp210@company.com,Jack,Moore,Support,Analyst,IC3,2019-03-14,L1,EMP-000045,HQ-NYC,full_time,true,meets
+EMP-000211,emp211@company.com,Grace,Miller,Operations,Intern,C-Suite,2019-03-16,L3,EMP-000070,HQ-NYC,full_time,true,meets
+EMP-000212,emp212@company.com,Eva,Johnson,Support,Engineer,IC3,2019-03-18,L5,EMP-000000,HQ-LON,full_time,true,below
+EMP-000213,emp213@company.com,Bob,Garcia,Legal,VP,M1,2019-03-20,L1,EMP-000040,HQ-NYC,full_time,false,exceeds
+EMP-000214,emp214@company.com,David,Johnson,HR,Engineer,IC1,2019-03-22,L1,EMP-000047,HQ-LON,contractor,true,exceeds
+EMP-000215,emp215@company.com,Bob,Johnson,Support,Manager,M3,2019-03-24,L4,EMP-000057,HQ-NYC,full_time,true,meets
+EMP-000216,emp216@company.com,Alice,Johnson,,Engineer,IC3,2019-03-27,L4,EMP-000096,HQ-NYC,full_time,true,na
+EMP-000217,emp217@company.com,Eva,Miller,Finance,Lead,VP,2019-03-29,L5,EMP-000045,HQ-SYD,part_time,true,meets
+EMP-000218,emp218@company.com,Frank,Wilson,Product,Analyst,IC2,2019-03-31,L3,EMP-000048,HQ-BLR,full_time,false,meets
+EMP-000219,emp219@company.com,Eva,Williams,Data,Analyst,IC2,2019-04-02,L6,EMP-000089,REMOTE,full_time,false,meets
+EMP-000220,emp220@company.com,Iris,Moore,Sales,Coordinator,M1,2019-04-04,L1,EMP-000039,REMOTE,full_time,true,meets
+EMP-000221,emp221@company.com,Jack,Williams,Support,Manager,IC1,2019-04-06,L1,EMP-000039,HQ-LON,full_time,true,na
+EMP-000222,emp222@company.com,Bob,Brown,HR,Lead,IC3,2019-04-08,L4,EMP-000015,REMOTE,contractor,true,meets
+EMP-000223,emp223@company.com,Carol,Johnson,Finance,Analyst,M3,2019-04-10,L6,EMP-000072,HQ-BLR,full_time,true,meets
+EMP-000224,emp224@company.com,Frank,Smith,Sales,Lead,M1,2019-04-12,L1,EMP-000001,REMOTE,full_time,true,below
+EMP-000225,emp225@company.com,Eva,Miller,Engineering,Specialist,M2,2019-04-14,L5,EMP-000021,HQ-BLR,contractor,false,meets
+EMP-000226,emp226@company.com,Eva,Jones,Operations,Specialist,IC1,2019-04-16,L6,EMP-000041,REMOTE,full_time,true,exceeds
+EMP-000227,emp227@company.com,Henry,Johnson,,VP,M3,2019-04-18,L4,EMP-000043,HQ-LON,full_time,true,meets
+EMP-000228,emp228@company.com,Bob,Garcia,Engineering,Coordinator,IC1,2019-04-21,L5,EMP-000003,HQ-SYD,full_time,true,exceeds
+EMP-000229,emp229@company.com,Iris,Brown,Support,Director,M2,2019-04-23,L2,EMP-000052,HQ-SYD,full_time,true,na
+EMP-000230,emp230@company.com,Carol,Brown,Operations,Lead,VP,2019-04-25,L5,EMP-000097,HQ-LON,full_time,true,below
+EMP-000231,emp231@company.com,David,Wilson,Engineering,Lead,M3,2019-04-27,L3,EMP-000010,REMOTE,full_time,true,meets
+EMP-000232,emp232@company.com,Carol,Jones,Data,Analyst,IC4,2019-04-29,L2,EMP-000049,HQ-BLR,full_time,true,below
+EMP-000233,emp233@company.com,Grace,Jones,Sales,Director,IC2,2019-05-01,L2,EMP-000058,HQ-LON,full_time,true,exceeds
+EMP-000234,emp234@company.com,Grace,Miller,Legal,VP,VP,2019-05-03,L6,EMP-000032,HQ-BLR,full_time,false,exceeds
+EMP-000235,emp235@company.com,Grace,Wilson,Legal,Manager,IC2,2019-05-05,L5,EMP-000057,HQ-SYD,full_time,true,exceeds
+EMP-000236,emp236@company.com,Eva,Davis,Data,Engineer,M1,2019-05-07,L5,EMP-000034,HQ-LON,full_time,true,below
+EMP-000237,emp237@company.com,David,Jones,Data,Specialist,IC3,2019-05-09,L5,EMP-000015,HQ-NYC,full_time,true,exceeds
+EMP-000238,emp238@company.com,Grace,Brown,Support,Engineer,IC1,2019-05-11,L2,EMP-000084,HQ-SYD,full_time,true,exceeds
+EMP-000239,emp239@company.com,Bob,Johnson,Engineering,Lead,IC4,2019-05-13,L2,EMP-000099,HQ-SYD,full_time,true,exceeds
+EMP-000240,emp240@company.com,David,Johnson,Finance,Intern,M1,2019-05-16,L4,EMP-000038,HQ-SYD,contractor,true,meets
+EMP-000241,emp241@company.com,Grace,Davis,Finance,Lead,M3,2019-05-18,L2,EMP-000009,HQ-BLR,part_time,true,meets
+EMP-000242,emp242@company.com,Grace,Davis,Finance,Manager,M3,2019-05-20,L4,EMP-000016,HQ-NYC,full_time,false,exceeds
+EMP-000243,emp243@company.com,Carol,Brown,Marketing,VP,VP,2019-05-22,L6,EMP-000089,HQ-SYD,part_time,false,below
+EMP-000244,emp244@company.com,David,Moore,Marketing,Engineer,VP,2019-05-24,L5,EMP-000088,HQ-NYC,full_time,true,na
+EMP-000245,emp245@company.com,David,Moore,Support,Senior Engineer,IC4,2019-05-26,L3,EMP-000049,HQ-NYC,intern,true,meets
+EMP-000246,emp246@company.com,Iris,Miller,Data,Director,IC4,2019-05-28,L6,EMP-000087,HQ-BLR,contractor,true,na
+EMP-000247,emp247@company.com,Frank,Williams,Legal,Coordinator,M2,2019-05-30,L4,EMP-000022,HQ-LON,full_time,true,below
+EMP-000248,emp248@company.com,Bob,Garcia,Operations,Lead,M1,2019-06-01,L3,EMP-000040,HQ-SYD,full_time,true,below
+EMP-000249,emp249@company.com,Bob,Wilson,HR,Manager,IC3,2019-06-03,L6,EMP-000011,HQ-SYD,full_time,false,exceeds
+EMP-000250,emp250@company.com,Alice,Garcia,Legal,VP,IC1,2019-06-05,L3,EMP-000054,HQ-SYD,full_time,true,below
+EMP-000251,emp251@company.com,Carol,Jones,Data,Intern,M1,2019-06-07,L2,EMP-000069,HQ-SYD,full_time,true,meets
+EMP-000252,emp252@company.com,Carol,Garcia,HR,Manager,M1,2019-06-10,L1,EMP-000096,REMOTE,full_time,true,exceeds
+EMP-000253,emp253@company.com,Eva,Wilson,Operations,Engineer,C-Suite,2019-06-12,L4,EMP-000075,HQ-SYD,full_time,true,meets
+EMP-000254,emp254@company.com,Henry,Jones,Support,Lead,VP,2019-06-14,L4,EMP-000066,HQ-SYD,part_time,true,exceeds
+EMP-000255,emp255@company.com,Iris,Johnson,Support,Senior Engineer,IC3,2019-06-16,L5,EMP-000067,HQ-LON,contractor,true,meets
+EMP-000256,emp256@company.com,Frank,Garcia,Marketing,Manager,IC1,2019-06-18,L1,EMP-000062,REMOTE,full_time,false,meets
+EMP-000257,emp257@company.com,Henry,Miller,Marketing,Lead,VP,2019-06-20,L2,EMP-000041,HQ-BLR,full_time,true,meets
+EMP-000258,emp258@company.com,Grace,Moore,Marketing,Senior Engineer,M1,2019-06-22,L1,EMP-000050,HQ-SYD,part_time,true,exceeds
+EMP-000259,emp259@company.com,David,Johnson,Engineering,Director,IC1,2019-06-24,L2,EMP-000017,HQ-LON,full_time,true,below
+EMP-000260,emp260@company.com,Grace,Moore,Legal,VP,M3,2019-06-26,L6,EMP-000002,HQ-LON,contractor,true,exceeds
+EMP-000261,emp261@company.com,David,Wilson,HR,Specialist,IC4,2019-06-28,L6,EMP-000078,HQ-LON,full_time,true,below
+EMP-000262,emp262@company.com,David,Davis,Engineering,Specialist,IC2,2019-06-30,L3,EMP-000049,HQ-BLR,full_time,true,meets
+EMP-000263,emp263@company.com,Jack,Williams,Marketing,VP,M2,2019-07-02,L1,EMP-000087,REMOTE,full_time,true,exceeds
+EMP-000264,emp264@company.com,Jack,Williams,Operations,Lead,VP,2019-07-05,L6,EMP-000012,HQ-LON,full_time,true,meets
+EMP-000265,emp265@company.com,Grace,Jones,Data,Analyst,M3,2019-07-07,L1,EMP-000039,HQ-BLR,full_time,true,na
+EMP-000266,emp266@company.com,Frank,Johnson,Legal,Specialist,IC3,2019-07-09,L1,EMP-000025,HQ-BLR,full_time,true,na
+EMP-000267,emp267@company.com,Grace,Miller,Operations,Coordinator,M2,2019-07-11,L3,EMP-000084,REMOTE,full_time,true,exceeds
+EMP-000268,emp268@company.com,Henry,Davis,Sales,Director,M1,2019-07-13,L6,EMP-000037,HQ-BLR,full_time,true,exceeds
+EMP-000269,emp269@company.com,Alice,Jones,Marketing,VP,VP,2019-07-15,L5,EMP-000063,HQ-LON,full_time,true,exceeds
+EMP-000270,emp270@company.com,David,Miller,Product,Coordinator,IC2,2019-07-17,L3,EMP-000008,HQ-NYC,full_time,true,meets
+EMP-000271,emp271@company.com,Bob,Davis,Product,Lead,VP,2019-07-19,L3,EMP-000052,HQ-SYD,full_time,true,exceeds
+EMP-000272,emp272@company.com,Frank,Moore,Data,Analyst,IC4,2019-07-21,L1,EMP-000044,HQ-BLR,full_time,true,exceeds
+EMP-000273,emp273@company.com,Carol,Miller,Operations,Senior Engineer,M2,2019-07-23,L2,EMP-000061,HQ-SYD,full_time,true,meets
+EMP-000274,emp274@company.com,David,Williams,Marketing,Senior Engineer,M1,2019-07-25,L5,EMP-000058,HQ-SYD,part_time,true,na
+EMP-000275,emp275@company.com,Iris,Johnson,Operations,Intern,IC4,2019-07-27,L3,EMP-000010,HQ-LON,contractor,true,meets
+EMP-000276,emp276@company.com,Carol,Moore,Data,Coordinator,IC3,2019-07-30,L6,EMP-000005,REMOTE,full_time,true,meets
+EMP-000277,emp277@company.com,Jack,Davis,Sales,Coordinator,IC4,2019-08-01,L3,EMP-000012,HQ-SYD,full_time,true,exceeds
+EMP-000278,emp278@company.com,Eva,Wilson,Data,Senior Engineer,M2,2019-08-03,L6,EMP-000021,HQ-NYC,contractor,true,meets
+EMP-000279,emp279@company.com,Bob,Jones,Support,Lead,M2,2019-08-05,L5,EMP-000072,HQ-SYD,full_time,true,meets
+EMP-000280,emp280@company.com,Bob,Johnson,Data,Manager,M2,2019-08-07,L4,EMP-000026,HQ-NYC,full_time,true,below
+EMP-000281,emp281@company.com,Henry,Garcia,Legal,Coordinator,M2,2019-08-09,L6,EMP-000096,HQ-LON,full_time,true,meets
+EMP-000282,emp282@company.com,Jack,Miller,HR,Director,IC1,2019-08-11,L6,EMP-000008,REMOTE,full_time,true,exceeds
+EMP-000283,emp283@company.com,Iris,Williams,Data,Manager,IC4,2019-08-13,L2,EMP-000050,HQ-BLR,full_time,true,meets
+EMP-000284,emp284@company.com,Bob,Jones,Sales,Senior Engineer,IC3,2019-08-15,L2,EMP-000071,HQ-LON,full_time,true,exceeds
+EMP-000285,emp285@company.com,Iris,Jones,Product,Intern,IC4,2019-08-17,L5,EMP-000005,HQ-SYD,full_time,true,exceeds
+EMP-000286,emp286@company.com,Carol,Williams,HR,Engineer,IC4,2019-08-19,L1,EMP-000051,HQ-BLR,full_time,true,na
+EMP-000287,emp287@company.com,Eva,Wilson,Operations,Engineer,IC2,2019-08-21,L5,EMP-000006,HQ-BLR,full_time,true,meets
+EMP-000288,emp288@company.com,Alice,Jones,HR,Director,C-Suite,2019-08-24,L3,EMP-000078,HQ-BLR,full_time,true,below
+EMP-000289,emp289@company.com,Carol,Moore,Engineering,Intern,IC1,2019-08-26,L5,EMP-000046,HQ-NYC,full_time,true,exceeds
+EMP-000290,emp290@company.com,David,Smith,Support,Lead,M2,2019-08-28,L1,EMP-000086,HQ-SYD,full_time,false,below
+EMP-000291,emp291@company.com,Jack,Moore,Legal,Intern,M1,2019-08-30,L4,EMP-000065,HQ-BLR,full_time,true,below
+EMP-000292,emp292@company.com,Carol,Miller,Legal,Manager,M3,2019-09-01,L4,EMP-000031,HQ-NYC,full_time,true,meets
+EMP-000293,emp293@company.com,Carol,Davis,Sales,VP,VP,2019-09-03,L1,EMP-000015,HQ-BLR,full_time,true,exceeds
+EMP-000294,emp294@company.com,Carol,Williams,Product,Senior Engineer,M2,2019-09-05,L4,EMP-000015,HQ-NYC,full_time,true,below
+EMP-000295,emp295@company.com,Carol,Smith,Support,Engineer,M3,2019-09-07,L4,EMP-000003,HQ-BLR,full_time,true,below
+EMP-000296,emp296@company.com,Frank,Williams,Data,Analyst,IC3,2019-09-09,L3,EMP-000030,REMOTE,part_time,false,exceeds
+EMP-000297,emp297@company.com,Carol,Jones,Marketing,Analyst,C-Suite,2019-09-11,L4,EMP-000072,HQ-NYC,full_time,true,na
+EMP-000298,emp298@company.com,Carol,Brown,Sales,Manager,IC1,2019-09-13,L2,EMP-000035,HQ-LON,full_time,true,below
+EMP-000299,emp299@company.com,Frank,Johnson,Finance,Senior Engineer,M3,2019-09-15,L4,EMP-000014,HQ-NYC,full_time,true,exceeds
+EMP-000300,emp300@company.com,Henry,Smith,Engineering,Director,IC2,2019-09-18,L2,EMP-000008,HQ-SYD,full_time,true,meets
+EMP-000301,emp301@company.com,Bob,Miller,Operations,Director,IC3,2019-09-20,L2,EMP-000043,HQ-SYD,part_time,true,meets
+EMP-000302,emp302@company.com,David,Miller,HR,Specialist,VP,2019-09-22,L1,EMP-000020,HQ-SYD,full_time,true,meets
+EMP-000303,emp303@company.com,Frank,Johnson,Operations,Director,M3,2019-09-24,L1,EMP-000073,REMOTE,full_time,false,below
+EMP-000304,emp304@company.com,Jack,Davis,Support,Manager,M2,2019-09-26,L1,EMP-000033,HQ-LON,full_time,true,below
+EMP-000305,emp305@company.com,Jack,Moore,Legal,Coordinator,VP,2019-09-28,L2,EMP-000012,HQ-SYD,full_time,true,exceeds
+EMP-000306,emp306@company.com,Iris,Moore,HR,Coordinator,IC3,2019-09-30,L5,EMP-000027,HQ-LON,full_time,true,meets
+EMP-000307,emp307@company.com,Frank,Johnson,Product,Analyst,M2,2019-10-02,L2,EMP-000044,REMOTE,full_time,true,meets
+EMP-000308,emp308@company.com,Alice,Jones,Finance,Senior Engineer,IC2,2019-10-04,L3,EMP-000003,HQ-NYC,full_time,true,meets
+EMP-000309,emp309@company.com,Jack,Smith,Product,VP,M1,2019-10-06,L2,EMP-000011,HQ-SYD,full_time,true,meets
+EMP-000310,emp310@company.com,Grace,Smith,Support,Coordinator,IC4,2019-10-08,L3,EMP-000096,HQ-NYC,contractor,true,meets
+EMP-000311,emp311@company.com,Jack,Wilson,Support,Manager,M2,2019-10-10,L2,EMP-000034,HQ-NYC,part_time,false,meets
+EMP-000312,emp312@company.com,Jack,Moore,Operations,Lead,IC1,2019-10-13,L2,EMP-000074,HQ-SYD,full_time,false,meets
+EMP-000313,emp313@company.com,Henry,Williams,HR,Analyst,IC1,2019-10-15,L1,EMP-000091,HQ-SYD,full_time,true,below
+EMP-000314,emp314@company.com,Eva,Jones,Finance,Senior Engineer,IC1,2019-10-17,L4,EMP-000011,HQ-SYD,full_time,true,meets
+EMP-000315,emp315@company.com,Grace,Smith,Operations,Lead,IC3,2019-10-19,L2,EMP-000068,HQ-SYD,part_time,true,meets
+EMP-000316,emp316@company.com,Grace,Wilson,Support,Engineer,M2,2019-10-21,L4,EMP-000083,HQ-NYC,full_time,true,na
+EMP-000317,emp317@company.com,Iris,Garcia,Data,Manager,IC2,2019-10-23,L6,EMP-000002,HQ-LON,full_time,true,below
+EMP-000318,emp318@company.com,Carol,Williams,Legal,Specialist,C-Suite,2019-10-25,L3,EMP-000031,HQ-BLR,full_time,true,meets
+EMP-000319,emp319@company.com,Frank,Moore,Marketing,Lead,IC4,2019-10-27,L4,EMP-000013,HQ-LON,full_time,false,meets
+EMP-000320,emp320@company.com,Frank,Johnson,Finance,VP,IC3,2019-10-29,L5,EMP-000003,HQ-BLR,full_time,true,meets
+EMP-000321,emp321@company.com,Carol,Williams,Marketing,Lead,C-Suite,2019-10-31,L3,EMP-000029,HQ-SYD,full_time,true,meets
+EMP-000322,emp322@company.com,Eva,Davis,Sales,Manager,IC2,2019-11-02,L1,EMP-000018,HQ-SYD,full_time,true,meets
+EMP-000323,emp323@company.com,Jack,Jones,Engineering,Lead,IC2,2019-11-04,L5,EMP-000089,HQ-BLR,full_time,true,exceeds
+EMP-000324,emp324@company.com,Alice,Davis,Product,Lead,IC4,2019-11-07,L4,EMP-000023,HQ-BLR,full_time,true,meets
+EMP-000325,emp325@company.com,Frank,Williams,Product,Specialist,IC1,2019-11-09,L3,EMP-000074,REMOTE,full_time,true,meets
+EMP-000326,emp326@company.com,Grace,Miller,Sales,Lead,M3,2019-11-11,L3,EMP-000005,HQ-NYC,full_time,false,na
+EMP-000327,emp327@company.com,Jack,Garcia,Legal,Intern,M3,2019-11-13,L1,EMP-000061,REMOTE,full_time,true,meets
+EMP-000328,emp328@company.com,Carol,Smith,Sales,Coordinator,IC4,2019-11-15,L4,EMP-000069,HQ-SYD,contractor,true,exceeds
+EMP-000329,emp329@company.com,David,Brown,Marketing,VP,VP,2019-11-17,L4,EMP-000015,HQ-SYD,full_time,true,meets
+EMP-000330,emp330@company.com,Alice,Williams,Marketing,Specialist,IC1,2019-11-19,L4,EMP-000043,HQ-LON,full_time,true,meets
+EMP-000331,emp331@company.com,David,Garcia,Sales,Engineer,M1,2019-11-21,L2,EMP-000092,HQ-BLR,part_time,true,meets
+EMP-000332,emp332@company.com,Jack,Jones,Product,Senior Engineer,M3,2019-11-23,L1,EMP-000061,HQ-LON,full_time,false,exceeds
+EMP-000333,emp333@company.com,Henry,Jones,Engineering,Analyst,IC4,2019-11-25,L4,EMP-000080,REMOTE,contractor,true,na
+EMP-000334,emp334@company.com,Eva,Johnson,HR,Analyst,C-Suite,2019-11-27,L4,EMP-000042,HQ-BLR,full_time,false,below
+EMP-000335,emp335@company.com,Grace,Moore,HR,Intern,IC4,2019-11-29,L2,EMP-000023,REMOTE,full_time,true,na
+EMP-000336,emp336@company.com,Jack,Davis,Operations,Specialist,C-Suite,2019-12-02,L1,EMP-000046,HQ-BLR,full_time,false,meets
+EMP-000337,emp337@company.com,Eva,Miller,Sales,Engineer,M2,2019-12-04,L3,EMP-000040,HQ-NYC,full_time,true,below
+EMP-000338,emp338@company.com,Carol,Williams,HR,Analyst,IC3,2019-12-06,L1,EMP-000098,HQ-LON,contractor,true,meets
+EMP-000339,emp339@company.com,Iris,Miller,Product,Coordinator,VP,2019-12-08,L2,EMP-000042,HQ-SYD,contractor,true,meets
+EMP-000340,emp340@company.com,Iris,Williams,Finance,VP,IC1,2019-12-10,L4,EMP-000062,HQ-BLR,full_time,true,exceeds
+EMP-000341,emp341@company.com,Frank,Jones,Support,Specialist,IC2,2019-12-12,L2,EMP-000058,HQ-SYD,full_time,true,exceeds
+EMP-000342,emp342@company.com,Alice,Williams,HR,Senior Engineer,VP,2019-12-14,L3,EMP-000037,HQ-SYD,full_time,true,exceeds
+EMP-000343,emp343@company.com,Alice,Brown,Product,Senior Engineer,C-Suite,2019-12-16,L5,EMP-000037,HQ-LON,full_time,true,below
+EMP-000344,emp344@company.com,Bob,Miller,,Director,IC4,2019-12-18,L2,EMP-000084,HQ-LON,full_time,true,meets
+EMP-000345,emp345@company.com,Grace,Brown,Data,Analyst,M2,2019-12-20,L2,EMP-000021,HQ-LON,full_time,true,na
+EMP-000346,emp346@company.com,Bob,Davis,HR,Senior Engineer,M3,2019-12-22,L2,EMP-000041,REMOTE,full_time,true,meets
+EMP-000347,emp347@company.com,Alice,Garcia,Support,Lead,M3,2019-12-24,L3,EMP-000066,HQ-LON,full_time,true,exceeds
+EMP-000348,emp348@company.com,Grace,Moore,Product,Engineer,C-Suite,2019-12-27,L4,EMP-000005,HQ-LON,full_time,true,meets
+EMP-000349,emp349@company.com,Eva,Johnson,Product,Engineer,IC1,2019-12-29,L1,EMP-000067,HQ-NYC,full_time,true,exceeds
+EMP-000350,emp350@company.com,Frank,Moore,Sales,Senior Engineer,IC2,2019-12-31,L3,EMP-000083,HQ-LON,full_time,true,below
+EMP-000351,emp351@company.com,Bob,Johnson,Operations,Senior Engineer,C-Suite,2020-01-02,L5,EMP-000044,HQ-SYD,full_time,false,meets
+EMP-000352,emp352@company.com,Carol,Garcia,Product,Coordinator,M1,2020-01-04,L6,EMP-000058,REMOTE,full_time,false,exceeds
+EMP-000353,emp353@company.com,Carol,Brown,Data,Intern,M1,2020-01-06,L4,EMP-000048,HQ-BLR,full_time,true,meets
+EMP-000354,emp354@company.com,Grace,Davis,Finance,VP,IC4,2020-01-08,L4,EMP-000066,REMOTE,full_time,true,below
+EMP-000355,emp355@company.com,Jack,Johnson,Operations,Intern,IC4,2020-01-10,L5,EMP-000005,REMOTE,part_time,true,meets
+EMP-000356,emp356@company.com,Jack,Williams,Sales,Specialist,IC3,2020-01-12,L5,EMP-000061,HQ-BLR,full_time,true,exceeds
+EMP-000357,emp357@company.com,Bob,Williams,HR,Coordinator,IC4,2020-01-14,L4,EMP-000045,HQ-NYC,full_time,true,meets
+EMP-000358,emp358@company.com,Grace,Moore,HR,Director,IC1,2020-01-16,L4,EMP-000003,HQ-LON,full_time,true,exceeds
+EMP-000359,emp359@company.com,Henry,Garcia,Engineering,Analyst,IC3,2020-01-18,L6,EMP-000080,HQ-NYC,intern,true,meets
+EMP-000360,emp360@company.com,Alice,Johnson,Support,Intern,C-Suite,2020-01-21,L5,EMP-000015,HQ-NYC,full_time,true,meets
+EMP-000361,emp361@company.com,Grace,Davis,Legal,Senior Engineer,IC2,2020-01-23,L2,EMP-000059,HQ-BLR,full_time,true,exceeds
+EMP-000362,emp362@company.com,Eva,Williams,Sales,Intern,M3,2020-01-25,L3,EMP-000085,HQ-NYC,full_time,true,meets
+EMP-000363,emp363@company.com,Bob,Williams,Data,Intern,IC1,2020-01-27,L5,EMP-000092,HQ-LON,full_time,true,exceeds
+EMP-000364,emp364@company.com,Henry,Jones,Legal,Engineer,M3,2020-01-29,L4,EMP-000062,REMOTE,full_time,true,meets
+EMP-000365,emp365@company.com,Jack,Davis,Legal,Manager,IC3,2020-01-31,L3,EMP-000071,HQ-LON,full_time,true,meets
+EMP-000366,emp366@company.com,Frank,Wilson,Support,Director,M3,2020-02-02,L4,EMP-000058,HQ-NYC,part_time,true,meets
+EMP-000367,emp367@company.com,Carol,Smith,HR,VP,M1,2020-02-04,L3,EMP-000077,HQ-SYD,full_time,true,exceeds
+EMP-000368,emp368@company.com,Eva,Wilson,,Analyst,M3,2020-02-06,L5,EMP-000097,HQ-SYD,full_time,true,meets
+EMP-000369,emp369@company.com,Frank,Moore,Legal,Lead,M3,2020-02-08,L5,EMP-000045,REMOTE,full_time,true,meets
+EMP-000370,emp370@company.com,Jack,Brown,Data,Specialist,M2,2020-02-10,L6,EMP-000041,REMOTE,part_time,false,below
+EMP-000371,emp371@company.com,Henry,Garcia,Data,Engineer,M3,2020-02-12,L6,EMP-000017,HQ-SYD,full_time,true,below
+EMP-000372,emp372@company.com,Grace,Brown,Product,Specialist,C-Suite,2020-02-15,L5,EMP-000097,HQ-SYD,full_time,true,meets
+EMP-000373,emp373@company.com,Henry,Jones,Product,Specialist,M2,2020-02-17,L5,EMP-000091,HQ-NYC,intern,true,meets
+EMP-000374,emp374@company.com,Grace,Miller,Engineering,Intern,IC2,2020-02-19,L5,EMP-000070,HQ-NYC,contractor,true,meets
+EMP-000375,emp375@company.com,David,Miller,HR,VP,IC2,2020-02-21,L2,EMP-000065,HQ-LON,full_time,true,meets
+EMP-000376,emp376@company.com,Bob,Jones,Finance,Coordinator,M1,2020-02-23,L6,EMP-000020,HQ-LON,full_time,true,meets
+EMP-000377,emp377@company.com,Iris,Jones,Finance,Intern,IC4,2020-02-25,L4,EMP-000090,HQ-SYD,full_time,true,na
+EMP-000378,emp378@company.com,Frank,Jones,Data,Senior Engineer,M2,2020-02-27,L6,EMP-000005,REMOTE,full_time,true,meets
+EMP-000379,emp379@company.com,Jack,Jones,Finance,Specialist,M3,2020-02-29,L2,EMP-000061,HQ-SYD,full_time,true,meets
+EMP-000380,emp380@company.com,Grace,Johnson,Data,Coordinator,IC2,2020-03-02,L2,EMP-000025,HQ-BLR,full_time,true,meets
+EMP-000381,emp381@company.com,Eva,Brown,Support,Senior Engineer,M3,2020-03-04,L4,EMP-000045,HQ-BLR,full_time,true,exceeds
+EMP-000382,emp382@company.com,Grace,Davis,HR,Coordinator,C-Suite,2020-03-06,L4,EMP-000009,HQ-SYD,contractor,true,na
+EMP-000383,emp383@company.com,Grace,Moore,Sales,Specialist,IC3,2020-03-08,L3,EMP-000013,REMOTE,contractor,true,meets
+EMP-000384,emp384@company.com,Jack,Wilson,Legal,Analyst,C-Suite,2020-03-11,L2,EMP-000037,HQ-BLR,intern,true,meets
+EMP-000385,emp385@company.com,David,Wilson,Data,Specialist,C-Suite,2020-03-13,L2,EMP-000039,HQ-LON,full_time,true,meets
+EMP-000386,emp386@company.com,David,Davis,HR,Lead,IC4,2020-03-15,L5,EMP-000088,HQ-LON,full_time,true,exceeds
+EMP-000387,emp387@company.com,David,Garcia,Sales,Coordinator,VP,2020-03-17,L1,EMP-000059,REMOTE,full_time,true,meets
+EMP-000388,emp388@company.com,Bob,Miller,Operations,Director,C-Suite,2020-03-19,L1,EMP-000003,HQ-SYD,full_time,true,meets
+EMP-000389,emp389@company.com,Eva,Wilson,Support,Manager,VP,2020-03-21,L6,EMP-000093,HQ-NYC,full_time,true,meets
+EMP-000390,emp390@company.com,Eva,Williams,Operations,Specialist,IC4,2020-03-23,L6,EMP-000061,REMOTE,full_time,true,exceeds
+EMP-000391,emp391@company.com,Bob,Johnson,HR,VP,M2,2020-03-25,L1,EMP-000082,HQ-LON,full_time,true,below
+EMP-000392,emp392@company.com,Iris,Williams,HR,Analyst,M2,2020-03-27,L1,EMP-000092,HQ-SYD,contractor,true,below
+EMP-000393,emp393@company.com,Grace,Garcia,Product,Coordinator,IC4,2020-03-29,L2,EMP-000051,REMOTE,full_time,true,exceeds
+EMP-000394,emp394@company.com,Carol,Davis,Finance,VP,M2,2020-03-31,L4,EMP-000017,HQ-NYC,full_time,true,below
+EMP-000395,emp395@company.com,Bob,Jones,Product,Manager,C-Suite,2020-04-02,L2,EMP-000044,HQ-NYC,full_time,true,below
+EMP-000396,emp396@company.com,Grace,Moore,Support,Intern,IC1,2020-04-05,L6,EMP-000068,HQ-BLR,full_time,true,exceeds
+EMP-000397,emp397@company.com,Alice,Brown,Product,Manager,C-Suite,2020-04-07,L3,EMP-000003,HQ-LON,full_time,true,na
+EMP-000398,emp398@company.com,Bob,Jones,Support,Manager,IC4,2020-04-09,L4,EMP-000094,HQ-NYC,full_time,true,exceeds
+EMP-000399,emp399@company.com,Eva,Moore,Product,Manager,VP,2020-04-11,L2,EMP-000035,HQ-NYC,full_time,false,below
+EMP-000400,emp400@company.com,Jack,Johnson,Data,Engineer,IC1,2020-04-13,L2,EMP-000065,HQ-NYC,full_time,true,meets
+EMP-000401,emp401@company.com,Alice,Wilson,Engineering,Analyst,C-Suite,2020-04-15,L5,EMP-000098,HQ-LON,full_time,true,na
+EMP-000402,emp402@company.com,Frank,Johnson,Finance,Director,M1,2020-04-17,L4,EMP-000086,HQ-BLR,contractor,true,meets
+EMP-000403,emp403@company.com,Frank,Moore,Marketing,Manager,C-Suite,2020-04-19,L2,EMP-000074,HQ-SYD,full_time,true,meets
+EMP-000404,emp404@company.com,Carol,Brown,Data,Lead,IC4,2020-04-21,L3,EMP-000029,REMOTE,full_time,true,below
+EMP-000405,emp405@company.com,Frank,Miller,Marketing,Coordinator,M3,2020-04-23,L2,EMP-000052,HQ-SYD,full_time,true,meets
+EMP-000406,emp406@company.com,Grace,Davis,Support,Senior Engineer,M2,2020-04-25,L3,EMP-000050,HQ-BLR,full_time,true,meets
+EMP-000407,emp407@company.com,Bob,Brown,Legal,Senior Engineer,IC2,2020-04-27,L2,EMP-000086,HQ-NYC,intern,true,meets
+EMP-000408,emp408@company.com,Jack,Garcia,Sales,Intern,IC3,2020-04-30,L6,EMP-000003,HQ-BLR,full_time,true,meets
+EMP-000409,emp409@company.com,Carol,Davis,Legal,Manager,M1,2020-05-02,L2,EMP-000002,HQ-LON,part_time,true,exceeds
+EMP-000410,emp410@company.com,David,Wilson,Finance,Director,M1,2020-05-04,L3,EMP-000011,HQ-SYD,part_time,true,exceeds
+EMP-000411,emp411@company.com,Alice,Johnson,Marketing,Senior Engineer,M2,2020-05-06,L4,EMP-000095,HQ-SYD,full_time,true,exceeds
+EMP-000412,emp412@company.com,Frank,Jones,Support,Intern,VP,2020-05-08,L1,EMP-000054,HQ-NYC,full_time,true,exceeds
+EMP-000413,emp413@company.com,Frank,Wilson,Product,Director,M3,2020-05-10,L2,EMP-000069,HQ-NYC,intern,true,below
+EMP-000414,emp414@company.com,Bob,Garcia,Product,Lead,IC1,2020-05-12,L6,EMP-000009,REMOTE,contractor,true,meets
+EMP-000415,emp415@company.com,Carol,Smith,Finance,Analyst,M1,2020-05-14,L5,EMP-000001,HQ-BLR,full_time,true,meets
+EMP-000416,emp416@company.com,Henry,Johnson,Legal,Intern,IC2,2020-05-16,L2,EMP-000065,REMOTE,full_time,true,exceeds
+EMP-000417,emp417@company.com,Henry,Wilson,Finance,Analyst,M1,2020-05-18,L3,EMP-000070,HQ-NYC,full_time,true,below
+EMP-000418,emp418@company.com,David,Jones,Legal,Intern,M1,2020-05-20,L6,EMP-000042,HQ-BLR,full_time,true,exceeds
+EMP-000419,emp419@company.com,Grace,Davis,Finance,Lead,C-Suite,2020-05-22,L2,EMP-000008,HQ-BLR,full_time,true,exceeds
+EMP-000420,emp420@company.com,Henry,Wilson,Legal,Analyst,IC4,2020-05-25,L2,EMP-000048,HQ-SYD,full_time,true,below
+EMP-000421,emp421@company.com,David,Smith,Product,Analyst,M1,2020-05-27,L2,EMP-000063,HQ-LON,full_time,true,exceeds
+EMP-000422,emp422@company.com,Bob,Jones,Finance,Specialist,M1,2020-05-29,L4,EMP-000021,HQ-NYC,full_time,false,meets
+EMP-000423,emp423@company.com,Alice,Johnson,Engineering,Specialist,IC2,2020-05-31,L4,EMP-000030,HQ-BLR,full_time,true,meets
+EMP-000424,emp424@company.com,Jack,Wilson,Engineering,Lead,IC1,2020-06-02,L4,EMP-000074,HQ-BLR,contractor,true,meets
+EMP-000425,emp425@company.com,David,Jones,Support,Engineer,M3,2020-06-04,L3,EMP-000021,REMOTE,full_time,true,exceeds
+EMP-000426,emp426@company.com,Iris,Wilson,Support,Manager,IC3,2020-06-06,L2,EMP-000009,HQ-BLR,full_time,true,meets
+EMP-000427,emp427@company.com,David,Williams,Legal,Analyst,IC4,2020-06-08,L4,EMP-000062,HQ-NYC,part_time,true,meets
+EMP-000428,emp428@company.com,Henry,Johnson,Sales,Coordinator,C-Suite,2020-06-10,L5,EMP-000002,HQ-NYC,full_time,true,meets
+EMP-000429,emp429@company.com,David,Wilson,Operations,Engineer,IC3,2020-06-12,L5,EMP-000043,REMOTE,full_time,true,below
+EMP-000430,emp430@company.com,Grace,Miller,HR,Senior Engineer,C-Suite,2020-06-14,L5,EMP-000056,HQ-SYD,intern,true,exceeds
+EMP-000431,emp431@company.com,Jack,Johnson,Marketing,Analyst,M2,2020-06-16,L1,EMP-000006,REMOTE,contractor,true,meets
+EMP-000432,emp432@company.com,Henry,Miller,Finance,Analyst,IC3,2020-06-19,L3,EMP-000065,HQ-BLR,part_time,true,exceeds
+EMP-000433,emp433@company.com,Bob,Jones,Product,Specialist,C-Suite,2020-06-21,L3,EMP-000082,HQ-SYD,full_time,true,meets
+EMP-000434,emp434@company.com,Frank,Smith,Support,Engineer,M2,2020-06-23,L6,EMP-000097,HQ-LON,full_time,true,na
+EMP-000435,emp435@company.com,Carol,Williams,Data,Lead,IC3,2020-06-25,L3,EMP-000026,REMOTE,full_time,true,exceeds
+EMP-000436,emp436@company.com,Carol,Davis,Marketing,Director,M1,2020-06-27,L2,EMP-000032,HQ-BLR,full_time,true,exceeds
+EMP-000437,emp437@company.com,Iris,Johnson,Operations,Coordinator,IC4,2020-06-29,L2,EMP-000061,HQ-NYC,intern,true,meets
+EMP-000438,emp438@company.com,Jack,Brown,Operations,VP,VP,2020-07-01,L2,EMP-000059,REMOTE,full_time,true,below
+EMP-000439,emp439@company.com,Jack,Williams,Marketing,Director,M1,2020-07-03,L3,EMP-000060,REMOTE,full_time,true,meets
+EMP-000440,emp440@company.com,Iris,Davis,HR,Director,IC1,2020-07-05,L2,EMP-000031,HQ-LON,full_time,true,meets
+EMP-000441,emp441@company.com,Eva,Wilson,Finance,Manager,M3,2020-07-07,L4,EMP-000005,HQ-LON,full_time,true,meets
+EMP-000442,emp442@company.com,Frank,Davis,Engineering,Specialist,M3,2020-07-09,L2,EMP-000002,REMOTE,full_time,true,meets
+EMP-000443,emp443@company.com,Frank,Davis,HR,VP,IC4,2020-07-11,L4,EMP-000099,HQ-SYD,full_time,true,na
+EMP-000444,emp444@company.com,Henry,Smith,Finance,Coordinator,C-Suite,2020-07-14,L4,EMP-000040,REMOTE,full_time,true,below
+EMP-000445,emp445@company.com,Alice,Moore,Finance,Senior Engineer,IC4,2020-07-16,L5,EMP-000044,HQ-SYD,contractor,true,below
+EMP-000446,emp446@company.com,Iris,Johnson,Legal,VP,IC3,2020-07-18,L6,EMP-000062,HQ-BLR,full_time,true,below
+EMP-000447,emp447@company.com,Iris,Jones,Product,Engineer,M3,2020-07-20,L1,EMP-000020,HQ-NYC,full_time,false,na
+EMP-000448,emp448@company.com,Jack,Wilson,Engineering,Analyst,IC2,2020-07-22,L1,EMP-000038,HQ-SYD,full_time,false,exceeds
+EMP-000449,emp449@company.com,Frank,Williams,Finance,Senior Engineer,C-Suite,2020-07-24,L3,EMP-000043,REMOTE,full_time,true,below
+EMP-000450,emp450@company.com,Eva,Williams,Engineering,Engineer,M3,2020-07-26,L4,EMP-000009,REMOTE,full_time,true,exceeds
+EMP-000451,emp451@company.com,Eva,Smith,Data,VP,IC3,2020-07-28,L5,EMP-000060,HQ-BLR,full_time,true,meets
+EMP-000452,emp452@company.com,Grace,Brown,Support,Engineer,IC1,2020-07-30,L2,EMP-000019,HQ-NYC,full_time,true,meets
+EMP-000453,emp453@company.com,David,Jones,HR,VP,M2,2020-08-01,L3,EMP-000000,HQ-LON,part_time,true,exceeds
+EMP-000454,emp454@company.com,Henry,Jones,Support,Coordinator,M2,2020-08-03,L4,EMP-000062,HQ-BLR,contractor,true,meets
+EMP-000455,emp455@company.com,Eva,Smith,Legal,Director,VP,2020-08-05,L4,EMP-000030,HQ-BLR,intern,true,meets
+EMP-000456,emp456@company.com,Carol,Williams,Data,Intern,IC3,2020-08-08,L4,EMP-000071,HQ-LON,full_time,true,exceeds
+EMP-000457,emp457@company.com,Henry,Smith,Support,Engineer,IC2,2020-08-10,L4,EMP-000053,REMOTE,full_time,true,meets
+EMP-000458,emp458@company.com,David,Williams,Operations,Specialist,IC4,2020-08-12,L1,EMP-000002,HQ-BLR,full_time,true,meets
+EMP-000459,emp459@company.com,Alice,Miller,HR,Lead,VP,2020-08-14,L3,EMP-000069,REMOTE,full_time,true,meets
+EMP-000460,emp460@company.com,Frank,Smith,Product,Director,C-Suite,2020-08-16,L4,EMP-000004,REMOTE,full_time,true,meets
+EMP-000461,emp461@company.com,Frank,Johnson,Sales,Director,IC4,2020-08-18,L1,EMP-000031,REMOTE,full_time,true,meets
+EMP-000462,emp462@company.com,Carol,Garcia,Marketing,Engineer,IC1,2020-08-20,L6,EMP-000068,HQ-LON,full_time,true,meets
+EMP-000463,emp463@company.com,Alice,Garcia,Operations,Engineer,IC1,2020-08-22,L4,EMP-000040,REMOTE,full_time,true,meets
+EMP-000464,emp464@company.com,Eva,Wilson,Marketing,Engineer,M1,2020-08-24,L5,EMP-000038,HQ-BLR,full_time,true,exceeds
+EMP-000465,emp465@company.com,Henry,Garcia,HR,Analyst,IC1,2020-08-26,L4,EMP-000022,HQ-BLR,intern,true,meets
+EMP-000466,emp466@company.com,Iris,Moore,Data,Coordinator,M3,2020-08-28,L6,EMP-000044,HQ-BLR,full_time,true,meets
+EMP-000467,emp467@company.com,Carol,Davis,Product,Analyst,IC1,2020-08-30,L1,EMP-000029,REMOTE,full_time,true,exceeds
+EMP-000468,emp468@company.com,Eva,Garcia,Data,Lead,IC4,2020-09-02,L6,EMP-000094,HQ-BLR,full_time,true,below
+EMP-000469,emp469@company.com,Jack,Brown,Data,Director,VP,2020-09-04,L2,EMP-000068,HQ-BLR,full_time,true,exceeds
+EMP-000470,emp470@company.com,David,Johnson,Finance,Lead,M1,2020-09-06,L6,EMP-000090,HQ-LON,full_time,true,na
+EMP-000471,emp471@company.com,Eva,Davis,Product,Specialist,M3,2020-09-08,L1,EMP-000033,REMOTE,part_time,true,exceeds
+EMP-000472,emp472@company.com,Grace,Moore,Finance,VP,IC4,2020-09-10,L2,EMP-000095,HQ-BLR,full_time,true,meets
+EMP-000473,emp473@company.com,Eva,Brown,Support,Lead,VP,2020-09-12,L4,EMP-000027,HQ-BLR,full_time,true,meets
+EMP-000474,emp474@company.com,Iris,Brown,Sales,Senior Engineer,IC4,2020-09-14,L4,EMP-000030,REMOTE,contractor,true,below
+EMP-000475,emp475@company.com,David,Smith,Marketing,Coordinator,M3,2020-09-16,L1,EMP-000029,HQ-LON,full_time,false,below
+EMP-000476,emp476@company.com,Eva,Garcia,Support,Specialist,C-Suite,2020-09-18,L3,EMP-000058,HQ-SYD,full_time,true,exceeds
+EMP-000477,emp477@company.com,Frank,Brown,Marketing,Engineer,IC4,2020-09-20,L6,EMP-000061,REMOTE,full_time,true,exceeds
+EMP-000478,emp478@company.com,Henry,Smith,,Engineer,IC3,2020-09-22,L2,EMP-000006,REMOTE,full_time,true,meets
+EMP-000479,emp479@company.com,David,Smith,Marketing,Engineer,C-Suite,2020-09-24,L6,EMP-000056,REMOTE,full_time,false,exceeds
+EMP-000480,emp480@company.com,Carol,Brown,Marketing,Senior Engineer,M3,2020-09-27,L5,EMP-000095,HQ-BLR,full_time,true,exceeds
+EMP-000481,emp481@company.com,David,Jones,Legal,Intern,VP,2020-09-29,L6,EMP-000040,HQ-LON,full_time,false,na
+EMP-000482,emp482@company.com,Carol,Jones,Product,Manager,IC4,2020-10-01,L6,EMP-000069,HQ-SYD,contractor,true,meets
+EMP-000483,emp483@company.com,Bob,Davis,Marketing,Senior Engineer,IC4,2020-10-03,L2,EMP-000063,HQ-NYC,full_time,true,exceeds
+EMP-000484,emp484@company.com,Iris,Garcia,Support,Analyst,IC2,2020-10-05,L6,EMP-000097,HQ-NYC,full_time,true,meets
+EMP-000485,emp485@company.com,David,Davis,Engineering,Director,M3,2020-10-07,L3,EMP-000064,REMOTE,part_time,true,exceeds
+EMP-000486,emp486@company.com,Carol,Williams,Sales,VP,VP,2020-10-09,L2,EMP-000047,HQ-SYD,full_time,true,below
+EMP-000487,emp487@company.com,Iris,Williams,Support,Senior Engineer,VP,2020-10-11,L6,EMP-000001,HQ-NYC,full_time,true,exceeds
+EMP-000488,emp488@company.com,Henry,Garcia,Engineering,Intern,IC3,2020-10-13,L3,EMP-000080,HQ-BLR,full_time,true,meets
+EMP-000489,emp489@company.com,Carol,Johnson,Finance,Manager,M1,2020-10-15,L5,EMP-000033,HQ-LON,full_time,true,exceeds
+EMP-000490,emp490@company.com,David,Davis,Sales,Director,M1,2020-10-17,L4,EMP-000092,HQ-NYC,contractor,true,na
+EMP-000491,emp491@company.com,Iris,Johnson,Marketing,Analyst,IC2,2020-10-19,L2,EMP-000024,HQ-LON,full_time,true,exceeds
+EMP-000492,emp492@company.com,Carol,Moore,Engineering,VP,IC1,2020-10-22,L6,EMP-000043,HQ-BLR,full_time,true,meets
+EMP-000493,emp493@company.com,Iris,Moore,Finance,Manager,IC4,2020-10-24,L6,EMP-000082,HQ-BLR,full_time,true,meets
+EMP-000494,emp494@company.com,Grace,Garcia,Marketing,Director,M1,2020-10-26,L4,EMP-000015,HQ-SYD,full_time,true,below
+EMP-000495,emp495@company.com,Grace,Brown,Sales,Specialist,C-Suite,2020-10-28,L4,EMP-000027,HQ-SYD,full_time,false,exceeds
+EMP-000496,emp496@company.com,Frank,Brown,Product,Specialist,VP,2020-10-30,L1,EMP-000079,HQ-NYC,full_time,true,below
+EMP-000497,emp497@company.com,Alice,Jones,Engineering,Director,M3,2020-11-01,L5,EMP-000031,HQ-SYD,full_time,true,na
+EMP-000498,emp498@company.com,Iris,Jones,HR,Senior Engineer,C-Suite,2020-11-03,L6,EMP-000095,HQ-NYC,full_time,false,exceeds
+EMP-000499,emp499@company.com,Frank,Smith,Finance,Lead,M3,2020-11-05,L6,EMP-000053,HQ-SYD,full_time,false,exceeds

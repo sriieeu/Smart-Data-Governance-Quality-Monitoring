@@ -1,0 +1,22 @@
+run_id,dataset_name,run_timestamp,status,rows_ingested,rows_passed,rows_rejected,quality_score,duration_seconds,checks_passed,checks_failed,critical_failures,triggered_by,error_message,suite_name,pass_rate_pct
+1f10cc06-bbcb-4ec9-9eec-4470e115020b,customer_consent,2026-03-12 11:02:36.370891+00:00,success,300,0,300,93.8,0.011,11,1,0,scheduler,,,0.0
+f4c454c5-c9bf-4416-a3a9-1c2370a82a4d,customer_consent,2026-03-12 12:10:13.566091+00:00,success,3000,0,3000,83.3,0.023,10,2,0,scheduler,,consent_suite,0.0
+5b580618-7b0b-412b-a5e5-8ff1d66571d3,financial_transactions,2026-03-12 12:10:13.587443+00:00,success,3000,2940,60,89.8,0.006,9,3,1,scheduler,,financial_suite,98.0
+e73b2fd8-7728-4173-b203-4fb860a7c16b,user_profiles,2026-03-12 12:10:13.609667+00:00,success,3000,2940,60,95.7,0.007,12,0,0,scheduler,,profile_suite,98.0
+e105a2ec-c913-46c7-8dd2-382853c64766,campaign_events,2026-03-12 12:10:13.628746+00:00,success,3000,2940,60,98.5,0.001,6,0,0,scheduler,,generic,98.0
+b76b18bd-e280-4dda-8865-fe03043777c2,product_catalog,2026-03-12 12:10:13.648937+00:00,success,3000,2940,60,98.5,0.001,6,0,0,scheduler,,generic,98.0
+2f32402e-44f9-4fea-993f-194f10af1268,customer_consent,2026-03-12 12:10:20.894114+00:00,success,3000,0,3000,83.3,0.008,10,2,0,scheduler,,consent_suite,0.0
+8e5bd130-c6b9-4382-b618-db0be6fc5e28,financial_transactions,2026-03-12 12:10:20.914311+00:00,success,3000,2940,60,89.8,0.007,9,3,1,scheduler,,financial_suite,98.0
+2611d2fd-3593-4a35-8230-a8fbb23ac0ff,user_profiles,2026-03-12 12:10:20.935310+00:00,success,3000,2940,60,95.7,0.007,12,0,0,scheduler,,profile_suite,98.0
+3f9bc42f-da5d-41f5-ba58-04846956c30a,campaign_events,2026-03-12 12:10:20.953902+00:00,success,3000,2940,60,98.5,0.001,6,0,0,scheduler,,generic,98.0
+b5c8e58f-1000-4639-9c02-26da5ff48e4b,product_catalog,2026-03-12 12:10:20.974321+00:00,success,3000,2940,60,98.5,0.001,6,0,0,scheduler,,generic,98.0
+262b87ec-2f70-4562-a15c-5be8c7e5b850,customer_consent,2026-03-12 12:12:48.009557+00:00,success,3000,0,3000,83.5,0.032,10,2,0,scheduler,,consent_suite,0.0
+29040bb8-429c-4e87-a962-d06f98f346fc,financial_transactions,2026-03-12 12:12:48.037819+00:00,success,3000,2940,60,89.8,0.009,9,3,1,scheduler,,financial_suite,98.0
+44d74965-7dbe-43ee-9071-2e7abb946ad6,user_profiles,2026-03-12 12:12:48.069827+00:00,success,3000,2940,60,95.7,0.01,12,0,0,scheduler,,profile_suite,98.0
+f4f17933-a5e5-4942-9062-fe64a727b7e7,campaign_events,2026-03-12 12:12:48.094603+00:00,success,3000,2940,60,98.5,0.002,6,0,0,scheduler,,generic,98.0
+c4c5c2f1-bd6f-41f6-b25f-fa90e8125df4,product_catalog,2026-03-12 12:12:48.118408+00:00,success,3000,2940,60,98.5,0.001,6,0,0,scheduler,,generic,98.0
+0964890d-9362-4d32-a0cd-b75004c164e8,customer_consent,2026-03-12 12:36:43.987403+00:00,success,3000,0,3000,83.5,0.011,10,2,0,scheduler,,consent_suite,0.0
+bd1a403c-046d-400d-957f-d3aa0cb5b896,financial_transactions,2026-03-12 12:36:44.011382+00:00,success,3000,2940,60,89.9,0.009,9,3,1,scheduler,,financial_suite,98.0
+901ba88a-60fa-4e0e-a7fd-5a23c26e59f5,user_profiles,2026-03-12 12:36:44.032084+00:00,success,3000,2940,60,95.7,0.006,12,0,0,scheduler,,profile_suite,98.0
+88210f31-7168-49fd-99b6-c018877ddbb5,campaign_events,2026-03-12 12:36:44.051065+00:00,success,3000,2940,60,98.5,0.001,6,0,0,scheduler,,generic,98.0
+8f1bce62-1cfb-4f42-83c3-97c09e0e7e44,product_catalog,2026-03-12 12:36:44.067736+00:00,success,3000,2940,60,98.5,0.001,6,0,0,scheduler,,generic,98.0
