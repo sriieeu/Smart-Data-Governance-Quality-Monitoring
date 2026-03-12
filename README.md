@@ -1,6 +1,6 @@
 #  Smart Data Governance & Quality Monitoring Platform
 
-Modern organizations generate and store large volumes of data from multiple sources such as business applications, operational systems, and analytics platforms. As the amount of data grows, ensuring that the data remains accurate, reliable, and well-managed becomes increasingly important. Poor data quality can lead to incorrect business decisions, reporting errors, and compliance issues.
+Modern organizations generate and store large volumes of data from multiple sources such as business applications, operational systems, and analytics platforms. As the amount of data grows, ensuring that the data remains accurate, reliable and well-managed becomes increasingly important. Poor data quality can lead to incorrect business decisions, reporting errors, and compliance issues.
 
 A Smart Data Governance and Quality Monitoring Platform is designed to manage and monitor datasets in a structured data environment. The platform ensures that datasets follow predefined quality standards, maintains metadata about the data, tracks data lineage, and records system activities through audit logs. It also integrates reporting tools so that stakeholders can monitor data quality and governance metrics in real time.
 
